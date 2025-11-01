@@ -1,11 +1,11 @@
 {
   "placement": {
     "type": "minecraft:concentric_rings",
-    "count": 128,
-    "distance": 32,
+    "count": 1,
+    "distance": 2,
     "preferred_biomes": "#minecraft:stronghold_biased_to",
     "salt": 0,
-    "spread": 3
+    "spread": 1
   },
   "structures": [
     {
