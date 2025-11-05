@@ -10,10 +10,6 @@
       "required": false
     },
     {
-      "id": "nitwit_quests:load",
-      "required": false
-    },
-    {
       "id": "village_names:load",
       "required": false
     },

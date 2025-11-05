@@ -1,9 +1,0 @@
-{
-  "variants": {
-    "minecraft:textures/entity/bee/bee.png": "outlined_sprite:minecraft/bee/bee.png",
-    "minecraft:textures/entity/bee/bee_angry.png": "outlined_sprite:minecraft/bee/bee_angry.png",
-    "minecraft:textures/entity/bee/bee_angry_nectar.png": "outlined_sprite:minecraft/bee/bee_angry_nectar.png",
-    "minecraft:textures/entity/bee/bee_nectar.png": "outlined_sprite:minecraft/bee/bee_nectar.png",
-    "layersAllowed": true
-  }
-}

@@ -47,7 +47,7 @@ rsync -avhc ./sources/datapaks/qrafty_shroomvillage_mc1214/data/ ./data_v61/data
 # https://modrinth.com/datapack/qraftys-archeology-dig-sites
 rsync -avhc ./sources/datapaks/qrafty_digsites_mc1214/data/ ./data_v61/data/
 # NV Packs
-rsync -avhc ./sources/datapaks/nv_nitwitquests_v1-1_mc1214/data/ ./data_v61/data/
+# rsync -avhc ./sources/datapaks/nv_nitwitquests_v1-1_mc1214/data/ ./data_v61/data/ -- breaks tick_thread, move to cardinal
 rsync -avhc ./sources/datapaks/nv_talkingvillager_v1-1_mc1214/data/ ./data_v61/data/
 # rsync -avhc ./sources/datapaks/nv_villagenames_v1-4b_mc1214/data/ ./data_v61/data/ -- move to cardinal
 # rsync -avhc ./sources/datapaks/nv_villagernames_v1-2_mc1214/data/ ./data_v61/data/ -- move to cardinal

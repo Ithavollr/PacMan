@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "minecraft:textures/entity/illager/vex.png": "outlined_sprite:minecraft/illager/vex.png",
-    "minecraft:textures/entity/illager/vex_charging.png": "outlined_sprite:minecraft/illager/vex_charging.png",
-    "layersAllowed": true
-  }
-}

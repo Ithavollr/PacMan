@@ -1,9 +1,0 @@
-{
-  "variants": {
-    "minecraft:textures/entity/strider/strider.png%false": "outlined_sprite:minecraft/strider/strider.png",
-    "minecraft:textures/entity/strider/strider.png%true": "outlined_sprite:minecraft/strider/strider.png",
-    "minecraft:textures/entity/strider/strider_cold.png%false": "outlined_sprite:minecraft/strider/strider_cold.png",
-    "minecraft:textures/entity/strider/strider_cold.png%true": "outlined_sprite:minecraft/strider/strider_cold.png",
-    "layersAllowed": true
-  }
-}

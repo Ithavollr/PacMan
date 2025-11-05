@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "minecraft:textures/entity/frog/cold_frog.png": "outlined_sprite:minecraft/frog/cold_frog.png",
-    "minecraft:textures/entity/frog/temperate_frog.png": "outlined_sprite:minecraft/frog/temperate_frog.png",
-    "minecraft:textures/entity/frog/warm_frog.png": "outlined_sprite:minecraft/frog/warm_frog.png",
-    "layersAllowed": true
-  }
-}
