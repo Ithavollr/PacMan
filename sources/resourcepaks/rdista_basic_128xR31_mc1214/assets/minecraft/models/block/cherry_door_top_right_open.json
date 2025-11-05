@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/door_top_left",
+	"textures": {
+		"1": "block/cherry_door_top_1",
+		"particle": "block/cherry_door_top",
+		"top": "block/cherry_door_top"
+	},
+	"elements": [
+		{
+			"from": [3, 12, 12],
+			"to": [0, 0, 4],
+			"faces": {
+				"north": {"uv": [3.75, 4, 3.25, 16], "texture": "#top", "cullface": "north"},
+				"south": {"uv": [12.25, 4, 12.75, 16], "texture": "#top", "cullface": "south"},
+				"down": {"uv": [4, 3.25, 12, 3.75], "texture": "#top"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [0.5, 0, 0, 16], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#top"},
+				"south": {"uv": [15.25, 0, 15.75, 16], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "west"},
+				"up": {"uv": [0, 0.75, 16, 0.25], "rotation": 90, "texture": "#top", "cullface": "up"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [1.5, 0, 4],
+			"to": [1.5, 12, 12],
+			"faces": {
+				"east": {"uv": [4, 4, 12, 16], "texture": "#1"},
+				"west": {"uv": [4, 4, 12, 16], "texture": "#1"}
+			}
+		}
+	]
+}

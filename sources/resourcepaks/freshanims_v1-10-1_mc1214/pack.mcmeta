@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "description": "\u00A74■ 1.10.1 BETA\u00A7r\n■ By FreshLX",
+        "pack_format": 15,
+        "supported_formats": {"min_inclusive": 15, "max_inclusive": 999}
+    },
+	"overlays": {
+		"entries": [
+			{ "directory": "20-3", "formats": {"min_inclusive": 22, "max_inclusive": 999} },
+			{ "directory": "21-2", "formats": {"min_inclusive": 42, "max_inclusive": 999} },
+			{ "directory": "21-5", "formats": {"min_inclusive": 55, "max_inclusive": 999} }
+		]
+	}
+}

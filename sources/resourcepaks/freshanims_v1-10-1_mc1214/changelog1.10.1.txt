@@ -1,0 +1,29 @@
+
+Recommended with Entity Model Features: https://modrinth.com/mod/entity-model-features
+
+Changes/Fixes:
+- added compatibility for EMF 1.20.x to 1.21.1
+- added cold pig, cold chicken and warm cow models
+- improved dolphin riding animation
+- improved wither skeleton attack conditions
+- tweaked wolf armour model
+- tweaked piglin head model
+- tweaked dolphin tilting anims
+- tweaked axolotl tilting anims
+- tweaked horses
+- tweaked horse saddle models
+- tweaked turtle
+- tweaked blaze
+- tweaked properties files for pig, sheep, cow, mooshroom, chicken
+- fixed sheep wool undercoat, horse saddles
+- fixed wolf leg uvs not flipped properly
+- fixed enderman limb uvs not flipped properly
+- fixed strider hair uvs not flipped properly
+- fixed villager head shake anim
+- fixed villager anims not applying to blocks equipped to head slot
+- fixed cat frame_time anims
+- fixed fox item position for Optifine
+- fixed anims when falling for turtle, axolotl, tadpole
+- fixed eye shading for older versions
+- fixed pillager, vindicator, evoker, piglin, piglin brute, horse, drowned, zombie, husk, zombie villager, zombified piglin, giant, witch, wither skeleton, bat, bee for Optifine 1.21.3+
+- other various tweaks/fixes
