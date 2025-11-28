@@ -1,5 +1,5 @@
-![Package](https://github.com/Ifiht/PacMan/actions/workflows/makefile.yml/badge.svg)
-![Package](https://github.com/Ifiht/PacMan/actions/workflows/runserver.yml/badge.svg)
+![Package](https://github.com/Ithavollr/PacMan/actions/workflows/makefile.yml/badge.svg)
+![Package](https://github.com/Ithavollr/PacMan/actions/workflows/runserver.yml/badge.svg)
 
 # PacMan
 Merge all the Minecraft Packs :package:  
