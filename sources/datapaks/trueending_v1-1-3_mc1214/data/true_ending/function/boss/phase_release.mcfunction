@@ -1,2 +1,0 @@
-summon firework_rocket ~ ~1 ~ {Silent:1b,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",colors:[I;15597823,15832831]},{shape:"large_ball",colors:[I;16722310,16717684]}]}}}}
-particle flash ~ ~ ~ 0 0 0 0 5 force

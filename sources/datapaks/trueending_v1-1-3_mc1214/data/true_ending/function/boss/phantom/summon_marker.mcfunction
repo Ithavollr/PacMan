@@ -1,1 +1,0 @@
-summon marker ~ ~ ~ {Tags:["trueEnding_endspike"]}

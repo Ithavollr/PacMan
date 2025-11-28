@@ -1,1 +1,0 @@
-summon strider ~ ~ ~ {Passengers:[{id:"minecraft:strider",Passengers:[{id:"minecraft:strider",Passengers:[{id:"minecraft:strider"}]}]}]}
