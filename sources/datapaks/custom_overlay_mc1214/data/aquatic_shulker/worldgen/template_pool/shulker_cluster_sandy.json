@@ -1,4 +1,5 @@
 {
+  "name": "aquatic_shulker:shulker_cluster_sandy",
   "fallback": "minecraft:empty",
   "elements": [
     {
