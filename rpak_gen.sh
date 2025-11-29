@@ -33,7 +33,7 @@ rm -rf ./assets_v46/assets/minecraft/models/block/*_leaves.json
 rm -rf ./assets_v46/assets/minecraft/optifine
 # https://modrinth.com/resourcepack/roundista
 # Roundista MUST be next.. it overwrites too many things..
-rsync -avh ./sources/resourcepaks/rdista_basic_128xR31_mc1214/assets/ ./assets_v46/assets/
+rsync -avh ./sources/resourcepaks/rdista_basic_256xR31_mc1214/assets/ ./assets_v46/assets/
 find ./assets_v46/assets/minecraft/textures/block -type f -name "*glass*.png" -delete # must delete for continuity
 # https://modrinth.com/mod/continuity
 # Overwrite glass for roundista with connected continuity
