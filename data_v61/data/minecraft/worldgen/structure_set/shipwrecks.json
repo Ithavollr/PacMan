@@ -13,6 +13,10 @@
     {
       "structure": "minecraft:shipwreck_beached",
       "weight": 1
+    },
+    {
+      "structure": "ifiht:empty",
+      "weight": 1
     }
   ]
 }

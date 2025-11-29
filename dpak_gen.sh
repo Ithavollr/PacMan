@@ -119,13 +119,17 @@ $SEDCMD -i '/^.*"minecraft:lake_lava_surface".*/d' data_v61/data/minecraft/world
 $SEDCMD -i 's/"minecraft:lake_lava_underground",/"minecraft:lake_lava_underground"/g' data_v61/data/minecraft/worldgen/biome/old_growth_spruce_taiga.json
 
 #========== REMOVE TICK.JSON =============#
-if [ -f data/minecraft/tags/function/tick.json ]; then
+if [ -f data_v61/data/minecraft/tags/function/tick.json ]; then
     echo "WARNING: MC 1.21.x tick hooks found"
-    rm -f data/minecraft/tags/function/tick.json
+    rm -f data_v61/data/minecraft/tags/function/tick.json
 fi
-if [ -d data/minecraft/tags/functions ]; then
+if [ -f data_v61/data/minecraft/tags/function/load.json ]; then
+    echo "WARNING: MC 1.21.x load hook found"
+    rm -f data_v61/data/minecraft/tags/function/load.json
+fi
+if [ -d data_v61/data/minecraft/tags/functions ]; then
     echo "WARNING: MC pre-1.21 directories found"
-    rm -rf data/minecraft/tags/functions
+    rm -rf data_v61/data/minecraft/tags/functions
 fi
 
 cp dpack.mcmeta data_v61/pack.mcmeta
