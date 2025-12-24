@@ -37,9 +37,12 @@ rm -rf ./data_v61/data/minecraft/tags/function
 rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-2-overlay/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-4-overlay/data/ ./data_v61/data/
-# https://modrinth.com/datapack/hopo-better-underwater-ruins
-rsync -avhc ./sources/datapaks/hopo_uwruins_v1-2-2_mc1214/data/ ./data_v61/data/
-# rm -rf ./data_v61/data/hopo/worldgen/structure_set
+# https://modrinth.com/datapack/dungeons-and-taverns
+rsync -avhc ./sources/datapaks/dtav_v4-6-3_mc1214/data/ ./data_v61/data/
+rsync -avhc ./sources/datapaks/dtav_nomag_v1-5_mc1214/data/ ./data_v61/data/
+rm -rf ./data_v61/data/nova_structures/worldgen/structure_set
+mkdir -p ./data_v61/data/nova_structures/worldgen/structure_set
+cp ./sources/datapaks/dtav_v4-6-3_mc1214/data/nova_structures/worldgen/structure_set/conduit_ruin.json ./data_v61/data/nova_structures/worldgen/structure_set/
 # https://modrinth.com/datapack/tectonic
 rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data_v61/data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages

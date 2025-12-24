@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:map",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.cure_zillager_desert_ruins.title",
+      "fallback": "Paryrus of the sands"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.cure_zillager_desert_ruins",
+      "fallback": "Find and Cure the Librarian Zombie Villager scattered around the desert ruins"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "cure": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_desert\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

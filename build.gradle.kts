@@ -21,6 +21,7 @@ val mcVersion = "1.21.4"
 
 val prodPlugins = runPaper.downloadPluginsSpec {
     modrinth("multiverse-core", "5.2.0")
+    modrinth("essentialsx", "2.21.0")
 }
 
 val testPlugins = runPaper.downloadPluginsSpec {

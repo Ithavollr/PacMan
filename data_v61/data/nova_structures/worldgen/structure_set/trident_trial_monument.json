@@ -1,0 +1,19 @@
+{
+	"structures": [
+		{
+			"structure": "nova_structures:trident_trial_monument",
+			"weight": 10
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"frequency": 0.4,
+		"salt": 77777777,
+		"exclusion_zone": {
+			"other_set": "minecraft:ocean_monuments",
+			"chunk_count": 10
+		},
+		"spacing": 86,
+		"separation": 50
+	}
+}
