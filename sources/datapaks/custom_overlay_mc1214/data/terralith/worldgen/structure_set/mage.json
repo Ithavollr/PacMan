@@ -28,7 +28,11 @@
     "placement": {
         "type": "minecraft:random_spread",
         "salt": 2358902,
-        "spacing": 56,
-        "separation": 32
+        "exclusion_zone": {
+            "other_set": "minecraft:pillager_outposts",
+            "chunk_count": 13
+        },
+        "spacing": 72,
+        "separation": 44
     }
 }

@@ -28,7 +28,11 @@
     "placement": {
         "type": "minecraft:random_spread",
         "salt": 920145,
-        "spacing": 26,
-        "separation": 20
+        "exclusion_zone": {
+			"other_set": "terralith:regular",
+			"chunk_count": 11
+		},
+        "spacing": 28,
+        "separation": 22
     }
 }

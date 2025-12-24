@@ -7,7 +7,7 @@
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
-		"frequency": 0.4,
+		"frequency": 0.3,
 		"salt": 77777777,
 		"exclusion_zone": {
 			"other_set": "kattersstructures:ocean",
