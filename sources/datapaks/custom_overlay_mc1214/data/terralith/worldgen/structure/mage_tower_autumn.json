@@ -7,7 +7,7 @@
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
     "start_height": {
-        "absolute": -5
+        "absolute": -4
     },
     "start_pool": "terralith:mage/autumn",
     "step": "fluid_springs",
