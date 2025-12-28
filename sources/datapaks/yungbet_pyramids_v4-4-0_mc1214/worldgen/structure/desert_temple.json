@@ -1,9 +1,8 @@
 {
-  "type": "yungsapi:yung_jigsaw",
+  "type": "minecraft:jigsaw",
   "biomes": "#betterdeserttemples:has_structure/better_desert_temple",
   "step": "surface_structures",
   "start_pool": "betterdeserttemples:starts",
-  "start_jigsaw_name": "betterdeserttemples:temple_anchor",
   "size": 20,
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "start_height": {
