@@ -73,6 +73,8 @@ rsync -avhc ./sources/datapaks/katters_structs_onlyvil_v2-2_mc1214/data/ ./data_
 rm -rf ./data_v61/data/kattersstructures/worldgen/structure_set
 # https://modrinth.com/plugin/tooltrims ; trims for tools ;)
 rsync -avhc ./sources/datapaks/tooltrims_dp_v2-3-0b_mc1214/data/ ./data_v61/data/
+# https://modrinth.com/mod/yungs-better-desert-temples
+rsync -avhc ./sources/datapaks/yungbet_pyramids_v4-4-0_mc1214/data/ ./data_v61/data/
 ### always keep custom changes last..
 rsync -avhc ./sources/datapaks/custom_overlay_mc1214/data/ ./data_v61/data/
 
