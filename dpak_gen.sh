@@ -52,7 +52,9 @@ cp ./sources/datapaks/dtav_v4-6-3_mc1214/data/nova_structures/worldgen/structure
 cp ./sources/datapaks/dtav_v4-6-3_mc1214/data/nova_structures/worldgen/structure_set/taverns.json ./data_v61/data/nova_structures/worldgen/structure_set/
 cp ./sources/datapaks/dtav_v4-6-3_mc1214/data/nova_structures/worldgen/structure_set/trident_trial_monument.json ./data_v61/data/nova_structures/worldgen/structure_set/
 # https://modrinth.com/datapack/tectonic
-rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data_v61/data/
+#rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data_v61/data/
+rsync -avhc ./sources/datapaks/tectonic_v3-0-13_mc1214/data/ ./data_v61/data/
+rsync -avhc ./sources/datapaks/tectonic_v3-0-13_mc1214/overlay.datapack/data/ ./data_v61/data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
 rsync -avhc ./sources/datapaks/qrafty_shroomvillage_mc1214/data/ ./data_v61/data/
 # https://modrinth.com/datapack/qraftys-archeology-dig-sites

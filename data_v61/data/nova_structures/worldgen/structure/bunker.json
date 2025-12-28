@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:jigsaw",
 	"start_pool": "nova_structures:bunker_enterance",
-	"biomes": "#minecraft:has_structure/stronghold",
+	"biomes": "#nova_structures:collections/land",
 	"liquid_settings": "ignore_waterlogging",
 	"project_start_to_heightmap": "WORLD_SURFACE_WG",
 	"start_height": {
