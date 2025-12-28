@@ -1,17 +1,13 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 92746251,
-    "spacing": 30,
-    "separation": 20,
-    "exclusion_zone": {
-      "chunk_count": 9,
-      "other_set": "minecraft:villages"
-    }
+    "salt": 14357617,
+    "separation": 8,
+    "spacing": 32
   },
   "structures": [
     {
-      "structure": "betterdeserttemples:desert_temple",
+      "structure": "minecraft:desert_pyramid",
       "weight": 1
     }
   ]
