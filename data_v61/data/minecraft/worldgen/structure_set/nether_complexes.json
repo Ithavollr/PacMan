@@ -1,10 +1,4 @@
 {
-  "placement": {
-    "type": "minecraft:random_spread",
-    "salt": 30084232,
-    "separation": 4,
-    "spacing": 27
-  },
   "structures": [
     {
       "structure": "minecraft:fortress",
@@ -14,5 +8,15 @@
       "structure": "minecraft:bastion_remnant",
       "weight": 3
     }
-  ]
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 30084232,
+    "exclusion_zone": {
+      "other_set": "incendium:greater_structures",
+      "chunk_count": 8
+    },
+    "spacing": 16,
+    "separation": 8
+  }
 }

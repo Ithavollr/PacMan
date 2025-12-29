@@ -1,11 +1,13 @@
 {
   "type": "minecraft:basalt_columns",
   "config": {
+    "reach": 1,
     "height": {
       "type": "minecraft:uniform",
-      "max_inclusive": 4,
-      "min_inclusive": 1
-    },
-    "reach": 1
+      
+        "min_inclusive": 1,
+        "max_inclusive": 4
+      
+    }
   }
 }
