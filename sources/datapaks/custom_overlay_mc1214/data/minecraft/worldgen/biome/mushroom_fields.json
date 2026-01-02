@@ -102,7 +102,14 @@
       }
     ],
     "misc": [],
-    "monster": [],
+    "monster": [
+      {
+        "type": "minecraft:giant",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 100
+      }
+    ],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
