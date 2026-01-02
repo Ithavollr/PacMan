@@ -2,23 +2,27 @@
   "feature": "minecraft:spring_nether_closed",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 16
+      "type": "count",
+      "count": 2
+    },
+    {
+      "count": 16,
+      "type": "minecraft:count"
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 10
+        },
         "max_inclusive": {
           "below_top": 10
         },
-        "min_inclusive": {
-          "above_bottom": 10
-        }
-      }
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
     },
     {
       "type": "minecraft:biome"
