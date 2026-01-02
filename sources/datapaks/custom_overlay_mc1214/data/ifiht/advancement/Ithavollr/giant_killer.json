@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mooshroom_spawn_egg",
+      "count": 1
+    },
+    "title": "Giant Killer",
+    "description": "Defeat the master of the Mushroom Fields",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "ifiht:Ithavollr/root",
+  "criteria": {
+    "slay_the_giant": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:giant"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slay_the_giant"
+    ]
+  ]
+}
