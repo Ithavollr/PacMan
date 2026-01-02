@@ -1,0 +1,6 @@
+{
+    "providers": [    
+	{"type": "bitmap", "ascent": 0,"chars": ["\uF7FF"],
+     "file": "minecraft:particle/fresh_animations/is_fa_extension.png"}
+    ]
+}

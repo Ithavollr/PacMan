@@ -63,7 +63,7 @@ rsync -avh ./sources/resourcepaks/freshanims_v1-10-1_mc1214/assets/ ./assets_v46
 rsync -avh ./sources/resourcepaks/fa_emissive_v1-2/assets/ ./assets_v46/assets/
 #rsync -avh ./sources/resourcepaks/fa_xaeros_v1-2_mc1214/assets/ ./assets_v46/assets/ # Xaero's removed...
 #rsync -avh ./sources/resourcepaks/fa_quivers_v1-1/assets/ ./assets_v46/assets/ -- add for 1.21.4 when available..
-#rsync -avh ./sources/resourcepaks/fa_details_v1-1/assets/ ./assets_v46/assets/ -- add for 1.21.4 when available..
+rsync -avh ./sources/resourcepaks/fa_details_v2-1/assets/ ./assets_v46/assets/
 #rsync -avh ./sources/resourcepaks/nitpick_creeprs_v1-1/assets/ ./assets_v46/assets/ -- add for 1.21.4 when available..
 #rsync -avh ./sources/resourcepaks/fa_biome_creeprs_mc1-21-1/assets/ ./assets_v46/assets/  -- add for 1.21.4 when available..
 ### always keep custom changes last..
