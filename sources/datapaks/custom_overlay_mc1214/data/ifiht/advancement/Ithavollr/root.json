@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block_minecart",
+      "count": 1
+    },
+    "title": "Ithavollr",
+    "description": "Many worlds",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": []
+}

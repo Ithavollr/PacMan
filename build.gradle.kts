@@ -34,9 +34,9 @@ val testPlugins = runPaper.downloadPluginsSpec {
 // Function to delete & copy data and pack.mcmeta before running the server
 fun syncDataPack() {
     val worldDirs = listOf(
-        file("run/world").toPath(),
-        file("run/world_nether").toPath(),
-        file("run/world_the_end").toPath()
+        file("run/worlds/world").toPath(),
+        file("run/worlds/world_nether").toPath(),
+        file("run/worlds/world_the_end").toPath()
     )
     // Delete existing world directories if they exist
     worldDirs.forEach { worldDir ->
@@ -47,9 +47,9 @@ fun syncDataPack() {
     }
     // Create new world directories
     val sourceDataDir = file("data_v61/data").toPath()
-    val targetDataDir = file("run/world/datapacks/test/data").toPath()
+    val targetDataDir = file("run/worlds/world/datapacks/test/data").toPath()
     val sourcePackMcmeta = file("dpack.mcmeta").toPath()
-    val targetPackMcmeta = file("run/world/datapacks/test/pack.mcmeta").toPath()
+    val targetPackMcmeta = file("run/worlds/world/datapacks/test/pack.mcmeta").toPath()
 
     // Sync data directory
     if (sourceDataDir.exists()) {
