@@ -1,7 +1,6 @@
 {
 	"credit": "Created by FreshLX for Fresh Animations",
 	"textureSize": [64, 64],
-	"texture": "entity/giant/cyclops.png",
 	"models": [
 		{
 			"part":"root",
