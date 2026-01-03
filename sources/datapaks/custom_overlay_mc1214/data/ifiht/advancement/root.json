@@ -6,7 +6,9 @@
     },
     "title": "Ithavollr",
     "description": "Many worlds await",
+    "background": "minecraft:textures/block/emerald_block.png",
     "show_toast": false,
+    "frame": "task",
     "announce_to_chat": false,
     "hidden": false
   },
