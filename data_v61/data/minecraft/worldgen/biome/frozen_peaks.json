@@ -132,16 +132,22 @@
         "weight": 5
       },
       {
-        "type": "minecraft:skeleton",
+        "type": "minecraft:stray",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
       },
       {
+        "type": "minecraft:breeze",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 50
+      },
+      {
         "type": "minecraft:creeper",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 100
+        "weight": 50
       },
       {
         "type": "minecraft:slime",
