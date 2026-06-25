@@ -33,8 +33,6 @@
     "minecraft:multishot",
     "minecraft:quick_charge",
     "minecraft:piercing",
-    "minecraft:density",
-    "minecraft:breach",
-    "ifiht:solar_aegis"
+    "minecraft:wind_burst"
   ]
 }

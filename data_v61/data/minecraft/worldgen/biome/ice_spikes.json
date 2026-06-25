@@ -143,13 +143,13 @@
         "type": "minecraft:creeper",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 50
+        "weight": 90
       },
       {
         "type": "minecraft:breeze",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 50
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 10
       },
       {
         "type": "minecraft:slime",
