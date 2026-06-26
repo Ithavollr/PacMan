@@ -56,8 +56,8 @@ rsync -avh ./sources/resourcepaks/3d_mace_v4_mc1214/assets/ ./assets_v46/assets/
 # https://modrinth.com/plugin/tooltrims
 rsync -avh ./sources/resourcepaks/tooltrims_rp_v2-3-0b_mc1214/assets/ ./assets_v46/assets/
 # https://modrinth.com/resourcepack/fresh-animations
-#rsync -avh ./sources/resourcepaks/freshanims_v1-9-2/assets/ ./assets_v46/assets/
-rsync -avh ./sources/resourcepaks/freshanims_v1-10-1_mc1214/assets/ ./assets_v46/assets/
+# NOTE: ALL post-1.9.2 is BROKEN for babies!!!
+rsync -avh ./sources/resourcepaks/freshanims_v1-9-2/assets/ ./assets_v46/assets/
 ##====+ FRESH ANIMS ADDONS!! +====##
 # https://www.planetminecraft.com/collection/137810/fresh-animations-add-ons/
 rsync -avh ./sources/resourcepaks/fa_emissive_v1-2/assets/ ./assets_v46/assets/
