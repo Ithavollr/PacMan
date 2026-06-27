@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "":  [
+      {
+        "model": "minecraft:block/prismarine_bricks",
+        "weight": 6
+      },
+      {
+        "model": "minecraft:block/prismarine_bricks_01",
+        "weight": 1
+      }
+    ]
+  }
+}

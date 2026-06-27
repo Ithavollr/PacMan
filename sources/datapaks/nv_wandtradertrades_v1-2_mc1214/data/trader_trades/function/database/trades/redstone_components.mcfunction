@@ -1,0 +1,15 @@
+data modify storage eden:wandering_trader_db trades.redstone_components.1 set value {id:"minecraft:redstone_torch",count:3}
+data modify storage eden:wandering_trader_db trades.redstone_components.2 set value {id:"minecraft:repeater",count:2}
+data modify storage eden:wandering_trader_db trades.redstone_components.3 set value {id:"minecraft:comparator",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.4 set value {id:"minecraft:target",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.5 set value {id:"minecraft:lever",count:3}
+data modify storage eden:wandering_trader_db trades.redstone_components.6 set value {id:"minecraft:daylight_detector",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.7 set value {id:"minecraft:piston",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.8 set value {id:"minecraft:sticky_piston",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.9 set value {id:"minecraft:dispenser",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.10 set value {id:"minecraft:dropper",count:2}
+data modify storage eden:wandering_trader_db trades.redstone_components.11 set value {id:"minecraft:crafter",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.12 set value {id:"minecraft:hopper",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.13 set value {id:"minecraft:observer",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.14 set value {id:"minecraft:noteblock",count:1}
+data modify storage eden:wandering_trader_db trades.redstone_components.15 set value {id:"minecraft:redstone_lamp",count:1}

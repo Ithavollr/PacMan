@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.cure_zillager_illager_hideout.title",
+      "fallback": "Secrets of the illager"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.cure_zillager_illager_hideout",
+      "fallback": "Rescue and Cure the Librarian Zombie Villager encaged in the illager hideout"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "cure": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_illager\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

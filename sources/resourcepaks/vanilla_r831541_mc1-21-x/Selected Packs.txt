@@ -1,0 +1,16 @@
+Vanilla Tweaks Resource Pack
+Version: 1.21
+Packs:
+	HungerBarsCarrot
+	AnimatedCampfireItem
+	DifferentStems
+	3DAmethyst
+	3DChains
+	3DMace
+	3DRails
+	3DIronBars
+	3DStonecutters
+	3DLilyPads
+	3DLadders
+	ConsistentHelmets
+	PingColorIndicator

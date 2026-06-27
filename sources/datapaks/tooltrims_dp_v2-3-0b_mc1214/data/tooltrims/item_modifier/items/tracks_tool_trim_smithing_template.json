@@ -1,0 +1,68 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name": {
+            "translate": "tool_trim_pattern.tooltrims.tracks",
+            "color": "yellow",
+            "italic": false
+        }
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:custom_model_data": {
+                "floats": [
+                    313002
+                ]
+            },
+            "minecraft:custom_data": {
+                "tool_trim_smithing_template": 1
+            }
+        }
+    },
+    {
+        "function": "set_lore",
+        "mode": "replace_all",
+        "lore": [
+            {
+                "translate": "item.tooltrims.smithing_template",
+                "italic": false,
+                "color": "gray"
+            },
+            {
+                "text": "",
+                "italic": false
+            },
+            {
+                "translate": "item.tooltrims.smithing_template.applies_to",
+                "italic": false,
+                "color": "gray"
+            },
+            {
+                "text": " ",
+                "extra": [
+                    {
+                        "translate": "item.tooltrims.smithing_template.tool_trim.applies_to",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                ]
+            },
+            {
+                "translate": "item.tooltrims.smithing_template.ingredients",
+                "italic": false,
+                "color": "gray"
+            },
+            {
+                "text": " ",
+                "extra": [
+                    {
+                        "translate": "item.tooltrims.smithing_template.tool_trim.ingredients",
+                        "italic": false,
+                        "color": "blue"
+                    }
+                ]
+            }
+        ]
+    }
+]

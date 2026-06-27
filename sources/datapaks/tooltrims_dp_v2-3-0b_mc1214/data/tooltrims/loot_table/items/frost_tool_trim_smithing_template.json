@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "tooltrims:items/frost_tool_trim_smithing_template"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

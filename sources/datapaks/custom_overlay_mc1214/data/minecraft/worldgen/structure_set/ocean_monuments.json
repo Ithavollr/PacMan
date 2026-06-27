@@ -1,0 +1,20 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 128,
+    "distance": 21,
+    "preferred_biomes": "#minecraft:is_deep_scary_ocean",
+    "exclusion_zone": {
+			"other_set": "nova_structures:trident_trial_monument",
+			"chunk_count": 11
+		},
+    "salt": 10387313,
+    "spread": 4
+  },
+  "structures": [
+    {
+      "structure": "minecraft:monument",
+      "weight": 1
+    }
+  ]
+}

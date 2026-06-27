@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/door_bottom_left",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "block/cherry_door_bottom_1",
+		"particle": "block/cherry_door_bottom",
+		"bottom": "block/cherry_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [0.5, 0, 0, 16], "texture": "#bottom", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [15.25, 0, 15.75, 16], "texture": "#bottom", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"down": {"uv": [16, 15.25, 0, 15.75], "rotation": 90, "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [3, 16, 12],
+			"to": [0, 15, 4],
+			"faces": {
+				"north": {"uv": [12.75, 0, 12.25, 1], "texture": "#bottom"},
+				"south": {"uv": [3.75, 0, 3.25, 1], "texture": "#bottom"},
+				"up": {"uv": [4, 1.75, 12, 1.25], "rotation": 90, "texture": "#bottom"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [1.5, 15, 4],
+			"to": [1.5, 16, 12],
+			"faces": {
+				"east": {"uv": [4, 1, 12, 0], "texture": "#1"},
+				"west": {"uv": [4, 1, 12, 0], "texture": "#1"}
+			}
+		}
+	]
+}

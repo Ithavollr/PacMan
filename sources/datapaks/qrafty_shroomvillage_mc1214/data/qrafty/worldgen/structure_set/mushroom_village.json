@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "qrafty:mushroom_village",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 25,
+      "separation": 10,
+      "salt": 1513104469
+    }
+  }

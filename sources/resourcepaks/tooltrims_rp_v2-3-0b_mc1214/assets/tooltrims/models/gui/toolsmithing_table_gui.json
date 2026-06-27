@@ -1,0 +1,12 @@
+{
+    "parent": "tooltrims:gui/gui_template",
+    "textures": {
+        "gui":"tooltrims:item/gui/toolsmithing_table"
+    },
+    "display": {
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0, 0, 0]
+		}
+	}
+}

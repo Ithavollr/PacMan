@@ -1,0 +1,42 @@
+{
+    "pack": {
+        "id": "nullscape",
+        "pack_format": 48,
+        "supported_formats": [
+            48,
+            81
+        ],
+        "description": [
+            {
+                "text": "Nullscape",
+                "color": "#9729bc"
+            },
+            {
+                "text": " - End Reborn\nCreated by ",
+                "color": "gray"
+            },
+            {
+                "text": "Stardust Labs",
+                "color": "#683edd"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": [
+                    57,
+                    81
+                ],
+                "directory": "1-21-2-overlay"
+            },
+            {
+                "formats": [
+                    61,
+                    81
+                ],
+                "directory": "1-21-4-overlay"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/jungle_leaves"
+      },
+      {
+        "model": "minecraft:block/jungle_leaves_01"
+      },
+      {
+        "model": "minecraft:block/jungle_leaves_02"
+      },
+      {
+        "model": "minecraft:block/jungle_leaves_03"
+      }
+    ]
+  }
+}

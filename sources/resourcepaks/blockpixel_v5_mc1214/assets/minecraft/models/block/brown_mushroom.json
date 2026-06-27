@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/brown_mushroom_item_",
+		"2": "block/mushroom_block_inside",
+		"3": "block/mushroom_stem",
+		"particle": "block/brown_mushroom",
+		"texture": "block/brown_mushroom"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 7, 9],
+			"faces": {
+				"north": {"uv": [0, 11, 7, 13], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [0, 13, 7, 11], "rotation": 90, "texture": "#3"},
+				"south": {"uv": [8, 8, 15, 6], "rotation": 90, "texture": "#3"},
+				"west": {"uv": [8, 6, 15, 8], "rotation": 90, "texture": "#3"},
+				"down": {"uv": [7, 14, 9, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"from": [5, 7, 5],
+			"to": [11, 8, 11],
+			"faces": {
+				"north": {"uv": [10, 0, 16, 1], "texture": "#1"},
+				"east": {"uv": [16, 5, 10, 6], "texture": "#1"},
+				"south": {"uv": [10, 0, 16, 1], "texture": "#1"},
+				"west": {"uv": [6, 4, 12, 5], "texture": "#1"},
+				"up": {"uv": [2, 4, 8, 10], "texture": "#1"},
+				"down": {"uv": [5, 13, 11, 7], "texture": "#2"}
+			}
+		}
+	]
+}

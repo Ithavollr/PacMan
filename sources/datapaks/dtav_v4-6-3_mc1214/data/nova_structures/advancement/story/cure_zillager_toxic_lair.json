@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.cure_zillager_toxic_lair.title",
+      "fallback": "Spells of the swamps"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.cure_zillager_toxic_lair",
+      "fallback": "Find and Cure the Librarian Zombie Villager inside the toxic lair"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/cure_zombie_villager",
+  "criteria": {
+    "cure": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_swamp\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"pack_format": 15,
+		"supported_formats": {
+			"min_inclusive": 15,
+			"max_inclusive": 34
+		},
+    "description": "§e§l3D Pointed Dripstone.\n§6V1.4 §aⒸ§r§9§lGarden§d§lGals"
+  }
+}

@@ -1,0 +1,14 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+[[mods]]
+modId = "hopour"
+version = "1.2.2"
+displayName = "HopoBetterUnderwaterRuins"
+displayURL = "https://discord.gg/CZQthZJjPc"
+displayTest = "IGNORE_SERVER_VERSION"
+issueTrackerURL = 'https://discord.gg/CZQthZJjPc'
+credits = "Hoponopono"
+authors = "Hoponopono"
+description = "A mod that makes explore oceans rewarding"
+logoFile="pack.png" 

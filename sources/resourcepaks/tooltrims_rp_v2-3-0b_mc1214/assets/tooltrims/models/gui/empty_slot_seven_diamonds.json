@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "tooltrims:item/gui/empty_slot_seven_diamonds"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, -36, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "ground": {
+           "translation": [0, 3, 0],
+           "scale": [0, 0, 0]
+       }
+   }
+}

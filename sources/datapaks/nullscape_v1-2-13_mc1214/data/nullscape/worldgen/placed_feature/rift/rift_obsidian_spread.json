@@ -1,0 +1,9 @@
+{
+    "feature": "nullscape:rift/rift_obsidian_spread",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 4
+        }
+    ]
+}

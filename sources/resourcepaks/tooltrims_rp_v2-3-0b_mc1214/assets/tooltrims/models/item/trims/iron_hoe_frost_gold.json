@@ -1,0 +1,6 @@
+{
+   "parent": "minecraft:item/handheld",
+   "textures": {
+       "layer0": "tooltrims:item/trims/iron_hoe_frost_gold"
+   }
+}

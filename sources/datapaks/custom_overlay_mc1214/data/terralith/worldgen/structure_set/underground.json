@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "terralith:underground/giant_bee_hive",
+      "weight": 2
+    },
+    {
+      "structure": "terralith:underground/sunken_tower",
+      "weight": 5
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 838677219,
+    "spacing": 11,
+    "separation": 3
+  }
+}

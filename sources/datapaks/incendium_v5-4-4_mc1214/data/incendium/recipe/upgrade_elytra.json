@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": [],
+    "base": {
+      "item": "minecraft:jigsaw"
+    },
+    "addition": {
+      "item": "minecraft:elytra"
+    },
+    "result": {
+      "id": "minecraft:elytra"
+    }
+  }
+  

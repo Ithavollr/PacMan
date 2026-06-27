@@ -1,0 +1,21 @@
+data modify storage eden:wandering_trader_db trades.potions.1 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:swiftness"}}}
+data modify storage eden:wandering_trader_db trades.potions.2 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:slowness"}}}
+data modify storage eden:wandering_trader_db trades.potions.3 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:strength"}}}
+data modify storage eden:wandering_trader_db trades.potions.4 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:weakness"}}}
+data modify storage eden:wandering_trader_db trades.potions.5 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:healing"}}}
+data modify storage eden:wandering_trader_db trades.potions.6 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:harming"}}}
+data modify storage eden:wandering_trader_db trades.potions.7 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:leaping"}}}
+data modify storage eden:wandering_trader_db trades.potions.8 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:luck"}}}
+data modify storage eden:wandering_trader_db trades.potions.9 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:regeneration"}}}
+data modify storage eden:wandering_trader_db trades.potions.10 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:posion"}}}
+data modify storage eden:wandering_trader_db trades.potions.11 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:fire_resistance"}}}
+data modify storage eden:wandering_trader_db trades.potions.12 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:water_breathing"}}}
+data modify storage eden:wandering_trader_db trades.potions.13 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:night_vision"}}}
+data modify storage eden:wandering_trader_db trades.potions.14 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:invisibility"}}}
+data modify storage eden:wandering_trader_db trades.potions.15 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:turtle_master"}}}
+data modify storage eden:wandering_trader_db trades.potions.16 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:slow_falling"}}}
+data modify storage eden:wandering_trader_db trades.potions.17 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:wind_charged"}}}
+data modify storage eden:wandering_trader_db trades.potions.18 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:oozing"}}}
+data modify storage eden:wandering_trader_db trades.potions.19 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:weaving"}}}
+data modify storage eden:wandering_trader_db trades.potions.20 set value {id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:infested"}}}
+  

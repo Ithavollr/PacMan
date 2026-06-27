@@ -1,0 +1,6 @@
+{
+   "parent": "minecraft:item/crossbow",
+   "textures": {
+       "layer0": "tooltrims:item/trims/crossbow_firework_linear_netherite"
+   }
+}

@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/brewing_stand",
+		"stand": "block/brewing_stand"
+	},
+	"elements": [
+		{
+			"from": [2, 9, 1],
+			"to": [6, 10, 5],
+			"faces": {
+				"north": {"uv": [6, 3, 10, 4], "texture": "#stand"},
+				"east": {"uv": [6, 3, 10, 4], "texture": "#stand"},
+				"south": {"uv": [6, 3, 10, 4], "texture": "#stand"},
+				"west": {"uv": [6, 3, 10, 4], "texture": "#stand"},
+				"up": {"uv": [6, 3, 7, 4], "texture": "#stand"},
+				"down": {"uv": [6, 3, 7, 4], "texture": "#stand"}
+			}
+		}
+	]
+}

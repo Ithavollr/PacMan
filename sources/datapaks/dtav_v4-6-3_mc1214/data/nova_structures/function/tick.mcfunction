@@ -1,0 +1,1 @@
+schedule function nova_structures:tick 5t

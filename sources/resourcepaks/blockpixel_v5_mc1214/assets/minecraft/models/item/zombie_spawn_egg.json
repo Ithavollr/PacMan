@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated_mob",
+  "textures": {
+      "0": "item/egg_zombie"
+  }
+}

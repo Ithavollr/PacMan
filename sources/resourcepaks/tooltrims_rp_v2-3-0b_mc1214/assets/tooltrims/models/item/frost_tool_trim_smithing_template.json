@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "tooltrims:item/smithing_templates/frost_tool_trim_smithing_template"
+    }
+ }

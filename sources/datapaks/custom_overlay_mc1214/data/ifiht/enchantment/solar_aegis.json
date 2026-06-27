@@ -1,0 +1,79 @@
+{
+	"anvil_cost": 2,
+	"description": {
+	"translate": "Solar Aegis"
+	},
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:armor",
+				"id": "ifiht:enchantment.solar_aegis",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 1.0,
+					"per_level_above_first": 1.0
+				}
+			}
+		],
+		"minecraft:damage_protection": [
+			{
+				"effect": {
+				"type": "minecraft:add",
+				"value": {
+					"type": "minecraft:linear",
+					"base": 1.0,
+					"per_level_above_first": 1.0
+				}
+				},
+				"requirements": {
+				"condition": "minecraft:damage_source_properties",
+				"predicate": {
+					"tags": [
+					{
+						"expected": true,
+						"id": "minecraft:bypasses_invulnerability"
+					}
+					]
+				}
+				}
+			}
+		],
+		"minecraft:post_attack": [
+			{
+				"affected": "attacker",
+				"effect": {
+					"type": "minecraft:ignite",
+					"duration": {
+						"type": "minecraft:linear",
+						"base": 3.0,
+						"per_level_above_first": 3.0
+					}
+				},
+				"enchanted": "victim",
+				"requirements": {
+					"condition": "minecraft:damage_source_properties",
+					"predicate": {
+						"is_direct": true
+					}
+				}
+			}
+    	]
+	},
+	"item_modifier": "ifiht:solarized_description",
+	"exclusive_set": "#minecraft:exclusive_set/gold_armor",
+	"max_cost": {
+		"base": 18,
+		"per_level_above_first": 8
+	},
+	"max_level": 2,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 8
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#ifiht:enchantable/gold_armor",
+	"weight": 10
+}

@@ -1,0 +1,17 @@
+data modify storage eden:wandering_trader_db trades.bundles.1 set value {id:"minecraft:red_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.2 set value {id:"minecraft:blue_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.3 set value {id:"minecraft:cyan_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.4 set value {id:"minecraft:gray_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.5 set value {id:"minecraft:lime_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.6 set value {id:"minecraft:pink_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.7 set value {id:"minecraft:black_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.8 set value {id:"minecraft:brown_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.9 set value {id:"minecraft:green_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.10 set value {id:"minecraft:white_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.11 set value {id:"minecraft:orange_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.12 set value {id:"minecraft:purple_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.13 set value {id:"minecraft:yellow_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.14 set value {id:"minecraft:magenta_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.15 set value {id:"minecraft:light_blue_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.16 set value {id:"minecraft:light_gray_bundle",count:1}
+data modify storage eden:wandering_trader_db trades.bundles.17 set value {id:"minecraft:bundle",count:1}

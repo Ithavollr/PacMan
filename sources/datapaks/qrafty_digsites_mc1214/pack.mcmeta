@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 61,
+    "description": {
+      "text": "qrafty.net/discord",
+      "color": "aqua",
+      "hoverEvent": {
+        "action": "show_text",
+        "value": "qraftyfied!"
+      }
+    }
+  }
+}

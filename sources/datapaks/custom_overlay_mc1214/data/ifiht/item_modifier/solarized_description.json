@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Blessed by the sun, this armor grants extra protection and fiery wrath.",
+        "color": "gold"
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

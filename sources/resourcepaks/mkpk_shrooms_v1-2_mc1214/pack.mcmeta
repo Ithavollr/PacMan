@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Makes placed mushrooms 3D.",
+    "pack_format": 46,
+    "supported_formats": [4, 46]
+  }
+}

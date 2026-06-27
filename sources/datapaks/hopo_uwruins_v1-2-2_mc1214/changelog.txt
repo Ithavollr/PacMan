@@ -1,0 +1,128 @@
+---2 new ruins and tweaking some loots--- 1/22/2022
+♦ Added one more copper and materials ruins. Also change the awards of some places being a little bit inconsistency, like finding hay bales on materials places.
+♦ Now the food loot is more better that before, the copper loot was nerf a little bit , and add more emeralds in materials loot.
+---3 new ruins, rebalancing and 1 new mob!--- 1/29/2022
+♦ I know that you wanted more, so now i bring to you 3 more structures to explore, and a new drowned variant joined to the adventure.
+♦ Lots of balance on loots, and also fix one custom map not working properly. Sorry, i recommend update again.
+♦ Also Wattles make a cool review to the pack, you should check it out! 
+https://www.youtube.com/watch?v=6yixo0gSYCc
+---Balacing Loot and Optimizate some ruin--- 2/4/2022
+♦ Nerf the health boost and conduit potion, now they are only for 1 minute, it was too op in many scenarios.
+♦ Added more effect to the suspicious stew, less raw copper, more experience bottles, and new item to the food loot, lilypads!
+---3 new ruins, and warm ruins--- 2/19/2022
+♦ More ruins to see, and one more drowned variant, it is full gold armor and is a strong guy, you must be careful with him, if you kill him you can get some gold ingots.
+♦ Dolphins grace is now part of the suspicious stew, also now some maps a little bit more rare and nerf some quantities of the loot.
+---1.18.2 & more spawn?--- 4/2/2022
+♦ 1.18.2 update
+♦ The cities are more frequently to spawn, making explore the ocean more exciting than before.
+--- 1.19 Update --- 6/11/2022
+♦ Now they look like a proper underwater city, you will have lots too explore
+♦ Explore the oceans never was so fun
+♦ Redone everything, and now use the "jigsaw system" to make the generation much much better
+♦ Buffed a little bit the loot of "materials chest"
+♦ Cities can go to 3 or 6 chunks of size!
+♦ Vanilla ruins can now spawn, it does not replace vanilla ruins anymore, thank god
+--- Deeper cities and much better gen --- 6/20/2022
+♦ Cities used to spawn on holes, and also can float in the middle of the ocean, total no sense... this has been fixed, now it spawn more properly.
+--- Feedback Changes and Forge Fix --- 7/9/2022
+♦ Make cities generation more rare
+♦ Sometimes cities partially generation out of the water, making them look weird, that is fixed 
+♦ Fix "Hanging entity at invalid position: BlockPosition" spamming log on servers
+♦ Fix a forge issue
+--- Performance and Tweaking --- 7/15/2022
+♦ Fix "Hanging entity at invalid position" line, spamming on logs
+♦  The chances of spawning cities have been reduced, now they only spawn on deepest regions of the oceans
+♦ Added Compatibility with "William Wythers' Overhauled" Worldgen
+♦ Improve performance of generation
+--- Performance, Crashes, 100 structures --- 9/03/2022
+♦ Reduced the amount of vanilla ruins 
+♦ Fixed a crash when open a vanilla ruin (server try to find a buried treasure, fails, and crash)
+♦ Ner
+♦ Added 100 unique structures, over the ocean! 
+Includes:
+- Small copper ruins, cold and warm ruins, and different ocean fossils
+--- Bugs and bugs --- 2/18/2022
+♦ Fixed air blocks inside structures
+♦ Fixed small ruins generating in surface
+♦ New paths desing
+♦ Secret added
+--- 1.19.4 and fix Forge bug --- 4/3/2023
+♦ 1.19.4 support
+♦ Fixed a bug that makes impossible to run in forge version
+--- 1.20 Released and Sherds everywhere --- 6/3/2023
+♦ Fixed bug when underwater ruins generate next to monuments 
+♦ Added new loot (sherds, shield, spyglass, clock, compass, some blocks, turtle eggs, sniffer eggs, trident, tnt and even more!)
+♦ Added underwater archaeology, you must explore all my ruins, even if they are small, you get some great stuff
+♦ 1.20 compatibility
+--- Call me a City! --- 8/26/2023
+♦ Renamed structure to "underwater_ruins" to "underwater_city", makes a lot more sense and fits better, you can see this change when you /locate structure
+♦ Changes on loot tables, after a lot of play testing that i did, i make the loot more worth it, now you will find more stuff 
+♦ Changes on structure distribution, now they will generate more like a "city" and also improve the some pieces of the structure
+♦ Fixed a bug when small ruins or fossils, generate with floating water outside the ocean, making them look weird
+♦ Underwater city no longer generates on frozen ocean, Drowneds said that doesn't look like the perfect place of build a underwater base
+♦ Some pieces now will generate with some Decorated pots
+♦ Added new drowned mob type! This one is basically a ninja, moves fast, has an iron sword, good luck with this one!
+♦ Drowneds now will have fancy armor trims in their armors
+♦ Make structure a little rare to find, since they are now too big
+♦ Added new advancement, "Not Quite Atlantis..." when you find an underwater city. Good luck there :p
+♦ Small ruins will now spawn a little frequently around rivers, this change was made to incentive players to play with archaeology
+♦ Added some details (block pallete) in the city and ruins
+♦ Guardians spawn next to cities
+♦ Fixed some air blocks generating in the middle of the ocean 
+♦ Improve path structures, underwater fossils structures
+♦ Archeology loot includes stuff like: (enchanted books, sherds, weapons, armor trim, armor, a special banner, banner pattern and more!)
+♦ And probably more stuff that i don't remember lol, this update is sick, and makes ocean more alife, enjoy!
+--- The "Oh there is so much to see" Update --- 10/26/2023
+♦ Sorry for being late, university...
+♦ Some loots have been nerfed, reducing just a little to keep the balance.
+♦ Add more loot in suspicious blocks (Banner, Potions, Barrels with loot inside)
+♦ Add new 20 little new structures, will generate around the cities some of them just to add more details, one axolotl  needs your help tho, save him!
+♦ 1.20.2 compatibility but it also works in the other one 1.20.1
+♦ Tweaking gen...
+--- 1.20.2-1.20.4 And more SICK stuff ---
+♦ New mob skeleton added around the cities
+♦ Maked cities more weird to generate again... ok for real this time, it was needed since i don't want to generate too many of them and want to make them feel more special
+♦ New funny advancement, find all the underwater structures, you will be award with lots of XP
+♦ Added lots of new small ruins, cold and warm variants, i probably added like 30 new ones, i don't remember 
+♦ Tweaked loots once again, so people complain it was too op, and i agree
+♦ POTS!!! lots of pots everywhere... with potions, and some resource to find in those, really cool
+♦ Tweaked how cities generate, adding more small ruins around the structure.
+♦ Rarely some pufferfish will generate around the structure, don't touch them tho.
+♦ Changed how some pieces looked, adding some small details.
+♦ 1.20.2-1.20.4 support, and 1.20.5 too but it might show an error at this point.
+♦ Maked /locate structure command a little clean, will change to my other proyects too!
+♦ Fun swimming!
+--- The Better IA Mobs and Generation Tweaks Update --- 4/6/2024
+♦ Neoforge support, YAY!!!
+♦ Added a license
+♦ A lot of improvements to all the loot tables, some nerfs too to make sure not always give the good stuff, and tweaks that makes the structures even better. Chests now will have more variated loot, and not the same expected loot over and over.
+♦ All small ruins now will generate more frequently, makes the ocean more alive and less boring to explore.
+♦ Added a little small potencial to drowned farms in the underwater city structure, some normal vanilla drowned will spawn around the city.
+♦ Speaking of underwater cities, improved the way of how these generate, making them a little bit more deep that before, this new generation might be look similar to how we see ancient cities.
+♦ Added some death corals around the city.
+♦ New arrow effect.
+♦ Improved drowneds AI (only drowneds that are part of the city), now they will know when exactly atack, and not every single one of them will track you in the same time, this change makes cities more consistent and to be fair, it was really weird see all those drowndes tracking you in the same time.
+♦ Added some more decorated pots around the city.
+♦ Credits to all the creators of banners, you can find them on the PMC banners page
+--- 1.21 Pre-release Support --- 5/8/24
+♦ Rewrite the whole code of my proyect to make it compatible with the latest version such as 1.20.5-1.20.6
+♦ Some changes of some loot tables, and that's it 
+--- Tricky Trials Moment --- 6/15/24
+♦ 1.21 Support 
+♦ Renamed folder names, for the latest 1.21 update 
+♦ Increased slightly rarity of the generation of small ruins
+--- Tweaks and fixed crash --- 7/18/24
+♦ One of my strangest pieces actually got a drowned spawner, now this has been replaced with the new trial spawner
+♦ Fixed a crash, this one was pretty much the same as my mineshaft one, pretty sad, finally it's fixed, seems like minecraft don't like structures to big sometimes.
+♦ Small changes on loot tables, like fireworks being too laggy sometimes, dried kelp (bad loot)
+♦ Small Warm ruins have the same rarity as the small cold ruins now
+--- Enchants changes & One new desing too! --- 7/29/24 
+♦ If you see the other latest hopo mineshaft update, well, you'll know it! 1.21 bring lots of changes to enchantments, and since some of my loot tables randomize enchants, this also counts the treasure enchantments ones, like the swift sneak, soul speed, etc, being too OP and breaking the survival experience, thanks Joji and the many other members for reporting this on my discord.
+♦ Changes on some loot tables, improving it and nerfing some.
+♦ And an extra gift, added a new structure variation to the underwater city, this one use the new trial spawners
+--- 1.21.3 drop! --- 10/24/24
+♦ 1.21.1, 1.21.2, 1.21.3 updated
+♦ Fixed a loot table issue, a potion not showing the correct name, some enchanted items having incorrect enchants.
+♦ Rebalanced a improve some existing loot tables like the copper one having the new variations of copper, a hide trial chamber map, keys, bundle, in general, making the loot a little bit more interesting.
+--- 1.21.4 drop! --- 12/15/24
+♦ 1.21.4 compat

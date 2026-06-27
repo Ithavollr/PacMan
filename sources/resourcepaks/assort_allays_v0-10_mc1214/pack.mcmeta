@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "§b■The pack for your Allays!   \u00A7e ■Made by GillsBills",
+    "pack_format": 15,
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 69},
+    "min_format": 15,
+    "max_format": 69
+  }
+}

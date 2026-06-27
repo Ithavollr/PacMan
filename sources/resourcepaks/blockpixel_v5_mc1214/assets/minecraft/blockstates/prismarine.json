@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/prismarine"
+      },
+      {
+        "model": "minecraft:block/prismarine_01"
+      }
+    ]
+  }
+}

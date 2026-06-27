@@ -1,0 +1,1 @@
+$data modify storage eden:temp village.desert.name set from storage eden:name_db village.desert.name.$(id)

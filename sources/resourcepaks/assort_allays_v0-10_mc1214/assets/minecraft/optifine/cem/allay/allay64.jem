@@ -1,0 +1,130 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"texture": "optifine/random/entity/allay/metroid.png",
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -6, 0],
+			"scale": 1.25,
+			"submodels": [
+				{
+					"id": "metroid",
+					"invertAxis": "xy",
+					"translate": [0, 6, 0],
+					"boxes": [
+						{"coordinates": [-2.5, 0, -2.5, 5, 5, 5], "textureOffset": [0, 0]},
+						{"coordinates": [-2, -1, -2, 4, 2, 4], "textureOffset": [0, 10]},
+						{"coordinates": [-1.5, 1, 0, 3, 3, 0], "textureOffset": [0, 18]},
+						{"coordinates": [-2, -3, -2, 4, 2, 0], "textureOffset": [0, 16]}
+					],
+					"submodels": [
+						{
+							"id": "right_tooth",
+							"invertAxis": "xy",
+							"translate": [1.75, -0.5, 0],
+							"rotate": [0, 0, -20],
+							"boxes": [
+								{"coordinates": [-0.25, -3.5, 0, 2, 4, 0], "textureOffset": [33, 0]}
+							]
+						},
+						{
+							"id": "left_tooth",
+							"invertAxis": "xy",
+							"mirrorTexture": "u",
+							"translate": [-1.75, -0.5, 0],
+							"rotate": [0, 0, 20],
+							"boxes": [
+								{"coordinates": [-1.75, -3.5, 0, 2, 4, 0], "textureOffset": [33, 0]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head.ty": "0",
+					"body.ty": "-1",
+					"body.tz": "3.5"
+				},
+				{
+					"var.testing": "0",
+					"var.r": "random(id)*pi*4",
+					"var.b": "var.r+age/27*pi",
+					"var.c": "age*8*(pi/180)",
+					"var.hurt": "-sin(hurt_time/2)*hurt_time/10 -cos(death_time/6)*clamp(death_time/2, 0, 1)",
+					"var.wings": "var.r+(limb_swing*1.5+age/5*pi +pos_y*1.5)",
+					"var.hold": "0.5-0.5*cos( clamp(-right_arm.rx, 0, 1)*pi )",
+					"var.danceA": "clamp(if(head.rz!=0 || between(sin(var.r+age/260), -0.15, 0.15)                                                                                           , min(20, var.danceA +0.03 *frame_time*20), max(0, var.danceA -0.03 *frame_time*20)), 0, 1)",
+					"var.danceC": "clamp(if(head.rz!=0 || between(sin(var.r+age/260), -0.15, 0.15) || !(between(torad(head_pitch), torad(-5), torad(5))) && between(sin(var.r+age/100), 0, 1), min(20, var.danceC +0.5  *frame_time*20), max(0, var.danceC -0.5  *frame_time*20)), 0, 1)",
+					"var.danceB": "clamp(var.danceC-var.hurt, 0, 1)"
+				},
+				{
+					"metroid.rx": "head.rx-head.rx+torad(head_pitch)/2 -sin(var.b-pi/2)/20 -torad(2.5) -torad(30)*limb_speed +torad( 30 +30*sin(limb_swing/1.5) )*var.hurt",
+					"metroid.ry": "head.ry-head.ry+torad(head_yaw)/1.6 +(-sin(       var.c +sin(var.c*2)/4 )*torad(34) )*var.danceA        +sin(limb_swing/2.5)  *var.hurt",
+					"metroid.rz": "head.rz-head.rz+-sin(var.b/3)/16    +(-sin(-pi/4 +var.c                 )*torad(14) )*var.danceA",
+					"metroid.ty": "-9 -limb_speed/2             *(1-0.8*var.danceA)*(1-var.hurt)            +clamp((-0.5 -sin(limb_swing/2)/2 )*var.hurt, 0, 1)",
+					"metroid.tz": "     -limb_speed*1.1           *(1-0.8*var.danceA)*(1-var.hurt)",
+					"metroid.sx": "1.25",
+					"metroid.sy": "1.25",
+					"metroid.sz": "1.25",
+					"render.leash_offset_x": " ( body.tx -(cos(var.c)*16*(pi/180)))/16",
+					"render.leash_offset_y": "-( body.ty + cos(age*9*(pi/180))*0.25*(1-min(limb_swing/0.3, 1)) -0.5 )/16",
+					"render.leash_offset_z": "-( body.tz )/16"
+				},
+				{
+					"body.rx": "body.rx-body.rx",
+					"body.ry": "body.ry-body.ry",
+					"body.rz": "body.rz-body.rz",
+					"body.sx": "0.75",
+					"body.sy": "0.75",
+					"body.sz": "0.75",
+					"body.ty": "-3",
+					"body.tz": "3.5"
+				},
+				{
+					"var.y": "var.y2",
+					"var.y2": "var.y3",
+					"var.y3": "var.y4",
+					"var.y4": "var.y5",
+					"var.y5": "var.y6",
+					"var.y6": "pos_y"
+				}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -6, 0]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-1.75, -5.5, 0],
+			"rotate": [0, 0, -20]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [1.75, -5.5, 0],
+			"rotate": [0, 0, 20]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [0.5, -6, -1]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [-0.5, -6, -1]
+		}
+	]
+}

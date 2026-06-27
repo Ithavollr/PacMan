@@ -1,0 +1,6 @@
+{
+  "parent": "tooltrims:item/trident_entity_throwing",
+  "textures": {
+    "layer0": "tooltrims:item/trims/trident_entity_charge_diamond"
+  }
+}
