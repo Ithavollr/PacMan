@@ -91,3 +91,30 @@ tasks.register<RunServer>("runServerUnmodified") {
     minecraftVersion(mcVersion)
     downloadPlugins.from(testPlugins)
 }
+
+// Generate + zip the datapack and resource pack for consumers (e.g. the Cardinal monorepo).
+// wozniak: gen scripts declare no inputs/outputs, so they rerun every invocation; if the
+// rsync passes ever get slow, add inputs.dir("sources") + outputs.dir(...) for up-to-date checks.
+val genDatapack = tasks.register<Exec>("genDatapack") {
+    workingDir = projectDir
+    commandLine("./dpak_gen.sh")
+}
+val genResourcePack = tasks.register<Exec>("genResourcePack") {
+    workingDir = projectDir
+    commandLine("./rpak_gen.sh")
+}
+val zipDatapack = tasks.register<Zip>("zipDatapack") {
+    dependsOn(genDatapack)
+    from("data_v61")
+    archiveFileName.set("Ithavollr_dpack.zip")
+    destinationDirectory.set(layout.buildDirectory)
+}
+val zipResourcePack = tasks.register<Zip>("zipResourcePack") {
+    dependsOn(genResourcePack)
+    from("assets_v46")
+    archiveFileName.set("Ithavollr_rpack.zip")
+    destinationDirectory.set(layout.buildDirectory)
+}
+tasks.register("buildPacks") {
+    dependsOn(zipDatapack, zipResourcePack)
+}
