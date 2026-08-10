@@ -77,7 +77,10 @@ fun syncDataPack() {
 tasks.register<RunServer>("runServerTest") {
     minecraftVersion(mcVersion)
     downloadPlugins.from(testPlugins)
-    doFirst { syncDataPack() } // Run before the server starts
+    doFirst {
+        syncDataPack()
+        file("run/eula.txt").apply { parentFile.mkdirs() }.writeText("eula=true\n")
+    }
 }
 // Start a local PaperMC test server for login & manual testing
 tasks.register<RunServer>("runServerInteractive") {
