@@ -10,7 +10,7 @@ repositories {
 plugins {
     java
     kotlin("jvm") version "2.1.20-RC3"
-    id("xyz.jpenilla.run-paper") version "2.3.1"
+    id("xyz.jpenilla.run-paper") version "3.0.2"
 }
 
 dependencies {
