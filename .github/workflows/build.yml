@@ -23,8 +23,8 @@ jobs:
           gradle-version: 'wrapper'
 
       - name: Build
-        run: gradle build --stacktrace
+        run: ./gradlew build --stacktrace
 
       - name: Run Server Test
-        run: gradle runServerTest --stacktrace
+        run: ./gradlew runServerTest --stacktrace
         timeout-minutes: 5

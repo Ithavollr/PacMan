@@ -31,62 +31,62 @@ val testPlugins = runPaper.downloadPluginsSpec {
 }
 
 
-// Function to delete & copy data and pack.mcmeta before running the server
-fun syncDataPack() {
-    val worldDirs = listOf(
-        file("run/worlds/world").toPath(),
-        file("run/worlds/world_nether").toPath(),
-        file("run/worlds/world_the_end").toPath()
-    )
-    // Delete existing world directories if they exist
-    worldDirs.forEach { worldDir ->
-        if (worldDir.exists()) {
-            worldDir.toFile().deleteRecursively()
-            println("Deleted existing world directory: $worldDir")
+// Delete & copy data and pack.mcmeta before running the server.
+// A task (not a script function) so the run tasks stay configuration-cache safe:
+// closures may only capture plain Files, never the script object.
+tasks.register("syncDataPack") {
+    dependsOn("genDatapack") // CI has no data_v61; regenerate from committed sources/
+    val worldDirs = listOf("world", "world_nether", "world_the_end")
+        .map { layout.projectDirectory.dir("run/worlds/$it").asFile }
+    val sourceDataDir = layout.projectDirectory.dir("data_v61/data").asFile
+    val targetDataDir = layout.projectDirectory.dir("run/worlds/world/datapacks/test/data").asFile
+    val sourcePackMcmeta = layout.projectDirectory.file("dpack.mcmeta").asFile
+    val targetPackMcmeta = layout.projectDirectory.file("run/worlds/world/datapacks/test/pack.mcmeta").asFile
+    doLast {
+        // Delete existing world directories if they exist
+        worldDirs.forEach { worldDir ->
+            if (worldDir.exists()) {
+                worldDir.deleteRecursively()
+                println("Deleted existing world directory: $worldDir")
+            }
         }
-    }
-    // Create new world directories
-    val sourceDataDir = file("data_v61/data").toPath()
-    val targetDataDir = file("run/worlds/world/datapacks/test/data").toPath()
-    val sourcePackMcmeta = file("dpack.mcmeta").toPath()
-    val targetPackMcmeta = file("run/worlds/world/datapacks/test/pack.mcmeta").toPath()
-
-    // Sync data directory
-    if (sourceDataDir.exists()) {
-        if (targetDataDir.exists()) {
-            targetDataDir.toFile().deleteRecursively() // Delete old contents
+        // Sync data directory
+        if (sourceDataDir.exists()) {
+            if (targetDataDir.exists()) {
+                targetDataDir.deleteRecursively() // Delete old contents
+            }
+            Files.createDirectories(targetDataDir.toPath()) // Ensure target directory exists
+            sourceDataDir.copyRecursively(targetDataDir, overwrite = true) // Copy new contents
+            println("Synced data directory to $targetDataDir")
+        } else {
+            println("Warning: Source data directory does not exist!")
         }
-        Files.createDirectories(targetDataDir) // Ensure target directory exists
-        sourceDataDir.toFile().copyRecursively(targetDataDir.toFile(), overwrite = true) // Copy new contents
-        println("Synced data directory to $targetDataDir")
-    } else {
-        println("Warning: Source data directory does not exist!")
-    }
-
-    // Copy pack.mcmeta
-    if (sourcePackMcmeta.exists()) {
-        Files.copy(sourcePackMcmeta, targetPackMcmeta, StandardCopyOption.REPLACE_EXISTING)
-        println("Copied pack.mcmeta to $targetPackMcmeta")
-    } else {
-        println("Warning: pack.mcmeta file does not exist!")
+        // Copy pack.mcmeta
+        if (sourcePackMcmeta.exists()) {
+            Files.createDirectories(targetPackMcmeta.toPath().parent) // Target parent may not exist
+            Files.copy(sourcePackMcmeta.toPath(), targetPackMcmeta.toPath(), StandardCopyOption.REPLACE_EXISTING)
+            println("Copied pack.mcmeta to $targetPackMcmeta")
+        } else {
+            println("Warning: pack.mcmeta file does not exist!")
+        }
     }
 }
-
 
 // Test PaperMC run & immediately shut down, for github actions
 tasks.register<RunServer>("runServerTest") {
     minecraftVersion(mcVersion)
     downloadPlugins.from(testPlugins)
+    dependsOn("syncDataPack")
+    val eulaFile = layout.projectDirectory.file("run/eula.txt").asFile
     doFirst {
-        syncDataPack()
-        file("run/eula.txt").apply { parentFile.mkdirs() }.writeText("eula=true\n")
+        eulaFile.apply { parentFile.mkdirs() }.writeText("eula=true\n")
     }
 }
 // Start a local PaperMC test server for login & manual testing
 tasks.register<RunServer>("runServerInteractive") {
     minecraftVersion(mcVersion)
     downloadPlugins.from(prodPlugins)
-    doFirst { syncDataPack() } // Run before the server starts
+    dependsOn("syncDataPack") // Run before the server starts
 }
 
 // Test PaperMC run & immediately shut down, but don't delete or modify anything
