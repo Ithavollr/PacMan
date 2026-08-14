@@ -9,6 +9,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 21
@@ -28,3 +30,41 @@ jobs:
       - name: Run Server Test
         run: ./gradlew runServerTest --stacktrace
         timeout-minutes: 5
+
+      - name: Build packs
+        if: github.event_name == 'push'
+        run: ./gradlew buildPacks --stacktrace
+
+      # === Version-file-driven release: a push that bumps `version=` in
+      # gradle.properties gets tagged and released automatically; any other
+      # push (tag already exists) is a plain CI run. No manual tagging.
+      - name: Read version
+        if: github.event_name == 'push'
+        id: version
+        run: echo "version=$(grep '^version=' gradle.properties | cut -d= -f2 | tr -d '[:space:]')" >> "$GITHUB_OUTPUT"
+
+      - name: Check for existing release tag
+        if: github.event_name == 'push'
+        id: tag_exists
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          if [ -z "$VERSION" ]; then
+            echo "ERROR: no version= line found in gradle.properties"
+            exit 1
+          fi
+          if git ls-remote --exit-code origin "refs/tags/v$VERSION" > /dev/null; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create GitHub Release
+        if: github.event_name == 'push' && steps.tag_exists.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: v${{ steps.version.outputs.version }}
+          files: |
+            build/Ithavollr_dpack.zip
+            build/Ithavollr_rpack.zip
