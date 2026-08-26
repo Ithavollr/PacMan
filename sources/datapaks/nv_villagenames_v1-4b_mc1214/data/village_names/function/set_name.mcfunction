@@ -1,1 +1,0 @@
-$execute positioned $(x) $(y) $(z) unless entity @e[type=marker,tag=village.name,distance=..96] if block ~ ~ ~ minecraft:bell run summon marker ~ ~ ~ {Tags:["village.name"],CustomName:'{"bold":false,"color":"#$(color)","italic":false,"text":"$(name)"}'}

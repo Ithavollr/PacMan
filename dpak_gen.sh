@@ -27,8 +27,7 @@ rm -rf ./data_v61/data/terralith/worldgen/configured_feature
 rm -rf ./data_v61/data/terralith/worldgen/structure/underground
 rm -rf ./data_v61/data/terralith/tags/worldgen/biome
 rm -f ./data_v61/data/terralith/worldgen/structure_set/underground_dungeon.json
-# https://modrinth.com/datapack/continents ; make continents larger
-rsync -avhc ./sources/datapaks/continents_v1-1-10_mc1214/data/ ./data_v61/data/
+rm -f ./data_v61/data/terralith/worldgen/structure/underground_cabin.json
 # https://modrinth.com/datapack/incendium ; terralith for the Nether
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/incendium_v5-4-4_mc1214/1-21-4-overlay/data/ ./data_v61/data/
@@ -37,10 +36,15 @@ rm -rf ./data_v61/data/minecraft/loot_table
 rm -rf ./data_v61/data/minecraft/tags/block
 rm -rf ./data_v61/data/minecraft/tags/damage_type
 rm -rf ./data_v61/data/minecraft/tags/function
-# https://modrinth.com/datapack/nullscape ; terralith for the End
-rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/data/ ./data_v61/data/
-rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-2-overlay/data/ ./data_v61/data/
-rsync -avhc ./sources/datapaks/nullscape_v1-2-13_mc1214/1-21-4-overlay/data/ ./data_v61/data/
+# Disable Incendium structures: drop its two structure_sets, and its nether_complexes
+# override (whose exclusion_zone points at greater_structures) so the vanilla built-in returns.
+rm -f ./data_v61/data/incendium/worldgen/structure_set/greater_structures.json
+rm -f ./data_v61/data/incendium/worldgen/structure_set/lesser_structures.json
+rm -f ./data_v61/data/minecraft/worldgen/structure_set/nether_complexes.json
+# Incendium's nether.json rewrites the noise_router, which fails Ferma's decoupled baseline
+# and drops the world to vanilla generation. custom_overlay ships a vanilla-router replacement;
+# this drops Incendium's copy first so the pack never depends on overlay ordering alone.
+rm -f ./data_v61/data/minecraft/worldgen/noise_settings/nether.json
 # https://modrinth.com/datapack/dungeons-and-taverns
 rsync -avhc ./sources/datapaks/dtav_v4-6-3_mc1214/data/ ./data_v61/data/
 rsync -avhc ./sources/datapaks/dtav_nomag_v1-5_mc1214/data/ ./data_v61/data/
@@ -51,23 +55,12 @@ cp ./sources/datapaks/dtav_v4-6-3_mc1214/data/nova_structures/worldgen/structure
 cp ./sources/datapaks/dtav_v4-6-3_mc1214/data/nova_structures/worldgen/structure_set/creeping_crypt.json ./data_v61/data/nova_structures/worldgen/structure_set/
 cp ./sources/datapaks/dtav_v4-6-3_mc1214/data/nova_structures/worldgen/structure_set/taverns.json ./data_v61/data/nova_structures/worldgen/structure_set/
 cp ./sources/datapaks/dtav_v4-6-3_mc1214/data/nova_structures/worldgen/structure_set/trident_trial_monument.json ./data_v61/data/nova_structures/worldgen/structure_set/
-# https://modrinth.com/datapack/tectonic
-#rsync -avhc ./sources/datapaks/tectonic_v2-4-2_mc1214/data/ ./data_v61/data/
-rsync -avhc ./sources/datapaks/tectonic_v3-0-13_mc1214/data/ ./data_v61/data/
-rsync -avhc ./sources/datapaks/tectonic_v3-0-13_mc1214/overlay.datapack/data/ ./data_v61/data/
 # https://modrinth.com/datapack/qraftys-mushroom-villages
 rsync -avhc ./sources/datapaks/qrafty_shroomvillage_mc1214/data/ ./data_v61/data/
 # https://modrinth.com/datapack/qraftys-archeology-dig-sites
 rsync -avhc ./sources/datapaks/qrafty_digsites_mc1214/data/ ./data_v61/data/
 # https://modrinth.com/mod/aquatic-shulkers
 # Nothing to do - ported into custom from mod jar
-# NV Packs
-# rsync -avhc ./sources/datapaks/nv_nitwitquests_v1-1_mc1214/data/ ./data_v61/data/ -- breaks tick_thread, move to cardinal
-# rsync -avhc ./sources/datapaks/nv_talkingvillager_v1-1_mc1214/data/ ./data_v61/data/ -- move to cardinal
-# rsync -avhc ./sources/datapaks/nv_villagenames_v1-4b_mc1214/data/ ./data_v61/data/ -- move to cardinal
-# rsync -avhc ./sources/datapaks/nv_villagernames_v1-2_mc1214/data/ ./data_v61/data/ -- move to cardinal
-# rsync -avhc ./sources/datapaks/nv_wandtraderannounce_v1-1_mc1214/data/ ./data_v61/data/ -- move to cardinal
-# rsync -avhc ./sources/datapaks/nv_wandtradertrades_v1-2_mc1214/data/ ./data_v61/data/ -- move to cardinal
 rsync -avhc ./sources/datapaks/katters_structs_onlyvil_v2-2_mc1214/data/ ./data_v61/data/
 # Remove all villages except sky, sea, and underground
 rm -rf ./data_v61/data/kattersstructures/worldgen/structure_set
@@ -90,15 +83,10 @@ fi
 #sed -i 's/"xz_scale": 0.2,/"xz_scale": 0.12,/g' data/minecraft/worldgen/density_function/overworld_large_biomes/base_continents.json
 
 ## World Settings Tweaks
-# Remove noise caves:
-$SEDCMD -i 's/"aquifers_enabled": true,/"aquifers_enabled": true,\n\    "noise_caves_enabled": false,/g' data_v61/data/minecraft/worldgen/noise_settings/overworld.json
 # Fix overworld height:
-$SEDCMD -i 's/"logical_height": 480,/"logical_height": 432,/g' data_v61/data/minecraft/dimension_type/overworld.json
-$SEDCMD -i 's/"height": 480,/"height": 432,/g' data_v61/data/minecraft/dimension_type/overworld.json
+$SEDCMD -i 's/"logical_height": 384,/"logical_height": 432,/g' data_v61/data/minecraft/dimension_type/overworld.json
+$SEDCMD -i 's/"height": 384,/"height": 432,/g' data_v61/data/minecraft/dimension_type/overworld.json
 $SEDCMD -i 's/"height": 384,/"height": 416,/g' data_v61/data/minecraft/worldgen/noise_settings/overworld.json
-# Fix end height:
-$SEDCMD -i 's/"logical_height": 384,/"logical_height": 320,/g' data_v61/data/minecraft/dimension_type/the_end.json
-$SEDCMD -i 's/"height": 384,/"height": 320,/g' data_v61/data/minecraft/dimension_type/the_end.json
 
 ## Remove lava lakes from vegetation biomes:
 # (( MINECRAFT BIOMES ))
