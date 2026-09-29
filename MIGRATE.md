@@ -53,7 +53,7 @@ revert those changes.
   `has_raids`, `natural`, `piglin_safe`, `respawn_anchor_works`, `ultrawarm` and added
   `attributes`, `timelines`; `height`/`logical_height` remain, so the height `sed` still applies.
 - **Re-derive `noise_settings/nether.json`:** 1.21.11 vanilla + Incendium 5.4.12's surface rule,
-  height 192, roof taper 168/192. Re-check Ferma's decoupled baseline.
+  height 192, roof taper 168/192, −0.01 bias on `base_3d_noise`. Re-check Ferma's decoupled baseline.
 - **Re-derive `noise_settings/overworld.json`:** 1.21.11 vanilla (router changed); height `sed` applies.
 - **Re-check** `tags/block/enderman_holdable`, `tags/enchantment/non_treasure`,
   `tags/worldgen/biome/stronghold_biased_to` against 1.21.11.
