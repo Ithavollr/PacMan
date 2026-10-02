@@ -1,0 +1,41 @@
+DEVELOPERS:
+
+Nova Wostra - Lead developer of Dungeons and Taverns and all its related datapacks, builds the structures and codes the whole placement of them
+
+Whity Lee https://twitter.com/WhityLee_ - Implemented the Tavern Quest Trader system and Charts, Boss Behaviours and Brazilian Portuguese Translation
+
+Konci - Coded the allay to vex conversion system as well as made the resourcepack part for the keys and charts and various function assistance
+
+MiziraGamez - Custom enchantments and loot table / advancement assistance
+
+Walls - Various loot tables and enchantments
+
+CONTRIBUTORS:
+
+Badooga - Helped coding most of the advancements
+
+Seby - Created the Logos for Dungeons and Taverns and all its related datapacks
+
+Special thanks to Kirt (@kirtails) for the initial Charts concept
+
+TRANSLATORS:
+
+Yewen - Responsible for the French Translation for Dungeons and Taverns
+
+Twizinho - Helped with the Brazilian Portuguese Translation for Dungeons and Taverns
+
+Zloydada - Responsible for the Russian Translation for Dungeons and Taverns
+
+Opliz https://modrinth.com/user/Opliz - Responsible for the Italian Translation for Dungeons and Taverns
+
+Sasaki Akari(MCID:YanHuang_Sora), and co-translater MCID Diaorenmoshushi - Responsible for the Simplified Chinese Translation for Dungeons and Taverns
+
+雪碧 - Responsible for the Traditional Chinese Translation for Dungeons and Taverns
+
+Daik - Responsible for the Korean translation for Dungeons and Taverns
+
+Reispfannenfresser - Responsible for the German Translation for Dungeons and Taverns
+
+godkyo98 - Responsible for the Vietnamese Translation for Dungeons and Taverns
+
+Ricko#7083 - Russian Translation for DnT v4.7.3

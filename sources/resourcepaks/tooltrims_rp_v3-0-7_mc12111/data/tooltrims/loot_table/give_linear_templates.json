@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "score",
+        "score": "tooltrims.amount",
+        "target": "this"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tadpole_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "tooltrims:set_linear_template"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

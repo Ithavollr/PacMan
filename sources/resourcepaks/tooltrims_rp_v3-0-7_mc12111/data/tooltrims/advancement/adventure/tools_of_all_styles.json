@@ -1,0 +1,63 @@
+{
+  "parent": "tooltrims:adventure/shiny_tools",
+  "criteria": {
+    "has_trimmed_tool_with_linear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "#tooltrims:trimmable_tools", "predicates": { "minecraft:trim": { "pattern": "tooltrims:linear" } } } ]
+      }
+    },
+    "has_trimmed_tool_with_tracks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "#tooltrims:trimmable_tools", "predicates": { "minecraft:trim": { "pattern": "tooltrims:tracks" } } } ]
+      }
+    },
+    "has_trimmed_tool_with_charge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "#tooltrims:trimmable_tools", "predicates": { "minecraft:trim": { "pattern": "tooltrims:charge" } } } ]
+      }
+    },
+    "has_trimmed_tool_with_frost": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "#tooltrims:trimmable_tools", "predicates": { "minecraft:trim": { "pattern": "tooltrims:frost" } } } ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {
+      "translate": "advancements.adventure.tools_of_all_styles.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.tools_of_all_styles.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "minecraft:tadpole_spawn_egg",
+      "count": 1,
+      "components": { "item_model": "tooltrims:linear_template" }
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "has_trimmed_tool_with_linear"
+    ],
+    [
+      "has_trimmed_tool_with_tracks"
+    ],
+    [
+      "has_trimmed_tool_with_charge"
+    ],
+    [
+      "has_trimmed_tool_with_frost"
+    ]
+  ],
+  "rewards": {
+    "experience": 150
+  }
+}

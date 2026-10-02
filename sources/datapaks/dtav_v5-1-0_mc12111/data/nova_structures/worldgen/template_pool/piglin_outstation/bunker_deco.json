@@ -1,0 +1,303 @@
+{
+	"name": "nova_structures:piglin_outstation/bunker_deco",
+	"fallback": "nova_structures:piglin_outstation/bunker_deco",
+	"elements": [
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_center_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_center_1",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_center_2",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_center_3",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_center_4",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_center_5",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_wall_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_wall_1",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_wall_2",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_wall_3",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_wall_4",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_wall_5",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_wall_6",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_wall_7",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_wall_8",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_right_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_right_1",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_right_2",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_right_3",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_right_4",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_right_5",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_right_6",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_right_7",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_right_8",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_left_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_left_1",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_left_2",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_left_3",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_left_4",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_left_5",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_left_6",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_left_7",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/deco/deco_corner_left_8",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		}
+	]
+}

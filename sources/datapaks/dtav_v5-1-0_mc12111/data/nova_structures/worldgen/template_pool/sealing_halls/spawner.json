@@ -1,0 +1,141 @@
+{
+	"name": "nova_structures:sealing_halls/spawner",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_ghast_boss",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_ghast",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_blaze",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_blaze_random",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_blaze_random_ranged",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_skeleton_random",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_skeleton_random_ranged",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_wither_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_wither_skeleton_random",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_wither_skeleton_random_melee",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_magma_cube",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_magma_cube_random",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_magma_cube_random_melee",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/spawner/spawner_magma_cube_miniboss",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		}
+	]
+}

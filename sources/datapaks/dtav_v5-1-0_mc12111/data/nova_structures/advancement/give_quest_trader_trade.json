@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_quest_trader\"],VillagerData:{profession:\"minecraft:cartographer\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:quest/start"
+  }
+}

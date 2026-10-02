@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/crossbow_firework",
+    "textures": {
+        "layer0": "minecraft:item/crossbow_firework",
+        "layer1": "tooltrims:trims/items/crossbow_firework_frost_quartz"
+    }
+}

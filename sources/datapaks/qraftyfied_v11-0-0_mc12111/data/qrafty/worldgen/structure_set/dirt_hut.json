@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:dirt_hut",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 125267537,
+    "spacing": 40,
+    "separation": 25
+  }
+}

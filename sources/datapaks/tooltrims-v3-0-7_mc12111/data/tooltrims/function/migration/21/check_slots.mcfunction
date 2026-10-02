@@ -1,0 +1,4 @@
+# check which slots have templates (trimmed tools are already migrated by the convert_item)
+execute if items entity @s player.cursor *[minecraft:custom_data~{ "tooltrims:item": "template" },custom_model_data] run item modify entity @s player.cursor tooltrims:migration_20/templates
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{ "tooltrims:item": "template" },custom_model_data] run item modify entity @s weapon.mainhand tooltrims:migration_20/templates
+execute if items entity @s container.* *[minecraft:custom_data~{ "tooltrims:item": "template" },custom_model_data] run function tooltrims:migration/20/inventory_templates

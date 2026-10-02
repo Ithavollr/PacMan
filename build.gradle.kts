@@ -17,13 +17,13 @@ dependencies {
     implementation(kotlin("stdlib"))
 }
 
-val mcVersion = "1.21.4"
+val mcVersion = "1.21.11"
 
 val prodPlugins = runPaper.downloadPluginsSpec {
-    modrinth("multiverse-core", "5.2.0")
-    modrinth("essentialsx", "2.21.0")
-    hangar("chunky", "1.4.40")
-    modrinth("squaremap", "1.3.4")
+    hangar("Multiverse-Core", "5.5.3")
+    hangar("Chunky", "1.4.40")
+    hangar("squaremap", "1.3.12")
+    modrinth("simple-fly", "0.0.1")
 }
 
 val testPlugins = runPaper.downloadPluginsSpec {
@@ -35,10 +35,10 @@ val testPlugins = runPaper.downloadPluginsSpec {
 // A task (not a script function) so the run tasks stay configuration-cache safe:
 // closures may only capture plain Files, never the script object.
 tasks.register("syncDataPack") {
-    dependsOn("genDatapack") // CI has no data_v61; regenerate from committed sources/
+    dependsOn("genDatapack") // CI has no data_v94; regenerate from committed sources/
     val worldDirs = listOf("world", "world_nether", "world_the_end")
         .map { layout.projectDirectory.dir("run/worlds/$it").asFile }
-    val sourceDataDir = layout.projectDirectory.dir("data_v61/data").asFile
+    val sourceDataDir = layout.projectDirectory.dir("data_v94/data").asFile
     val targetDataDir = layout.projectDirectory.dir("run/worlds/world/datapacks/test/data").asFile
     val sourcePackMcmeta = layout.projectDirectory.file("dpack.mcmeta").asFile
     val targetPackMcmeta = layout.projectDirectory.file("run/worlds/world/datapacks/test/pack.mcmeta").asFile
@@ -108,13 +108,13 @@ val genResourcePack = tasks.register<Exec>("genResourcePack") {
 }
 val zipDatapack = tasks.register<Zip>("zipDatapack") {
     dependsOn(genDatapack)
-    from("data_v61")
+    from("data_v94")
     archiveFileName.set("Ithavollr_dpack.zip")
     destinationDirectory.set(layout.buildDirectory)
 }
 val zipResourcePack = tasks.register<Zip>("zipResourcePack") {
     dependsOn(genResourcePack)
-    from("assets_v46")
+    from("assets_v75")
     archiveFileName.set("Ithavollr_rpack.zip")
     destinationDirectory.set(layout.buildDirectory)
 }

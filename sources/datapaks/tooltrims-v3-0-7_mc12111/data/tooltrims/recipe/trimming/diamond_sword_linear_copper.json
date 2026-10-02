@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:tadpole_spawn_egg",
+  "base": "minecraft:diamond_sword",
+  "addition": "minecraft:copper_ingot",
+  "result": {
+    "id": "minecraft:diamond_sword",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:linear",
+        "material": "minecraft:copper"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311002.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

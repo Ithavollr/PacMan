@@ -1,0 +1,24 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "nova_structures:aerials_bane": 0,
+      "nova_structures:antidote": 0,
+      "nova_structures:conductivity_curse": 0,
+      "nova_structures:ghasted": 0,
+      "nova_structures:gravity": 0,
+      "nova_structures:hydro_veil": 0,
+      "nova_structures:illagers_bane": 0,
+      "nova_structures:multishot": 0,
+      "nova_structures:outreach": 0,
+      "nova_structures:photosynthesis": 0,
+      "nova_structures:piercing": 0,
+      "nova_structures:power": 0,
+      "nova_structures:spiteful": 0,
+      "nova_structures:swift_soar": 0,
+      "nova_structures:traveler": 0,
+      "nova_structures:wax_wings": 0,
+      "nova_structures:wither_coated": 0
+    }
+  }
+]

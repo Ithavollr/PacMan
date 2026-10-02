@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:silverfish_spawn_egg",
+  "base": "minecraft:iron_sword",
+  "addition": "minecraft:gold_ingot",
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:tracks",
+        "material": "minecraft:gold"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311015.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

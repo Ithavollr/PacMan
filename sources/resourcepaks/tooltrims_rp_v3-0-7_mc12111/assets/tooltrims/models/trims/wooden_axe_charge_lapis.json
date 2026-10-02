@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/wooden_axe",
+    "textures": {
+        "layer0": "minecraft:item/wooden_axe",
+        "layer1": "tooltrims:trims/items/wooden_axe_charge_lapis"
+    }
+}

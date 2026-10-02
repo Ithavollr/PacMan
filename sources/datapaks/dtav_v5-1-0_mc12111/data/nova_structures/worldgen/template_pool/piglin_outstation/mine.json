@@ -1,0 +1,96 @@
+{
+	"name": "nova_structures:piglin_outstation/mine",
+	"fallback": "nova_structures:piglin_outstation/mine",
+	"elements": [
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/mine_tall",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/mine_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/mine_t-cross",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/mine_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/mine_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/outstation_room_end",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/outstation_room_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/outstation_room_t-cross",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/outstation_room_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/mine/outstation_room_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_mine_degradation"
+			}
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:soul",
+	"fallback": "nova_structures:nether_skeleton_tower/soul/tower_end",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/soul/soul_tower_end",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

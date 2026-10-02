@@ -1,0 +1,41 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "#tooltrims:template_items",
+            "predicates": { "custom_data": { "tooltrims:item": "template" }, "custom_model_data": {} }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "#tooltrims:template_items",
+            "predicates": { "custom_data": { "tooltrims:item": "template" }, "custom_model_data": {} }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "player.cursor": {
+            "items": "#tooltrims:template_items",
+            "predicates": { "custom_data": { "tooltrims:item": "template" }, "custom_model_data": {} }
+          }
+        }
+      }
+    }
+  ]
+}

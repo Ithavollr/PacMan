@@ -1,0 +1,41 @@
+{
+    "name": "kattersstructures:deep_blue/red_coral/arms",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:deep_blue/red_coral/red_coral_arm_01",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 2,
+        "element": {
+            "location": "kattersstructures:deep_blue/red_coral/red_coral_arm_02",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "location": "kattersstructures:deep_blue/red_coral/red_coral_arm_03",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+    },
+    
+    
+    
+    
+    {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:empty_pool_element"
+        }
+    }
+]
+}

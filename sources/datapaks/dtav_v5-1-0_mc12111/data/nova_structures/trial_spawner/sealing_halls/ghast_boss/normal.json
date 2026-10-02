@@ -1,0 +1,54 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:keys/sealing_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 7,
+  "total_mobs": 7,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:ghast",
+		      "attributes": [
+              {
+              "id": "max_health",
+              "base": 20
+              },
+              {
+                "id": "scale",
+                "base": 0.5
+              },
+              {
+                "id": "follow_range",
+                "base": 100
+            }
+          ],
+          "Tags": [
+            "dnt_ghast_boss_child",
+            "trial_normal"
+          ],
+          "Health": 20,
+		      "DeathLootTable":"nova_structures:mob/sealing_ghast",
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:enchantments": {
+                  "nova_structures:boss_nether": 1
+                }
+              },
+              "count": 1,
+              "id": "stick"
+            }
+      }
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

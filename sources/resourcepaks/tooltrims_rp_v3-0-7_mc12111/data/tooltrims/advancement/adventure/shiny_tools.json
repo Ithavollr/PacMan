@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "has_trimmed_tool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "#tooltrims:trimmable_tools", "predicates": { "minecraft:trim": {} } } ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {
+      "translate": "advancements.adventure.shiny_tools.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.shiny_tools.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "count": 1,
+      "components": { "trim": { "pattern": "tooltrims:frost", "material": "diamond" } }
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "has_trimmed_tool"
+    ]
+  ]
+}

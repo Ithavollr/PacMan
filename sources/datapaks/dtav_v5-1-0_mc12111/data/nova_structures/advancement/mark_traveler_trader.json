@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}",
+          "location": {
+            "structures": "#nova_structures:offers_trades_traveler"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:librarians/choose_dnt_librarian_traveler"
+  }
+}

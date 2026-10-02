@@ -1,0 +1,1 @@
+execute as @s run summon minecraft:spider ~ ~ ~ {PersistenceRequired:1b,Health:8f,Tags:["dnt_spider_minion"],equipment:{mainhand:{id:"minecraft:stick",count:1,components:{"minecraft:enchantments":{"nova_structures:boss_behaviour":1}}}},attributes:[{id:"minecraft:attack_damage",base:2},{id:"minecraft:max_health",base:8},{id:"minecraft:scale",base:0.5}]}

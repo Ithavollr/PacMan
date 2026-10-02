@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:fort",
+	"fallback": "nova_structures:nether_skeleton_tower/fort/bridge_end",
+	"elements": [
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_skeleton_tower/fort/fort_tower_fallback",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

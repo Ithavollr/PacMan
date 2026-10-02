@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "nova_structures:shrine/combat/trial_spawner/tsr_breeze",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/spawner/combat_shrine_spawner_random_breeze",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		}
+	]
+}

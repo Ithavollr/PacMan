@@ -1,0 +1,183 @@
+{
+  "parent": "nova_structures:adventure/tavern_quest",
+  "criteria": {
+    "ancient_city_chart": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_quest_trader\"]}"
+        },
+        "item": {
+          "items": "minecraft:filled_map",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "dnt:chart"
+              ]
+            }
+          },
+          "predicates": {
+            "minecraft:custom_data": {
+              "structure": "minecraft_ancient_city"
+            }
+          }
+        }
+      }
+    },
+    "illager_hideout_chart": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_quest_trader\"]}"
+        },
+        "item": {
+          "items": "minecraft:filled_map",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "dnt:chart"
+              ]
+            }
+          },
+          "predicates": {
+            "minecraft:custom_data": {
+              "structure": "dnt_illager_hideout"
+            }
+          }
+        }
+      }
+    },
+    "illager_manor_chart": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_quest_trader\"]}"
+        },
+        "item": {
+          "items": "minecraft:filled_map",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "dnt:chart"
+              ]
+            }
+          },
+          "predicates": {
+            "minecraft:custom_data": {
+              "structure": "dnt_illager_manor"
+            }
+          }
+        }
+      }
+    },
+    "lone_citadel_chart": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_quest_trader\"]}"
+        },
+        "item": {
+          "items": "minecraft:filled_map",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "dnt:chart"
+              ]
+            }
+          },
+          "predicates": {
+            "minecraft:custom_data": {
+              "structure": "dnt_lone_citadel"
+            }
+          }
+        }
+      }
+    },
+    "toxic_lair_chart": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_quest_trader\"]}"
+        },
+        "item": {
+          "items": "minecraft:filled_map",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "dnt:chart"
+              ]
+            }
+          },
+          "predicates": {
+            "minecraft:custom_data": {
+              "structure": "dnt_toxic_lair"
+            }
+          }
+        }
+      }
+    },
+    "trident_trial_monument_chart": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_quest_trader\"]}"
+        },
+        "item": {
+          "items": "minecraft:filled_map",
+          "components": {
+            "minecraft:custom_model_data": {
+              "strings": [
+                "dnt:chart"
+              ]
+            }
+          },
+          "predicates": {
+            "minecraft:custom_data": {
+              "structure": "dnt_trident_trial_monument"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "dnt:folded_chart"
+          ]
+        },
+        "minecraft:map_color": 9972780
+      },
+      "count": 1,
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "advancement.dnt.adventure.master_quest_trader.title",
+      "fallback": "Charter to All"
+    },
+    "description": {
+      "translate": "advancement.dnt.adventure.master_quest_trader",
+      "fallback": "Level up an expert Chart Trader, then recieve their final Quest"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "ancient_city_chart",
+      "illager_hideout_chart",
+      "illager_manor_chart",
+      "lone_citadel_chart",
+      "toxic_lair_chart",
+      "trident_trial_monument_chart"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

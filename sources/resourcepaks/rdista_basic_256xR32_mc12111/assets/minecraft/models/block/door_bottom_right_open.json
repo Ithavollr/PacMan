@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.11",
+	"credit": "By Shivamzter",
+	"ambientocclusion": false,
+	"texture_size": [2048, 2048],
+	"textures": {
+		"particle": "block/pale_oak_door_bottom",
+		"bottom": "block/pale_oak_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [0.5, 0, 0.125, 16], "texture": "#bottom", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#bottom"},
+				"south": {"uv": [15.875, 0, 15.5, 16], "texture": "#bottom", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"down": {"uv": [16, 15.875, 0, 15.5], "rotation": 90, "texture": "#bottom", "cullface": "down"}
+			}
+		}
+	]
+}

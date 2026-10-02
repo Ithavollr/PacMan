@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:cod_spawn_egg",
+  "base": "minecraft:netherite_pickaxe",
+  "addition": "minecraft:redstone",
+  "result": {
+    "id": "minecraft:netherite_pickaxe",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:charge",
+        "material": "minecraft:redstone"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311030.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": true
+}

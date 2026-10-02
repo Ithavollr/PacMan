@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/wooden_sword",
+    "textures": {
+        "layer0": "minecraft:item/wooden_sword",
+        "layer1": "tooltrims:trims/items/wooden_sword_charge_netherite"
+    }
+}

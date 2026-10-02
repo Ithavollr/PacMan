@@ -1,0 +1,34 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 940354935,
+    "separation": 16,
+    "spacing": 32
+  },
+  "structures": [
+    {
+      "structure": "nova_structures:nether_skeleton_tower_fort",
+      "weight": 1
+    },
+	{
+      "structure": "nova_structures:nether_skeleton_tower_warped",
+      "weight": 2
+    },
+	{
+      "structure": "nova_structures:nether_skeleton_tower_crimson",
+      "weight": 2
+    },
+	{
+      "structure": "nova_structures:nether_skeleton_tower_soul",
+      "weight": 2
+    },
+	{
+      "structure": "nova_structures:piglin_camp",
+      "weight": 4
+    },
+	{
+      "structure": "nova_structures:piglin_camp_collony",
+      "weight": 1
+    }
+  ]
+}

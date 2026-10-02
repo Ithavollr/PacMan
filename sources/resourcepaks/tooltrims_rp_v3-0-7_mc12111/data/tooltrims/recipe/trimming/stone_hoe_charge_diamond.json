@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:cod_spawn_egg",
+  "base": "minecraft:stone_hoe",
+  "addition": "minecraft:diamond",
+  "result": {
+    "id": "minecraft:stone_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:charge",
+        "material": "minecraft:diamond"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311023.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": true
+}

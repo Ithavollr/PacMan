@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/crossbow_arrow",
+    "textures": {
+        "layer0": "minecraft:item/crossbow_arrow",
+        "layer1": "tooltrims:trims/items/crossbow_arrow_charge_copper"
+    }
+}

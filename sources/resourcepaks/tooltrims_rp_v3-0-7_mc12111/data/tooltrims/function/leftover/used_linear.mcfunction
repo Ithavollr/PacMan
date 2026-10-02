@@ -1,0 +1,4 @@
+execute if items entity @s weapon.* minecraft:tadpole_spawn_egg[minecraft:custom_data={"tooltrims:item":"template"}] run loot give @s loot tooltrims:linear_template
+execute unless items entity @s weapon.* minecraft:tadpole_spawn_egg[minecraft:custom_data={"tooltrims:item":"template"}] if items entity @s weapon.mainhand * run loot replace entity @s weapon.offhand loot tooltrims:linear_template
+execute unless items entity @s weapon.* minecraft:tadpole_spawn_egg[minecraft:custom_data={"tooltrims:item":"template"}] run loot replace entity @s weapon.mainhand loot tooltrims:linear_template
+scoreboard players set @s tooltrims.used_linear 0

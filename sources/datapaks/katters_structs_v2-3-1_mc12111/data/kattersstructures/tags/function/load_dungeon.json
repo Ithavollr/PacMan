@@ -1,0 +1,20 @@
+{
+    "values": [
+        "kattersstructures:boss/tenku/summoning",
+        "kattersstructures:boss/tenku/run",
+        "kattersstructures:boss/raj/run",
+        "kattersstructures:boss/raj/kill",
+        "kattersstructures:boss/raj/lightning",
+        "kattersstructures:boss/arachne/run",
+        "kattersstructures:boss/theron/run",
+        "kattersstructures:boss/theron/rotate_orb",
+        "kattersstructures:boss/defense",
+        "kattersstructures:boss/bossbar/run",
+        "kattersstructures:items/raj_lightning_rod/revoke_advancement",
+        "kattersstructures:misc/remove_boss_enchantments",
+        "kattersstructures:items/raj_rod_block/placement/init",
+	    "kattersstructures:items/raj_rod_block/lightning",
+        "kattersstructures:boss/rusta/spawn",
+        "kattersstructures:boss/rusta/run"
+    ]
+}

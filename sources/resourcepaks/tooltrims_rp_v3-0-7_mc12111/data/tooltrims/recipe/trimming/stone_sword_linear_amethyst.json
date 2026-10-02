@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:tadpole_spawn_egg",
+  "base": "minecraft:stone_sword",
+  "addition": "minecraft:amethyst_shard",
+  "result": {
+    "id": "minecraft:stone_sword",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:linear",
+        "material": "minecraft:amethyst"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311001.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

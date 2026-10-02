@@ -1,0 +1,744 @@
+{
+	"name": "nova_structures:sealing_halls/shelf",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/chest_random",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 150,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/chest_random_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 50,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_archer",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_brew",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_flame",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_heartbreak",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_skull",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_strider",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_sword",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_treasure",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 150,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_1",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 100,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_2",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 150,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_3",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_4",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_5",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_6",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_7",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_8",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_9",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_10",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_11",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_12",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_13",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_14",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_15",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_16",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_17",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_18",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_19",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_20",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/bookshelf_21",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewing_stand_1",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewing_stand_2",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewing_stand_3",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewing_stand_4",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewing_stand_5",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewing_stand_6",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewing_stand_7",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_1",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_2",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_3",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_4",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_5",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_6",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_7",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_8",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_9",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_10",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_11",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_12",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_13",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_14",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/potionshelf_15",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_1",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_2",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_3",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_4",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_5",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_6",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_7",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_8",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_9",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_10",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_11",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_12",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_13",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_14",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_15",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/brewshelf_15",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 140,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_1",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_2",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_3",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_4",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_5",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_6",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_7",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_8",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_9",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_10",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_11",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/shelf_loot_12",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		}
+	]
+}

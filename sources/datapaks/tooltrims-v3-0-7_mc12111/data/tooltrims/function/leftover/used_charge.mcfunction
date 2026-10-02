@@ -1,0 +1,4 @@
+execute if items entity @s weapon.* minecraft:cod_spawn_egg[minecraft:custom_data={"tooltrims:item":"template"}] run loot give @s loot tooltrims:charge_template
+execute unless items entity @s weapon.* minecraft:cod_spawn_egg[minecraft:custom_data={"tooltrims:item":"template"}] if items entity @s weapon.mainhand * run loot replace entity @s weapon.offhand loot tooltrims:charge_template
+execute unless items entity @s weapon.* minecraft:cod_spawn_egg[minecraft:custom_data={"tooltrims:item":"template"}] run loot replace entity @s weapon.mainhand loot tooltrims:charge_template
+scoreboard players set @s tooltrims.used_charge 0

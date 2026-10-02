@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:silverfish_spawn_egg",
+  "base": "minecraft:iron_axe",
+  "addition": "minecraft:copper_ingot",
+  "result": {
+    "id": "minecraft:iron_axe",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:tracks",
+        "material": "minecraft:copper"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311012.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": true
+}

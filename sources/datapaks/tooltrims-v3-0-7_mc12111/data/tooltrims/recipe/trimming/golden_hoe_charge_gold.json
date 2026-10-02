@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:cod_spawn_egg",
+  "base": "minecraft:golden_hoe",
+  "addition": "minecraft:gold_ingot",
+  "result": {
+    "id": "minecraft:golden_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:charge",
+        "material": "minecraft:gold"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311025.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

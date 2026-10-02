@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/bow",
+    "textures": {
+        "layer0": "minecraft:item/bow",
+        "layer1": "tooltrims:trims/items/bow_charge_netherite"
+    }
+}

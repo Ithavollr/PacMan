@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.story.librarian_jungle_ruins.title",
+      "fallback": "Knowledge of the Jungle"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.librarian_jungle_ruins",
+      "fallback": "Level up a novice Librarian in the Jungle Ruins, then trade for their exclusive book"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "nova_structures:adventure/find_jungle_ruins",
+  "criteria": {
+    "dnt_trade_enchant_jungle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_jungle\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/jungle"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dnt_trade_enchant_jungle"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

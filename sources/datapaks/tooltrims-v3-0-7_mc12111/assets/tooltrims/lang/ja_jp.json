@@ -1,0 +1,14 @@
+{
+    "TODO": "Any words in this file related to the Toolsmithing Table from v2.x have to be replaced with Smithing Table",
+
+    "advancements.adventure.shiny_tools.title": "ぴかぴかのツール！",
+    "advancements.adventure.shiny_tools.description": "ツール用鍛冶台でツールを装飾する",
+    "advancements.adventure.tools_of_all_styles.title": "いろんなスタイルのツール",
+    "advancements.adventure.tools_of_all_styles.description": "すべてのツール用装飾をそれぞれ最低一回以上施す",
+    
+    "template.tooltrims.applies_to": "武器やツール",
+    "trim_pattern.tooltrims.linear": "線形のツール装飾",
+    "trim_pattern.tooltrims.tracks": "足跡風のツール装飾",
+    "trim_pattern.tooltrims.charge": "帯電のツール装飾",
+    "trim_pattern.tooltrims.frost":  "霜風のツール装飾"
+}

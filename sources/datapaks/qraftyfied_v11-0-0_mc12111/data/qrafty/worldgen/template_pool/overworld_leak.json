@@ -1,0 +1,24 @@
+{
+  "name": "qrafty:fortress",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "qrafty:overworld_leak_1",
+        "processors": "qrafty:overworld_leak"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "qrafty:overworld_leak_2",
+        "processors": "qrafty:overworld_leak"
+      }
+    }
+  ]
+}

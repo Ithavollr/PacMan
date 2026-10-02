@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:hobbit_hole",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 915267237,
+    "spacing": 40,
+    "separation": 22
+  }
+}

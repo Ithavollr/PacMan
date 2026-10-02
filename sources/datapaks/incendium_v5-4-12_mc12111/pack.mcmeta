@@ -1,0 +1,30 @@
+{
+    "pack": {
+        "id": "incendium",
+        "min_format": [94, 1],
+        "max_format": [101, 1],
+        "description": [
+            {
+                "text": "Incendium",
+                "color": "#e27a1f"
+            },
+            {
+                "text": " - Nether Expansion\nCreated by ",
+                "color": "gray"
+            },
+            {
+                "text": "Stardust Labs",
+                "color": "#683edd"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "min_format": [101, 1],
+                "max_format": [101, 1],
+                "directory": "26-1-overlay"
+            }
+        ]
+    }
+}

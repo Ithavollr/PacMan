@@ -1,0 +1,89 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:stored_enchantments",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tooltrims:item/creative_menu_linear_template"
+              },
+              "when": { "tooltrims:_a_linear_template": 1 }
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tooltrims:item/creative_menu_tracks_template"
+              },
+              "when": { "tooltrims:_b_tracks_template": 1 }
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tooltrims:item/creative_menu_charge_template"
+              },
+              "when": { "tooltrims:_c_charge_template": 1 }
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tooltrims:item/creative_menu_frost_template"
+              },
+              "when": { "tooltrims:_d_frost_template": 1 }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "item/enchanted_book"
+          }
+        },
+        "when": "gui"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:stored_enchantments",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "tooltrims:item/linear_template"
+          },
+          "when": { "tooltrims:_a_linear_template": 1 }
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "tooltrims:item/tracks_template"
+          },
+          "when": { "tooltrims:_b_tracks_template": 1 }
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "tooltrims:item/charge_template"
+          },
+          "when": { "tooltrims:_c_charge_template": 1 }
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "tooltrims:item/frost_template"
+          },
+          "when": { "tooltrims:_d_frost_template": 1 }
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "item/enchanted_book"
+      }
+    }
+  }
+}

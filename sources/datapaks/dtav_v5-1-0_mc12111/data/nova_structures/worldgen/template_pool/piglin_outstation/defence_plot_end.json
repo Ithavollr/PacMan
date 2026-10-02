@@ -1,0 +1,186 @@
+{
+	"name": "nova_structures:piglin_outstation/defence_plot_end",
+	"fallback": "nova_structures:piglin_outstation/defence_plot_end",
+	"elements": [
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/piglin_gold_drill",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/piglin_spawner_1",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/piglin_spawner_2",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/blaze_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/piglin_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/nether_wart_farm",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/furnace",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/feature_plate",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/small_house_1",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/small_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/small_house_3",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/small_house_4",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/medium_house_1",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/medium_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/medium_house_3",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/medium_house_4",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/large_house_1",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/large_house_2",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/large_house_3",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:piglin_outstation/defence_plot/large_house_4",
+				"projection": "rigid",
+				"processors": "nova_structures:piglin_outstation_degradation"
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:tadpole_spawn_egg",
+  "base": "minecraft:stone_axe",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "minecraft:stone_axe",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:linear",
+        "material": "minecraft:netherite"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311008.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": true
+}

@@ -1,0 +1,1 @@
+execute as @s run summon guardian ~ ~ ~ {PersistenceRequired:1b,Health:10f,Tags:["dnt_guardian_minion"],equipment:{mainhand:{id:"minecraft:stick",count:1,components:{"minecraft:enchantments":{"nova_structures:boss_behaviour":1}}}},attributes:[{id:"minecraft:attack_damage",base:3},{id:"minecraft:max_health",base:10},{id:"minecraft:scale",base:0.5}]}

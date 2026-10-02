@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/stone_shovel",
+    "textures": {
+        "layer0": "minecraft:item/stone_shovel",
+        "layer1": "tooltrims:trims/items/stone_shovel_charge_lapis"
+    }
+}

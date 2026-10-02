@@ -1,0 +1,45 @@
+{
+    "parent": "nova_structures:nether/find_nether_skeleton",
+    "criteria": {
+        "nova_structures:sealing_halls": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:sealing_halls"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_sealing_halls",
+            "fallback": "Enjoy Ghast hunting while uncovering the Sealing Halls"
+        },
+        "frame": "goal",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:dried_ghast"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_sealing_halls.title",
+            "fallback": "Ribs and Tears until it's Done"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:sealing_halls"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

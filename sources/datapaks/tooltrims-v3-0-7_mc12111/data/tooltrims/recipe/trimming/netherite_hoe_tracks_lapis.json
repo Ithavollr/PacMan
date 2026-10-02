@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:silverfish_spawn_egg",
+  "base": "minecraft:netherite_hoe",
+  "addition": "minecraft:lapis_lazuli",
+  "result": {
+    "id": "minecraft:netherite_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:tracks",
+        "material": "minecraft:lapis"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311017.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

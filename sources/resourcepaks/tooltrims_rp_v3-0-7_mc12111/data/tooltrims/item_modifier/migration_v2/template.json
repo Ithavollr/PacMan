@@ -1,0 +1,46 @@
+[
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "minecraft:structure_block",
+            "components": { "minecraft:custom_model_data": { "floats": [ 313001.0 ] } }
+        },
+        "on_pass": {
+            "function": "reference",
+            "name": "tooltrims:set_linear_template"
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "minecraft:structure_block",
+            "components": { "minecraft:custom_model_data": { "floats": [ 313002.0 ] } }
+        },
+        "on_pass": {
+            "function": "reference",
+            "name": "tooltrims:set_tracks_template"
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "minecraft:structure_block",
+            "components": { "minecraft:custom_model_data": { "floats": [ 313003.0 ] } }
+        },
+        "on_pass": {
+            "function": "reference",
+            "name": "tooltrims:set_charge_template"
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "minecraft:structure_block",
+            "components": { "minecraft:custom_model_data": { "floats": [ 313004.0 ] } }
+        },
+        "on_pass": {
+            "function": "reference",
+            "name": "tooltrims:set_frost_template"
+        }
+    }
+]

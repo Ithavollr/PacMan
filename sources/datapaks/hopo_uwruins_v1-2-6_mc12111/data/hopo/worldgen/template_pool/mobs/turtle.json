@@ -1,0 +1,24 @@
+{
+    "name": "hopo:mobs/turtle",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/mobs/turtle",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        },
+                {
+            "weight": 50,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "hopo:underwater_city/mobs/drowned_turtle",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

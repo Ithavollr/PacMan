@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:mangrove_watchtower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 251791737,
+    "spacing": 35,
+    "separation": 20
+  }
+}

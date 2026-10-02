@@ -1,0 +1,14 @@
+{
+    "TODO": "Any words in this file related to the Toolsmithing Table from v2.x have to be replaced with Smithing Table",
+
+    "advancements.adventure.shiny_tools.title": "Блищи по новому!",
+    "advancements.adventure.shiny_tools.description": "Нанесіть Iнструментальний Шаблон на інструмент з допомогою Iнструментального Столу",
+    "advancements.adventure.tools_of_all_styles.title": "Інструменти всіх стилів",
+    "advancements.adventure.tools_of_all_styles.description": "Нанеси кожен Iнструментальний Шаблон хоча б один раз",
+
+    "template.tooltrims.applies_to": "Зброя та iнструменти",
+    "trim_pattern.tooltrims.linear": "Орнамент «Лiнiя»",
+    "trim_pattern.tooltrims.tracks": "Орнамент «Рейка»",
+    "trim_pattern.tooltrims.charge": "Орнамент «Заряд»",
+    "trim_pattern.tooltrims.frost":  "Орнамент «Мороз»"
+}

@@ -1,0 +1,301 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lectern"
+    },
+    "title": {
+      "translate": "advancement.dnt.story.bookworm.title",
+      "fallback": "Bookworm"
+    },
+    "description": {
+      "translate": "advancement.dnt.story.bookworm",
+      "fallback": "Discover all of the Secret Librarian Trades from structures and trade for their exclusive books"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/enchant_item",
+  "criteria": {
+    "dnt_trade_enchant_desert": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_desert\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/desert"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_donjon": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_donjon\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/donjon"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_end": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_end\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/end"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_illager": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_illager\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/illager"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_jungle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_jungle\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/jungle"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_keep": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_keep\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/keep"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_pale": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_pale\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/pale"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_port": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_port\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/port"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_sealing": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_sealing\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/sealing"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_snowy": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_snowy\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/snowy"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_swamp": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_swamp\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/swamp"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_traveler": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_traveler\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/traveler"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "dnt_trade_enchant_witch": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_witch\",\"trade2added\"]}"
+        },
+        "item": {
+          "items": "minecraft:enchanted_book",
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "#nova_structures:librarian_secret_offer/witch"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dnt_trade_enchant_desert"
+    ],
+    [
+      "dnt_trade_enchant_donjon"
+    ],
+    [
+      "dnt_trade_enchant_end"
+    ],
+    [
+      "dnt_trade_enchant_illager"
+    ],
+    [
+      "dnt_trade_enchant_jungle"
+    ],
+    [
+      "dnt_trade_enchant_keep"
+    ],
+    [
+      "dnt_trade_enchant_pale"
+    ],
+    [
+      "dnt_trade_enchant_port"
+    ],
+    [
+      "dnt_trade_enchant_sealing"
+    ],
+    [
+      "dnt_trade_enchant_snowy"
+    ],
+    [
+      "dnt_trade_enchant_swamp"
+    ],
+    [
+      "dnt_trade_enchant_traveler"
+    ],
+    [
+      "dnt_trade_enchant_witch"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": false
+}

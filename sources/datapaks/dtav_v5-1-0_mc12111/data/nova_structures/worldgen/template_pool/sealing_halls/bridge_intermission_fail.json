@@ -1,0 +1,60 @@
+{
+	"name": "nova_structures:sealing_halls/bridge_intermission",
+	"fallback": "nova_structures:sealing_halls/bridge_intermission_fail",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_intermission_fallback_bridge",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_intermission_fallback_bridge_left",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_intermission_fallback_bridge_right",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_fallback_bridge",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_fallback_bridge_left",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_fallback_bridge_right",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		}
+	]
+}

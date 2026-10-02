@@ -1,0 +1,24 @@
+{
+	"name": "nova_structures:sealing_halls/chest_random",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/chest_random",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/chest_random_fail",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		}
+	]
+}

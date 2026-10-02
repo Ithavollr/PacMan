@@ -1,0 +1,42 @@
+[
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "tadpole_spawn_egg"
+        },
+        "on_pass": {
+            "function": "reference",
+            "name": "tooltrims:set_linear_template"
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "silverfish_spawn_egg"
+        },
+        "on_pass": {
+            "function": "reference",
+            "name": "tooltrims:set_tracks_template"
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "cod_spawn_egg"
+        },
+        "on_pass": {
+            "function": "reference",
+            "name": "tooltrims:set_charge_template"
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "snow_golem_spawn_egg"
+        },
+        "on_pass": {
+            "function": "reference",
+            "name": "tooltrims:set_frost_template"
+        }
+    }
+]

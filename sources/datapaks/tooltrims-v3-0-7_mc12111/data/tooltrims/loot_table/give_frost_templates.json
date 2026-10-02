@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "score",
+        "score": "tooltrims.amount",
+        "target": "this"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snow_golem_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "tooltrims:set_frost_template"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

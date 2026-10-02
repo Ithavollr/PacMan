@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/bow_pulling_1",
+    "textures": {
+        "layer0": "minecraft:item/bow_pulling_1",
+        "layer1": "tooltrims:trims/items/bow_pulling_1_tracks_copper"
+    }
+}

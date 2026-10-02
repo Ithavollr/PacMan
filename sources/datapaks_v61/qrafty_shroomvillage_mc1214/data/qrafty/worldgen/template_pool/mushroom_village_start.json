@@ -1,0 +1,15 @@
+{
+  "name": "qrafty:mushroom_village/room/mushroom_village_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "qrafty:mushroom_village/room/room_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

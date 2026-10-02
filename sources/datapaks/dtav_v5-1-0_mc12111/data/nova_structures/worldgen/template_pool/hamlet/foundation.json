@@ -1,0 +1,14 @@
+{
+	"name": "nova_structures:hamlet/foundation",
+	"fallback": "nova_structures:hamlet/foundation",
+	"elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:blackstone_bricks_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

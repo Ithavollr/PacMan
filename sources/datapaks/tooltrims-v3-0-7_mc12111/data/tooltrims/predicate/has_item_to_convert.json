@@ -1,0 +1,99 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:stored_enchantments": {
+                "tooltrims:_a_linear_template": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:stored_enchantments": {
+                "tooltrims:_b_tracks_template": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:stored_enchantments": {
+                "tooltrims:_c_charge_template": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:stored_enchantments": {
+                "tooltrims:_d_frost_template": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+              "minecraft:trim": {},
+              "minecraft:custom_model_data": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "player.cursor": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+              "minecraft:trim": {},
+              "minecraft:custom_model_data": {}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "dnt_chart_bundle_fix": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "strings": [
+                  "dnt:chart"
+                ]
+              }
+            },
+            "predicates": {
+              "minecraft:custom_data": {
+                "dnt_chart_bundle": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:chart_bundle_fix"
+  }
+}

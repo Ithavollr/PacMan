@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:cod_spawn_egg",
+  "base": "minecraft:golden_sword",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "minecraft:golden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:charge",
+        "material": "minecraft:netherite"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311028.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

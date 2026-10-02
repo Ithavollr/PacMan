@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:silverfish_spawn_egg",
+  "base": "minecraft:netherite_shovel",
+  "addition": "minecraft:emerald",
+  "result": {
+    "id": "minecraft:netherite_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:tracks",
+        "material": "minecraft:emerald"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311014.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

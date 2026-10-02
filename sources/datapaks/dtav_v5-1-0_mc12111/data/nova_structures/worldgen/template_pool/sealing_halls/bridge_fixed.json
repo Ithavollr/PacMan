@@ -1,0 +1,186 @@
+{
+	"name": "nova_structures:sealing_halls/bridge_fixed",
+	"fallback": "nova_structures:sealing_halls/bridge_fail",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_tower_big_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_tower_big_fixed_mirror",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_intermission_exit",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_cross_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_spawner_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_spawner_fixed_mirror",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_tower_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_tower_fixed_mirror",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_tower_2_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_t-cross_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_house_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_house_tower_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_house_tower_fixed_mirror",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_mini_tower_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_mini_tower_fixed_mirror",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_spawner_arena_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_spawner_arena_fixed_mirror",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_spawner_outpost_fixed",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_spawner_outpost_fixed_mirror",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		}
+	]
+}

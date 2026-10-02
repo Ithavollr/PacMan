@@ -1,0 +1,2 @@
+execute as @a[predicate=!nova_structures:riding_happy_ghast] run attribute @s movement_speed modifier remove nova_structures:boost_player_fov
+execute as @a if items entity @s player.cursor *[minecraft:custom_data~{dnt_chart_bundle:false}] run item modify entity @s player.cursor nova_structures:chart_bundle_ready

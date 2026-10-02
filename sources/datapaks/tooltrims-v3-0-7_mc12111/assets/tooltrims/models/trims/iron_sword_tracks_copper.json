@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/iron_sword",
+    "textures": {
+        "layer0": "minecraft:item/iron_sword",
+        "layer1": "tooltrims:trims/items/iron_sword_tracks_copper"
+    }
+}

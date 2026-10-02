@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "desert_ruins": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "#nova_structures:desert_ruins"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_desert_ruins",
+            "fallback": "Uncover the Desert Ruins"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:chiseled_sandstone"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_desert_ruins.title",
+            "fallback": "Sands of Time"
+        }
+    },
+    "requirements": [
+        [
+            "desert_ruins"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

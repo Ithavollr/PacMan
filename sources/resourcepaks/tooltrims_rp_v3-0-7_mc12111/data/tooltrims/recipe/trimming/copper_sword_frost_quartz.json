@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:snow_golem_spawn_egg",
+  "base": "minecraft:copper_sword",
+  "addition": "minecraft:quartz",
+  "result": {
+    "id": "minecraft:copper_sword",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:frost",
+        "material": "minecraft:quartz"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311039.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

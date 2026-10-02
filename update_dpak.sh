@@ -7,8 +7,8 @@ git clone --depth 1 https://github.com/Ifiht/PacMan.git
 echo "))}> Deleting old data..."
 rm -rf data
 echo "))}> Moving new data..."
-mv PacMan/data_v61/data ./
-mv PacMan/data_v61/pack.mcmeta ./
+mv PacMan/data_v94/data ./
+mv PacMan/data_v94/pack.mcmeta ./
 echo "))}> Deleting Repo..."
 rm -rf PacMan
 echo "))}> All done!"

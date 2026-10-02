@@ -1,0 +1,41 @@
+[
+    {
+        "function": "set_item",
+        "item": "snow_golem_spawn_egg"
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "!minecraft:custom_name": {},
+            "!minecraft:custom_model_data": {},
+            "minecraft:item_name": {"translate": "trim_pattern.tooltrims.frost", "italic": false},
+            "minecraft:rarity": "uncommon",
+            "minecraft:item_model": "tooltrims:frost_template",
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "tooltrims.leftover",
+                    "tooltrims.frost"
+                ]
+            },
+            "minecraft:custom_data": {
+                "tooltrims:item": "template"
+            }
+        }
+    },
+    {
+        "function": "set_lore",
+        "mode": "replace_all",
+        "lore": [
+            { "translate": "item.minecraft.smithing_template", "italic": false, "color": "gray" },
+
+            { "text": "", "italic": false },
+
+            { "translate": "item.minecraft.smithing_template.applies_to", "italic": false, "color": "gray" },
+            { "text": " ", "extra": [{ "translate": "template.tooltrims.applies_to", "italic": false, "color": "blue" }] },
+
+            { "translate": "item.minecraft.smithing_template.ingredients", "italic": false, "color": "gray" },
+            { "text": " ", "extra": [{ "translate": "item.minecraft.smithing_template.armor_trim.ingredients", "italic": false, "color": "blue" }] }
+        ]
+    }
+]

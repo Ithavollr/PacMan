@@ -1,0 +1,87 @@
+{
+	"name": "nova_structures:sealing_halls/shelf",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_archer",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_brew",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_flame",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_heartbreak",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_skull",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_strider",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_sword",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/deco/pot_treasure",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		}
+	]
+}

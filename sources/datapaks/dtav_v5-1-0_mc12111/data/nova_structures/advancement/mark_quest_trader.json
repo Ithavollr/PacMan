@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{VillagerData:{profession:\"minecraft:cartographer\",level:1}}",
+          "location": {
+            "structures": "#nova_structures:taverns"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:quest/mark_quest_trader"
+  }
+}

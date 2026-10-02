@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "qrafty:jungle_treevillage",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 25,
+      "separation": 10,
+      "salt": 1515129446
+    }
+  }

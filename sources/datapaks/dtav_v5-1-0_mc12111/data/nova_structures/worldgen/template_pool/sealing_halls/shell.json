@@ -1,0 +1,528 @@
+{
+	"name": "nova_structures:sealing_halls/shell",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_1",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_2",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_3",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_4",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_5",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_6",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_7",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_8",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_center",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_ghast_treasure",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_5",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1_r",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2_r",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3_r",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4_r",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_5_r",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1_rr",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2_rr",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3_rr",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4_rr",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1_l",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2_l",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3_l",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4_l",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_5_l",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1_ll",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2_ll",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3_ll",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4_ll",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_5_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1_r_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2_r_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3_r_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4_r_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_5_r_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1_rr_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2_rr_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3_rr_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4_rr_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1_l_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2_l_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3_l_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4_l_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_5_l_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_1_ll_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_2_ll_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_3_ll_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_4_ll_up",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_boss_door",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/shell/sh_shell_boss_door_2",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_degradation"
+			}
+		}
+	]
+}

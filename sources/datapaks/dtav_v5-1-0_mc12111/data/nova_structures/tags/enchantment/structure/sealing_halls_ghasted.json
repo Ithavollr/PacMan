@@ -1,0 +1,16 @@
+{
+	"values": [
+		"minecraft:flame",
+		"minecraft:soul_speed",
+		"minecraft:sharpness",
+		"minecraft:power",
+		"minecraft:fire_aspect",
+		"minecraft:fire_protection",
+		"minecraft:blast_protection",
+		"minecraft:punch",
+		"nova_structures:hydro_veil",
+		"nova_structures:swift_soar",
+		"nova_structures:wither_coated",
+		"nova_structures:ghasted"
+	]
+}

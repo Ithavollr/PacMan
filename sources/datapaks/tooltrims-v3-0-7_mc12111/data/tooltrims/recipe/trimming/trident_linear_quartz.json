@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:tadpole_spawn_egg",
+  "base": "minecraft:trident",
+  "addition": "minecraft:quartz",
+  "result": {
+    "id": "minecraft:trident",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:linear",
+        "material": "minecraft:quartz"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311009.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

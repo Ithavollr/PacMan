@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:tadpole_spawn_egg",
+  "base": "minecraft:copper_hoe",
+  "addition": "minecraft:emerald",
+  "result": {
+    "id": "minecraft:copper_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:linear",
+        "material": "minecraft:emerald"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311004.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

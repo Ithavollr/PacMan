@@ -1,0 +1,7 @@
+{
+	"pack": {
+			"description": "Structure datapack adding unique new structures in the vanilla style",
+			"min_format": [88,0],
+			"max_format": [88,0]
+	}
+}

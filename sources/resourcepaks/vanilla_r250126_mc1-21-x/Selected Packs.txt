@@ -1,0 +1,23 @@
+Vanilla Tweaks Resource Pack
+Version: 1.21
+Packs:
+	HungerBarsCarrot
+	DripleafFixBig
+	DripleafFixSmall
+	ConsistentHelmets
+	Age25Kelp
+	DifferentStems
+	UniqueAxolotlBuckets
+	AnimatedCampfireItem
+	LowerFire
+	3DStonecutters
+	3DLilyPads
+	3DMushrooms
+	3DRails
+	3DSugarcane
+	3DPointedDripstone
+	3DChains
+	3DAmethyst
+	3DLadders
+	3DIronBars
+	PingColorIndicator

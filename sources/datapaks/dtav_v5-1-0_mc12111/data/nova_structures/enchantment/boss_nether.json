@@ -1,0 +1,129 @@
+{
+  "description": {
+    "translate": "enchantment.dnt.non_survival_enchant",
+    "fallback": "Bug Enchant"
+  },
+  "exclusive_set": "#nova_structures:exclusive_set/loot_table_bugs",
+  "supported_items": [
+    "minecraft:stick",
+    "minecraft:flint"
+  ],
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "nova_structures:fireballs",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:ghast_boss_fireball_damage"
+        },
+        "enchanted": "victim",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Health:0.0f,Tags:[\"dnt_ghast_boss\"]}"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:ghast_boss_defeat_chain"
+        },
+        "enchanted": "victim",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:ghast_boss_fireball_possess"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"dnt_ghast_boss\"]}"
+          }
+        },
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:soul_fire_flame"
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box",
+            "scale": 1
+          },
+          "vertical_position": {
+            "type": "in_bounding_box",
+            "scale": 1
+          },
+          "horizontal_velocity": {},
+          "vertical_velocity": {},
+          "speed": 0
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "dnt_boss_minion": {
+                    "min": 7
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"dnt_ghast_boss\"]}",
+                "periodic_tick": 400
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:ghast_boss_summon_child"
+        }
+      }
+    ],
+    "minecraft:prevent_equipment_drop": {}
+  }
+}

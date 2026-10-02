@@ -10,6 +10,9 @@
 # Ignore generated assets
 /assets_v46/
 /data_v61/
+/assets_v75/
+/data_v94/
+
 
 # User-specific files
 *.rsuser

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:cod_spawn_egg",
+  "base": "minecraft:iron_shovel",
+  "addition": "minecraft:resin_brick",
+  "result": {
+    "id": "minecraft:iron_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:charge",
+        "material": "minecraft:resin"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311043.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

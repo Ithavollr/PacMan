@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:diamond",
+    "C": "minecraft:cobblestone",
+    "S": "minecraft:silverfish_spawn_egg"
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:silverfish_spawn_egg",
+    "components": {
+      "minecraft:item_name": {"translate": "trim_pattern.tooltrims.tracks", "italic": false},
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_model": "tooltrims:tracks_template",
+      "minecraft:entity_data": {
+          "id": "minecraft:marker",
+          "Tags": [
+              "tooltrims.leftover",
+              "tooltrims.tracks"
+          ]
+      },
+      "minecraft:custom_data": {
+          "tooltrims:item": "template"
+      },
+      "minecraft:lore": [{"italic": false, "translate": "item.minecraft.smithing_template", "color": "gray"}, {"italic": false, "text": ""}, {"italic": false, "translate": "item.minecraft.smithing_template.applies_to", "color": "gray"}, {"extra": [{"italic": false, "translate": "template.tooltrims.applies_to", "color": "blue"}], "text": " "}, {"italic": false, "translate": "item.minecraft.smithing_template.ingredients", "color": "gray"}, {"extra": [{"italic": false, "translate": "item.minecraft.smithing_template.armor_trim.ingredients", "color": "blue"}], "text": " "}]
+    }
+  }
+}

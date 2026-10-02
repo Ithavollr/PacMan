@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/copper_axe",
+    "textures": {
+        "layer0": "minecraft:item/copper_axe",
+        "layer1": "tooltrims:trims/items/copper_axe_frost_copper"
+    }
+}

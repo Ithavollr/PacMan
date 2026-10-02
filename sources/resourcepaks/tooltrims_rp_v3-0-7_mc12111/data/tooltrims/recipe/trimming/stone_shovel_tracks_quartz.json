@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:silverfish_spawn_egg",
+  "base": "minecraft:stone_shovel",
+  "addition": "minecraft:quartz",
+  "result": {
+    "id": "minecraft:stone_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:tracks",
+        "material": "minecraft:quartz"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311019.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

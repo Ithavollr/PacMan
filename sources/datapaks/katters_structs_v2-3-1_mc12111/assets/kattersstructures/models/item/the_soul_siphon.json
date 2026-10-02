@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "kattersstructures:item/the_soul_siphon"
+    }
+}

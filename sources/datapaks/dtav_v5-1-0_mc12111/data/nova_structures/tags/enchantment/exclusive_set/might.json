@@ -1,0 +1,9 @@
+{
+  "values": [
+    "nova_structures:power",
+    "nova_structures:gravity",
+    "nova_structures:ghasted",
+    "minecraft:piercing",
+    "minecraft:multishot"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "nova_structures:shrine_combat_tier_3",
+	"nova_structures:shrine_biome_tier_3"
+  ]
+}

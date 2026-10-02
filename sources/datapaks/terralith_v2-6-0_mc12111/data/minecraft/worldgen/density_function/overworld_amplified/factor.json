@@ -1,0 +1,1315 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 10.0,
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": 1.0,
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": -1.0,
+            "argument2": {
+              "type": "minecraft:cache_once",
+              "argument": {
+                "type": "minecraft:blend_alpha"
+              }
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "overworld/continents",
+            "points": [
+              {
+                "derivative": -0.2,
+                "location": -0.93,
+                "value": {
+                  "coordinate": "overworld/erosion",
+                  "points": [
+                    {
+                      "derivative": 0,
+                      "location": -1,
+                      "value": 2
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.75,
+                      "value": 2
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.79,
+                      "value": 9
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.77,
+                      "value": 3
+                    },
+                    {
+                      "derivative": -7,
+                      "location": -0.7,
+                      "value": 2
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.33,
+                      "value": 0.45
+                    },
+                    {
+                      "derivative": 8,
+                      "location": -0.24,
+                      "value": 2
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.225,
+                      "value": 9
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.04,
+                      "value": 9
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.06,
+                      "value": 9
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.14,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.7,
+                            "value": 0.7
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.6,
+                            "value": 3
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.1,
+                            "value": 5
+                          },
+                          {
+                            "derivative": -4,
+                            "location": 0.1,
+                            "value": 5
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.5,
+                            "value": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.33,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -1,
+                            "value": 3
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.1,
+                            "value": 5
+                          },
+                          {
+                            "derivative": -4,
+                            "location": 0.1,
+                            "value": 5
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.5,
+                            "value": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.38,
+                      "value": 9
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.56,
+                      "value": 9
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.585,
+                      "value": 1.2
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 1,
+                      "value": 1.2
+                    }
+                  ]
+                }
+              },
+              {
+                "derivative": 0,
+                "location": -0.9,
+                "value": 3.95
+              },
+              {
+                "derivative": 0,
+                "location": -0.19,
+                "value": 3.95
+              },
+              {
+                "derivative": 0,
+                "location": -0.15,
+                "value": {
+                  "coordinate": "overworld/erosion",
+                  "points": [
+                    {
+                      "derivative": 0,
+                      "location": -0.6,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6530563
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.5,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.05,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.05,
+                            "value": 0.4351369
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.35,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6530563
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.25,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6530563
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.1,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.05,
+                            "value": 0.4351369
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.05,
+                            "value": 0.6969027
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.03,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6530563
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.35,
+                      "value": 0.6530563
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.45,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.9,
+                            "value": 0.6530563
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.69,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": 0,
+                                  "value": 0.6530563
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.1,
+                                  "value": 0.13888884
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.55,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.9,
+                            "value": 0.6530563
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.69,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": 0,
+                                  "value": 0.6530563
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.1,
+                                  "value": 0.13888884
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.62,
+                      "value": 0.6530563
+                    }
+                  ]
+                }
+              },
+              {
+                "derivative": 0,
+                "location": -0.1,
+                "value": {
+                  "coordinate": "overworld/erosion",
+                  "points": [
+                    {
+                      "derivative": 0,
+                      "location": -0.6,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6299603
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.5,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.05,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.05,
+                            "value": 0.4351369
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.35,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6299603
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.25,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6299603
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.1,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.05,
+                            "value": 0.4351369
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.05,
+                            "value": 0.6969027
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.03,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6299603
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.35,
+                      "value": 0.6299603
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.45,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.9,
+                            "value": 0.6299603
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.69,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": 0,
+                                  "value": 0.6299603
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.1,
+                                  "value": 0.13888884
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.55,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.9,
+                            "value": 0.6299603
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.69,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": 0,
+                                  "value": 0.6299603
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.1,
+                                  "value": 0.13888884
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.62,
+                      "value": 0.6299603
+                    }
+                  ]
+                }
+              },
+              {
+                "derivative": 0,
+                "location": 0.03,
+                "value": {
+                  "coordinate": "overworld/erosion",
+                  "points": [
+                    {
+                      "derivative": 0,
+                      "location": -0.6,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6050052
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.5,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.05,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.05,
+                            "value": 0.4351369
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.35,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6050052
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.25,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.66,
+                            "value": 0.401
+                          },
+                          {
+                            "derivative": 2,
+                            "location": -0.2,
+                            "value": 0.436
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0,
+                            "value": 0.613
+                          },
+                          {
+                            "derivative": -2,
+                            "location": 0.2,
+                            "value": 0.51
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.66,
+                            "value": 0.372
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.1,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.66,
+                            "value": 0.19
+                          },
+                          {
+                            "derivative": 2,
+                            "location": -0.2,
+                            "value": 0.27
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0,
+                            "value": 0.69
+                          },
+                          {
+                            "derivative": -2,
+                            "location": 0.2,
+                            "value": 0.22
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.66,
+                            "value": 0.17
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.03,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6050052
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.35,
+                      "value": 0.6050052
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.45,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.9,
+                            "value": 0.6050052
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.69,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": 0,
+                                  "value": 0.6050052
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.1,
+                                  "value": 0.6050052
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.55,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.9,
+                            "value": 0.6050052
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.69,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": 0,
+                                  "value": 0.6050052
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.1,
+                                  "value": 0.6050052
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.62,
+                      "value": 0.6050052
+                    }
+                  ]
+                }
+              },
+              {
+                "derivative": 0,
+                "location": 0.06,
+                "value": {
+                  "coordinate": "overworld/erosion",
+                  "points": [
+                    {
+                      "derivative": 0,
+                      "location": -0.6,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6050052
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.5,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.05,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.05,
+                            "value": 0.4351369
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.35,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6050052
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.25,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6050052
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.1,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.05,
+                            "value": 0.4351369
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.05,
+                            "value": 0.6969027
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.03,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.2,
+                            "value": 0.6969027
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.2,
+                            "value": 0.6050052
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.05,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": 0.45,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": -0.2,
+                                  "value": 0.6969027
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.2,
+                                  "value": 0.6050052
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.7,
+                            "value": 0.2972561
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.4,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": 0.45,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": -0.2,
+                                  "value": 0.6969027
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.2,
+                                  "value": 0.6050052
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.7,
+                            "value": 0.2972561
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.45,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.7,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": -0.2,
+                                  "value": 0.6969027
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.2,
+                                  "value": 0.6050052
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.15,
+                            "value": 0.2688383
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.55,
+                      "value": {
+                        "coordinate": "overworld/ridges_folded",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.7,
+                            "value": {
+                              "coordinate": "overworld/ridges",
+                              "points": [
+                                {
+                                  "derivative": 0,
+                                  "location": -0.2,
+                                  "value": 0.6969027
+                                },
+                                {
+                                  "derivative": 0,
+                                  "location": 0.2,
+                                  "value": 0.2688383
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "derivative": 0,
+                            "location": -0.15,
+                            "value": 0.2688383
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "derivative": 0,
+                "location": 0.2,
+                "value": {
+                  "coordinate": "overworld/erosion",
+                  "points": [
+                    {
+                      "derivative": 0,
+                      "location": 0,
+                      "value": 0.796
+                    },
+                    {
+                      "derivative": -20,
+                      "location": 0.1,
+                      "value": 0.796
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.4,
+                      "value": 0.796
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.7,
+                      "value": 0.796
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.9,
+                      "value": 0.796
+                    }
+                  ]
+                }
+              },
+              {
+                "derivative": 0,
+                "location": 0.35,
+                "value": {
+                  "coordinate": "overworld/erosion",
+                  "points": [
+                    {
+                      "derivative": 0,
+                      "location": 0.45,
+                      "value": 0.66
+                    },
+                    {
+                      "derivative": -20,
+                      "location": 0.5,
+                      "value": 0.44
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.65,
+                      "value": 0.575
+                    }
+                  ]
+                }
+              },
+              {
+                "derivative": 0,
+                "location": 0.65,
+                "value": {
+                  "coordinate": "overworld/erosion",
+                  "points": [
+                    {
+                      "derivative": 0,
+                      "location": -1,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.1,
+                            "value": 0.66
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0,
+                            "value": 0.66
+                          },
+                          {
+                            "derivative": -12,
+                            "location": 0.1,
+                            "value": 0.66
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.6,
+                            "value": 0.268
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.25,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.1,
+                            "value": 0.66
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0,
+                            "value": 0.66
+                          },
+                          {
+                            "derivative": -12,
+                            "location": 0.1,
+                            "value": 0.66
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.6,
+                            "value": 0.268
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.2,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.66,
+                            "value": 0.35
+                          },
+                          {
+                            "derivative": 2,
+                            "location": -0.2,
+                            "value": 0.44
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0,
+                            "value": 0.55
+                          },
+                          {
+                            "derivative": -2,
+                            "location": 0.2,
+                            "value": 0.44
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.66,
+                            "value": 0.35
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": -0.075,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.66,
+                            "value": 0.31
+                          },
+                          {
+                            "derivative": 2,
+                            "location": -0.2,
+                            "value": 0.44
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0,
+                            "value": 0.66
+                          },
+                          {
+                            "derivative": -2,
+                            "location": 0.2,
+                            "value": 0.66
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.66,
+                            "value": 0.5
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.25,
+                      "value": {
+                        "coordinate": "overworld/ridges",
+                        "points": [
+                          {
+                            "derivative": 0,
+                            "location": -0.1,
+                            "value": 2
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0,
+                            "value": 2
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.1,
+                            "value": 2
+                          },
+                          {
+                            "derivative": 0,
+                            "location": 0.6,
+                            "value": 2
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.45,
+                      "value": 0.796
+                    },
+                    {
+                      "derivative": -20,
+                      "location": 0.5,
+                      "value": 0.44
+                    },
+                    {
+                      "derivative": 0,
+                      "location": 0.65,
+                      "value": 0.575
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "argument2": {
+          "type": "minecraft:cache_once",
+          "argument": {
+            "type": "minecraft:blend_alpha"
+          }
+        }
+      }
+    }
+  }
+}

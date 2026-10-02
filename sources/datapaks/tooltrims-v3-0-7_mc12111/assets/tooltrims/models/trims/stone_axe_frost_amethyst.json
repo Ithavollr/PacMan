@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/stone_axe",
+    "textures": {
+        "layer0": "minecraft:item/stone_axe",
+        "layer1": "tooltrims:trims/items/stone_axe_frost_amethyst"
+    }
+}

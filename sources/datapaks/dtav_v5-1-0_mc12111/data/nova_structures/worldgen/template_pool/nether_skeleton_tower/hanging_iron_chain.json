@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:iron_chain_hanging",
+        "projection": "rigid"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "nova_structures:nether_skeleton_tower/hanging_iron_chain"
+}

@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "score",
+        "score": "tooltrims.amount",
+        "target": "this",
+        "scale": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "score",
+        "score": "tooltrims.amount",
+        "target": "this",
+        "scale": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_planks"
+        }
+      ]
+    }
+  ]
+}

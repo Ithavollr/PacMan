@@ -1,0 +1,13 @@
+{
+    "parent": "tooltrims:item/trident_entity",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [0, 90, 180],
+            "translation": [8, -6, 9]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [0, 90, 180],
+            "translation": [8, -6, -7]
+        }
+    }
+}

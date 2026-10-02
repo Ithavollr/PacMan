@@ -1,0 +1,1 @@
+data remove entity @n[type=minecraft:fireball,distance=..45] Owner

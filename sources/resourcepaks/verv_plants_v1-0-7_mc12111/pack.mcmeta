@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Enhanced plants for your worlds !",
+    "min_format": 55,
+    "max_format": 98,
+    "pack_format": 98,
+    "supported_formats": { "min_inclusive": 55, "max_inclusive": 98 }
+  }
+}

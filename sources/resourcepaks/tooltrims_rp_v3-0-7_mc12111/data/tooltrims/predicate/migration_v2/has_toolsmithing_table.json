@@ -1,0 +1,41 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "minecraft:rabbit_spawn_egg",
+            "components": { "custom_model_data": { "floats": [314001.0] } }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:rabbit_spawn_egg",
+            "components": { "custom_model_data": { "floats": [314001.0] } }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "player.cursor": {
+            "items": "minecraft:rabbit_spawn_egg",
+            "components": { "custom_model_data": { "floats": [314001.0] } }
+          }
+        }
+      }
+    }
+  ]
+}

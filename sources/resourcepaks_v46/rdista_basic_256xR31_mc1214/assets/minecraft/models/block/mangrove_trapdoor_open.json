@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/thin_block",
+	"textures": {
+		"0": "block/mangrove_trapdoor",
+		"particle": "block/mangrove_trapdoor"
+	},
+	"elements": [
+		{
+			"name": "Element",
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0.75, 0, 0.25, 16], "rotation": 180, "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [15.75, 0, 15.25, 16], "rotation": 180, "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0.75, 16, 0.25], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 15.75, 16, 15.25], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [11, 11, 16],
+			"to": [5, 5, 13],
+			"faces": {
+				"east": {"uv": [11.25, 5, 11.75, 11], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [4.25, 5, 4.75, 11], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [5, 11.25, 11, 11.75], "texture": "#0"},
+				"down": {"uv": [5, 4.25, 11, 4.75], "texture": "#0"}
+			}
+		}
+	]
+}

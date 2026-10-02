@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 342926181,
+    "spacing": 35,
+    "separation": 20
+  }
+}

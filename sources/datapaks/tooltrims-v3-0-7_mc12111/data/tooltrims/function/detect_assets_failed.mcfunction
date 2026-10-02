@@ -1,0 +1,4 @@
+scoreboard players add $assets_detector tooltrims.variable 1
+execute if score $assets_detector tooltrims.variable matches 2.. run tellraw @a [ { text: "", color: "#a34444" }, {text: "[Tool Trims] The required assets weren't detected. Make sure to copy the data pack to your \"resourcepacks\" folder and use it as a resource pack.", color:"red" }, { "text":"\n (To dismiss this warning next time, run " }, { text: "/function tooltrims:detect_assets_toggle", underlined: true, "click_event":{ action: "suggest_command", command: "/function tooltrims:detect_assets_toggle" } },  ")" ]
+execute unless score $assets_detector tooltrims.variable matches 2.. run tellraw @a {text: "[Tool Trims] The required assets weren't detected. Make sure to copy the data pack to your \"resourcepacks\" folder and use it as a resource pack.", color:"red" }
+kill @n[type=marker, tag=tooltrims.assets_detector]

@@ -55,6 +55,13 @@ revert those changes.
 - **Re-derive `noise_settings/nether.json`:** 1.21.11 vanilla + Incendium 5.4.12's surface rule,
   height 192, roof taper 168/192, −0.01 bias on `base_3d_noise`. Re-check Ferma's decoupled baseline.
 - **Re-derive `noise_settings/overworld.json`:** 1.21.11 vanilla (router changed); height `sed` applies.
+  - `preliminary_surface_level.upper_bound` is clamped to 320. Safe only while solid terrain stays
+    below it (top fade, next item); raise the clamp with the fade if the fade ever passes 320.
+  - **Terrain height (manual, TODO):** the `y_clamped_gradient` top fade 240→256 (1.0→0.0) forces
+    air above y 256 regardless of noise height or Ferma noise — Ferma only replaces climate nodes.
+    To use the 416-high noise (top y 352), shift the fade by the same +32 as the top (→ 272→288)
+    in **both** `final_density` and `preliminary_surface_level.density`. Unverified: how far the
+    vanilla shape actually rises once uncapped (its `depth` gradient still spans −64→320).
 - **Re-check** `tags/block/enderman_holdable`, `tags/enchantment/non_treasure`,
   `tags/worldgen/biome/stronghold_biased_to` against 1.21.11.
 

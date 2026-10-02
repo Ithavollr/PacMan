@@ -1,0 +1,1 @@
+{"name":"qrafty:road_relict","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:legacy_single_pool_element","projection":"rigid","location":"qrafty:road_relict","processors":"qrafty:road_relict"}}]} 

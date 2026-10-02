@@ -1,0 +1,132 @@
+{
+	"name": "nova_structures:sealing_halls/bridge",
+	"fallback": "nova_structures:sealing_halls/bridge_fail",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_tower_big",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_tower_2",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_spawner",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_cross",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_t-cross",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_t-cross_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/sh_bridge_straight_t-cross_spawner",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_house",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_house_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_mini_tower",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_spawner_arena",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:sealing_halls/bridge/bridge_spawner_outpost",
+				"projection": "rigid",
+				"processors": "nova_structures:sealing_hall_bridge_degradation"
+			}
+		}
+	]
+}

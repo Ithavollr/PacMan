@@ -1,0 +1,21 @@
+{
+	"name": "nova_structures:nether_keep/jockey",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:jockeys/skeleton_horseman",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "nova_structures:nether_keep/jockey"
+}

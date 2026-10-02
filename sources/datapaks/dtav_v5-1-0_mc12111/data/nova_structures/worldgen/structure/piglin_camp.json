@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/bastion_remnant",
+  "start_pool": "nova_structures:piglin_camp/camps",
+  "max_distance_from_center": 127,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 33
+    },
+    "max_inclusive": {
+      "absolute": 70
+    }
+  },
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "pool_aliases": [
+	{
+      "type": "minecraft:random",
+      "alias": "nova_structures:piglin_camp/ore",
+      "targets": [
+		{	
+		"data": "nova_structures:piglin_camp/ore_quartz",
+          "weight": 1
+		},
+		{	
+		"data": "nova_structures:piglin_camp/ore_gold",
+          "weight": 1
+		}
+	  ]
+    },
+	{
+      "type": "minecraft:random",
+      "alias": "nova_structures:piglin_camp/fake_caves",
+      "targets": [
+		{	
+		"data": "nova_structures:piglin_camp/fake_caves_only_cave",
+          "weight": 1
+		}
+	  ]
+    }
+  ],
+  "size": 3,
+  "use_expansion_hack": false
+}

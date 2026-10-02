@@ -1,0 +1,2 @@
+execute store result score @s tooltrims.amount run clear @s rabbit_spawn_egg[minecraft:custom_model_data={floats: [314001.0]}]
+loot give @s loot tooltrims:migration_v2/give_toolsmithing_table_ingredients

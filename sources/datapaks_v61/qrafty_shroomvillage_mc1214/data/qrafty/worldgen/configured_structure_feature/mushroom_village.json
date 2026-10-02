@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "biomes": [
+      "minecraft:mushroom_fields"
+    ],
+    "spawn_overrides": {},
+    "config": {
+      "start_pool": "qrafty:mushroom_village_start",
+      "size": 7
+    }
+  }

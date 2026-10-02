@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:orbital",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 641357284,
+    "spacing": 45,
+    "separation": 15
+  }
+}

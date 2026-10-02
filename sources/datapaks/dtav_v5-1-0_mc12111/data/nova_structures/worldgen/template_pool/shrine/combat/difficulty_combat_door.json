@@ -1,0 +1,42 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "nova_structures:shrine/combat/difficulty_combat_door_fallback",
+	"elements": [
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_straight_small",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_six/door/shrine_6_door_breakroom_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		}
+	]
+}

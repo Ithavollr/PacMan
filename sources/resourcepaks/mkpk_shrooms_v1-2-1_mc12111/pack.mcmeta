@@ -1,0 +1,13 @@
+{
+  "pack": {
+	"name": "Mikapika's 3D Mushrooms",
+    "description": "Makes placed mushrooms 3D.",
+	"pack_format": 84,
+	"supported_formats": {
+		"min_inclusive": 4,
+		"max_inclusive": 256
+	},
+	"min_format": 4,
+	"max_format": 256
+  }
+}

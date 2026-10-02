@@ -1,0 +1,18 @@
+{
+    "advancements.adventure.shiny_tools.title": "Блестящие инструменты",
+    "advancements.adventure.shiny_tools.description": "Создайте инструмент с отделкой в кузнечном столе",
+    "advancements.adventure.tools_of_all_styles.title": "Инструменты всех стилей",
+    "advancements.adventure.tools_of_all_styles.description": "Используйте каждый шаблон отделки инструментов хотя бы один раз",
+
+    "template.tooltrims.applies_to": "Оружие и инструменты",
+    "trim_pattern.tooltrims.linear": "Отделка «Линия»",
+    "trim_pattern.tooltrims.tracks": "Отделка «Рельсы»",
+    "trim_pattern.tooltrims.charge": "Отделка «Заряд»",
+    "trim_pattern.tooltrims.frost": "Отделка «Мороз»",
+
+    "unused.tooltrims.title": "Отделка инструментов",
+    "unused.tooltip.linear_template": "Шаблон отделки «Линия»",
+    "unused.tooltip.tracks_template": "Шаблон отделки «Рельсы»",
+    "unused.tooltip.charge_template": "Шаблон отделки «Заряд»",
+    "unused.tooltip.frost_template": "Шаблон отделки «Мороз»"
+}

@@ -1,0 +1,178 @@
+{
+    "parent": "minecraft:nether/find_fortress",
+    "criteria": {
+        "nether_port": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_port"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_keep": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_keep"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "fortress": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "minecraft:fortress"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_skeleton_tower_fort": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_fort"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_skeleton_tower_warped": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_warped"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_skeleton_tower_crimson": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_crimson"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+		"nether_skeleton_tower_soul": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:nether_skeleton_tower_soul"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "sealing_halls": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "nova_structures:sealing_halls"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.nether.find_nether_skeleton",
+            "fallback": "Explore all 4 Nether Towers, Nether Port, Nether Fortress, Nether Keep, and Sealing Halls"
+        },
+        "frame": "challenge",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:skeleton_skull"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.nether.find_nether_skeleton.title",
+            "fallback": "Skull Collector"
+        }
+    },
+    "requirements": [
+        [
+            "nether_port"
+        ],
+		[
+            "nether_keep"
+        ],
+        [
+            "fortress"
+        ],
+        [
+            "nether_skeleton_tower_fort"
+        ],
+		[
+            "nether_skeleton_tower_crimson"
+        ],
+		[
+            "nether_skeleton_tower_soul"
+        ],
+		[
+            "nether_skeleton_tower_warped"
+        ],
+        [
+            "sealing_halls"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

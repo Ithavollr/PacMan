@@ -1,0 +1,42 @@
+{
+	"name": "nova_structures:nether_port/spawner",
+	"fallback": "nova_structures:nether_port/spawner",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_spawner_blaze",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_spawner_blaze_boss",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_spawner_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:nether_port/nether_port_spawner_wither_skeleton",
+				"projection": "rigid",
+				"processors": "nova_structures:nether_fortress_generic_degradation"
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "qrafty:bamboo",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 15,
+      "separation": 9,
+      "salt": 1513104469
+    }
+  }

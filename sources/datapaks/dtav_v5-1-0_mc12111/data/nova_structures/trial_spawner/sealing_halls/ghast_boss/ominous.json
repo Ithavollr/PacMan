@@ -1,0 +1,58 @@
+{
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "drop_chances": {
+            "mainhand": 0
+          },
+          "attributes": [
+            {
+              "id": "max_health",
+              "base": 300
+            },
+            {
+              "id": "scale",
+              "base": 1.5
+            },
+            {
+              "id": "follow_range",
+              "base": 100
+            }
+          ],
+          "id": "minecraft:ghast",
+          "Health": 300,
+          "Tags": [
+            "dnt_ghast_boss",
+            "trial_ominous"
+          ],
+		      "DeathLootTable":"nova_structures:mob/sealing_ghast_boss",
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:enchantments": {
+                  "nova_structures:boss_nether": 1
+                }
+              },
+              "count": 1,
+              "id": "stick"
+            }
+		  }
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 1,
+  "total_mobs": 1,
+  "simultaneous_mobs_added_per_player": 0,
+  "total_mobs_added_per_player": 0,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/sealing_halls/projectiles",
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/sealing_halls/boss",
+      "weight": 1
+    }
+  ]
+}

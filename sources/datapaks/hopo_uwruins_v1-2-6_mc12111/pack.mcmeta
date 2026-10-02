@@ -1,0 +1,22 @@
+{
+  "pack": {
+    "description": [
+      { "text": "Explore", "color": "#cffcff", "italic": false },
+      { "text": " ", "color": "#cffcff", "italic": false },
+      { "text": "new", "color": "#9ff7ff", "italic": false },
+      { "text": " ", "color": "#9ff7ff", "italic": false },
+      { "text": "ocean", "color": "#66efff", "italic": false },
+      { "text": " ", "color": "#66efff", "italic": false },
+      { "text": "ruins", "color": "#34e4ff", "italic": false },
+      { "text": " ", "color": "#34e4ff", "italic": false },
+      { "text": "to", "color": "#0ad6ff", "italic": false },
+      { "text": " ", "color": "#0ad6ff", "italic": false },
+      { "text": "your", "color": "#06b8f0", "italic": false },
+      { "text": " ", "color": "#06b8f0", "italic": false },
+      { "text": "world", "color": "#0d6efd", "italic": false }
+    ],
+    "pack_format": 94,
+    "min_format": 94.1,
+    "max_format": 95
+  }
+}

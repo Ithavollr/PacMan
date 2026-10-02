@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 431152627,
+    "spacing": 30,
+    "separation": 25
+  }
+}
