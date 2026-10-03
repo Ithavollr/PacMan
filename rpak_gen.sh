@@ -50,8 +50,6 @@ rm -rf ./assets_v75/assets/minecraft/textures/item
 rm -rf ./assets_v75/assets/minecraft/textures/block/*leaves_top.png
 rm -rf ./assets_v75/assets/minecraft/textures/block/*leaves_bottom.png
 rm -rf ./assets_v75/assets/minecraft/models/block/*_leaves.json
-rsync -avh ./sources/resourcepaks/rdista_foilage_256xR32_mc12111/assets/ ./assets_v75/assets/
-rm -rf ./assets_v75/assets/minecraft/optifine/ctm
 rsync -avh --exclude='textures/gui' ./sources/resourcepaks/rdista_bonus_256xR32_mc12111/assets/ ./assets_v75/assets/
 rm -rf ./assets_v75/assets/minecraft/textures/particle
 rm -rf ./assets_v75/assets/minecraft/textures/entity/boat
@@ -75,22 +73,18 @@ rsync -avh ./sources/resourcepaks/vanilla_r250126_mc1-21-x/overlay_53/assets/ ./
 rsync -avh --exclude='minecraft/textures/block/dirt.png' --exclude='minecraft/models/block/flower_pot.json' --exclude='minecraft/textures/item' --exclude='minecraft/models/item' ./sources/resourcepaks/mkpk_shrooms_v1-2-1_mc12111/assets/ ./assets_v75/assets/
 rm -f ./assets_v75/assets/minecraft/textures/block/flower_pot.png
 # https://modrinth.com/resourcepack/fresh-animations ; version overlays applied in pack.mcmeta order
-rsync -avh ./sources/resourcepaks/freshanims_v1-10-4_mc12111/assets/ ./assets_v75/assets/
-rsync -avh ./sources/resourcepaks/freshanims_v1-10-4_mc12111/20-3/assets/ ./assets_v75/assets/
-rsync -avh ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-2/assets/ ./assets_v75/assets/
-rsync -avh ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-5/assets/ ./assets_v75/assets/
-rsync -avh ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-11/assets/ ./assets_v75/assets/
+rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/assets/ ./assets_v75/assets/
+rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/20-3/assets/ ./assets_v75/assets/
+rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-2/assets/ ./assets_v75/assets/
+rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-5/assets/ ./assets_v75/assets/
+rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-11/assets/ ./assets_v75/assets/
+rm -f ./assets_v75/assets/minecraft/optifine/cem/giant.jem ./assets_v75/assets/minecraft/optifine/cem/giant_animations.jpm
+# FA's mooshroom models expect a 64x64 texture; vanilla's is 64x32, so keep the vanilla model
+rm -f ./assets_v75/assets/minecraft/optifine/cem/mooshroom*
 ##====+ FRESH ANIMS ADDONS!! +====##
 # https://modrinth.com/resourcepack/fresh-animations-emissive
 rsync -avh ./sources/resourcepaks/fa_emissive_v1-6-0_mc12111/assets/ ./assets_v75/assets/
 rsync -avh ./sources/resourcepaks/fa_emissive_v1-6-0_mc12111/21-6/assets/ ./assets_v75/assets/
-# https://modrinth.com/resourcepack/fresh-animations-details
-rsync -avh ./sources/resourcepaks/fa_details_v2-2-1_mc12111/assets/ ./assets_v75/assets/
-rm -rf ./assets_v75/assets/minecraft/optifine/random/entity/zombie
-rsync -avh ./sources/resourcepaks/fa_details_v2-2-1_mc12111/21-2/assets/ ./assets_v75/assets/
-rsync -avh ./sources/resourcepaks/fa_details_v2-2-1_mc12111/21-5/assets/ ./assets_v75/assets/
-# Fresh Animations: Spiders (bundled FreshAnimations_v1.10.4.zip is identical to freshanims_v1-10-4_mc12111)
-rsync -avh ./sources/resourcepaks/fa_spiders_v2-2-0_mc12111/assets/ ./assets_v75/assets/
 
 ### always keep custom changes last..
 rsync -avh ./sources/resourcepaks/custom_overlay_mc12111/assets/ ./assets_v75/assets/

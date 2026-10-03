@@ -1,0 +1,93 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#fire"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 14],
+			"to": [16, 22.4, 14],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 0, 14], "rescale": true},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"}
+			}
+		},
+		{
+			"from": [0, 0, 2],
+			"to": [16, 22.4, 2],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [0, 0, 2], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"}
+			}
+		},
+		{
+			"from": [2, 0, 0],
+			"to": [2, 22.4, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [2, 0, 0], "rescale": true},
+			"faces": {
+				"west": {"uv": [0, 0, 16, 16], "texture": "#fire"}
+			}
+		},
+		{
+			"from": [14, 0, 0],
+			"to": [14, 22.4, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [14, 0, 0], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#fire"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [2.4, 0, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [0, 0, 16], "rescale": true},
+			"faces": {
+				"up": {"uv": [0, 15, 16, 16], "rotation": 90, "texture": "#fire"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 2.4],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 0, 0], "rescale": true},
+			"faces": {
+				"up": {"uv": [0, 15, 16, 16], "rotation": 180, "texture": "#fire"}
+			}
+		},
+		{
+			"from": [13.6, 0, 0],
+			"to": [16, 0, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [16, 0, 0], "rescale": true},
+			"faces": {
+				"up": {"uv": [0, 15, 16, 16], "rotation": 270, "texture": "#fire"}
+			}
+		},
+		{
+			"from": [0, 0, 13.6],
+			"to": [16, 0, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [16, 0, 16], "rescale": true},
+			"faces": {
+				"up": {"uv": [0, 15, 16, 16], "texture": "#fire"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "vanilla",
+			"origin": [0, 0, 16],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		},
+		4,
+		5,
+		6,
+		7
+	]
+}

@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "hanging=false": [
+      {
+        "model": "block/exposed_copper_lantern0"
+      },
+      {
+        "model": "block/exposed_copper_lantern1"
+      },
+      {
+        "model": "block/exposed_copper_lantern2"
+      }
+    ],
+   "hanging=true": [
+      {
+        "model": "block/exposed_copper_lantern_hanging0"
+      },
+      {
+        "model": "block/exposed_copper_lantern_hanging1"
+      },
+      {
+        "model": "block/exposed_copper_lantern_hanging2"
+      }
+    ]
+  }
+}
