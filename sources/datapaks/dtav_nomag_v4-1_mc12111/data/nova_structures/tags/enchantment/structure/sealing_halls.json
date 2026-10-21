@@ -1,0 +1,11 @@
+{
+	"replace": true,
+	"values": [
+		"#nova_structures:structure/nether_keep",
+		"minecraft:flame",
+		"minecraft:fire_aspect",
+		"minecraft:fire_protection",
+		"minecraft:blast_protection",
+		"minecraft:punch"
+	]
+}

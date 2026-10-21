@@ -1,0 +1,113 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:netherite",
+          "pattern": "minecraft:snout"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancement.dnt.nether.give_netherite_piglin_gold_armor.title",
+      "fallback": "Fashion Disaster"
+    },
+    "description": {
+      "translate": "advancement.dnt.nether.give_netherite_piglin_gold_armor",
+      "fallback": "Cause a Netherite Piglin to rethink their life choices."
+    },
+    "frame": "challenge"
+  },
+  "parent": "nova_structures:nether/find_donjon",
+  "criteria": {
+    "give_netherite_piglin_golden_helmet": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_helmet"
+        },
+        "entity": {
+          "type": "minecraft:piglin",
+          "location": {
+            "structures": "nova_structures:piglin_donjon"
+          },
+          "equipment": {
+            "head": {
+              "items": "minecraft:netherite_helmet"
+            }
+          }
+        }
+      }
+    },
+    "give_netherite_piglin_golden_chestplate": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_chestplate"
+        },
+        "entity": {
+          "type": "minecraft:piglin",
+          "location": {
+            "structures": "nova_structures:piglin_donjon"
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:netherite_chestplate"
+            }
+          }
+        }
+      }
+    },
+    "give_netherite_piglin_golden_leggings": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_leggings"
+        },
+        "entity": {
+          "type": "minecraft:piglin",
+          "location": {
+            "structures": "nova_structures:piglin_donjon"
+          },
+          "equipment": {
+            "legs": {
+              "items": "minecraft:netherite_leggings"
+            }
+          }
+        }
+      }
+    },
+    "give_netherite_piglin_golden_boots": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_boots"
+        },
+        "entity": {
+          "type": "minecraft:piglin",
+          "location": {
+            "structures": "nova_structures:piglin_donjon"
+          },
+          "equipment": {
+            "feet": {
+              "items": "minecraft:netherite_boots"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "give_netherite_piglin_golden_helmet",
+      "give_netherite_piglin_golden_chestplate",
+      "give_netherite_piglin_golden_leggings",
+      "give_netherite_piglin_golden_boots"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": false
+}

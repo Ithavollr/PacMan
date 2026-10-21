@@ -1,0 +1,34 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 5894302,
+    "separation": 40,
+    "spacing": 90
+  },
+  "structures": [
+    {
+      "structure": "nova_structures:nether_port",
+      "weight": 40
+    },
+	{
+      "structure": "nova_structures:nether_keep",
+      "weight": 20
+    },
+    {
+      "structure": "nova_structures:hamlet",
+      "weight": 60
+    },
+	{
+      "structure": "nova_structures:piglin_outstation",
+      "weight": 30
+    },
+	{
+      "structure": "nova_structures:piglin_donjon",
+      "weight": 3
+    },
+	{
+      "structure": "nova_structures:sealing_halls",
+      "weight": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "kattersstructures:sky_decor/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+    {
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_01"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_02"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_03"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_04"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_05"
+        }
+    },{
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_06"
+        }
+    },{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "kattersstructures:sky_decor/sky_decor_pillager_01"
+        }
+    }
+]
+}

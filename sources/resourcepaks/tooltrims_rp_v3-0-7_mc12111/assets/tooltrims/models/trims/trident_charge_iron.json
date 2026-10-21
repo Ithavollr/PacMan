@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/trident",
+    "textures": {
+        "layer0": "minecraft:item/trident",
+        "layer1": "tooltrims:trims/items/trident_charge_iron"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:snow_golem_spawn_egg",
+  "base": "minecraft:stone_shovel",
+  "addition": "minecraft:emerald",
+  "result": {
+    "id": "minecraft:stone_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:frost",
+        "material": "minecraft:emerald"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311034.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

@@ -1,0 +1,1 @@
+$execute in $(dimension) positioned $(x) $(y) $(z) run place template kattersstructures:deep_blue/portal

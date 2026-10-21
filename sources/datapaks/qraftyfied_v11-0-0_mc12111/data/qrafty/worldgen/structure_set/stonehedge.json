@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:stonehedge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 621417373,
+    "spacing": 35,
+    "separation": 20
+  }
+}

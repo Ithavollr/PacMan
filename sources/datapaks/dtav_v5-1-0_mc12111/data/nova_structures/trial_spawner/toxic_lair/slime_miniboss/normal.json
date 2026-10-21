@@ -1,0 +1,27 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:keys/toxic_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 5,
+  "total_mobs": 7,
+  "simultaneous_mobs_added_per_player": 1,
+  "total_mobs_added_per_player": 1,
+  "ticks_between_spawn": 20,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "Size": 3,
+          "id": "minecraft:slime",
+          "Tags": [
+            "trial_normal"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

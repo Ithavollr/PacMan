@@ -1,0 +1,1 @@
+kill @e[type=guardian,tag=dnt_guardian_minion,distance=..100,sort=nearest]

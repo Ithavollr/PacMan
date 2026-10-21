@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 75,
+    "supported_formats": [64,120],
+    "min_format": [64],
+    "max_format": [120],
+    "description":"§a§lBlock§c§lPixel\u00A77\nv1.21.11 By §3@Jakob_zero"
+  }
+}

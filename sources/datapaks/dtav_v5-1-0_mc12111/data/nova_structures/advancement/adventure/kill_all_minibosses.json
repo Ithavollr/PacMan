@@ -1,0 +1,175 @@
+{
+	"display": {
+		"show_toast": true,
+		"icon": {
+			"id": "minecraft:diamond_sword",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancement.dnt.adventure.kill_all_minibosses.title",
+			"fallback": "Dungeon Master"
+		},
+		"description": {
+			"translate": "advancement.dnt.adventure.kill_all_minibosses",
+			"fallback": "Slay each Dungeons and Taverns Miniboss once"
+		},
+		"frame": "challenge",
+		"hidden": true
+	},
+	"parent": "nova_structures:adventure/tavern_quest",
+	"criteria": {
+		"kill_breeze_boss": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:breeze",
+									"nbt": "{Tags:[\"breeze_boss\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:breeze",
+									"nbt": "{Tags:[\"breeze_boss_ominous\"]}"
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		"kill_cave_spider_boss": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:cave_spider",
+									"nbt": "{Tags:[\"cave_spider_boss\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:cave_spider",
+									"nbt": "{Tags:[\"cave_spider_boss_ominous\"]}"
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		"kill_phantom_boss": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:phantom",
+									"nbt": "{Tags:[\"phantom_boss\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:phantom",
+									"nbt": "{Tags:[\"phantom_boss_ominous\"]}"
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		"kill_guardian_boss": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:elder_guardian",
+							"nbt": "{Tags:[\"elder_guardian_boss\"]}"
+						}
+					}
+				]
+			}
+		},
+		"use_sealing_boss_key": {
+    	  	"trigger": "minecraft:item_used_on_block",
+      		"conditions": {
+        		"location": [
+        		  {
+            	"condition": "minecraft:all_of",
+        	    "terms": [
+            	  {
+        	        "condition": "minecraft:location_check",
+        	        "predicate": {
+        	          "structures": "nova_structures:sealing_halls",
+        	          "block": {
+        	            "blocks": "minecraft:vault",
+        	            "state": {
+        	              "ominous": "true"
+        	            }
+        	          }
+        	        }
+        	      },
+        	      {
+        	        "condition": "minecraft:match_tool",
+    	            "predicate": {
+    	              "items": "minecraft:ominous_trial_key",
+    	              "components": {
+    	                "minecraft:item_name": {
+    	                  "translate": "item.dnt.boss_sealing_key",
+    	                  "fallback": "Boss Sealing Key"
+    	                }
+    	              }
+    	            }
+        	      }
+   	    	    ]
+    	      }
+    	    ]
+    	  }
+    	}
+	},
+	"requirements": [
+		[
+			"kill_guardian_boss"
+		],
+		[
+			"kill_phantom_boss"
+		],
+		[
+			"kill_cave_spider_boss"
+		],
+		[
+			"kill_breeze_boss"
+		],
+		[
+			"use_sealing_boss_key"
+		]
+	],
+	"sends_telemetry_event": false
+}

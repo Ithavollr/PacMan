@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "biomes": [
+      "minecraft:mangrove_swamp"
+    ],
+    "spawn_overrides": {},
+    "config": {
+      "start_pool": "qrafty:mangrove_village_start",
+      "size": 7
+    }
+  }

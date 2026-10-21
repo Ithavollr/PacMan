@@ -1,0 +1,33 @@
+{
+  "description": {
+    "translate": "enchantment.dnt.non_survival_enchant",
+    "fallback": "Bug Enchant"
+  },
+  "supported_items": "minecraft:stick",
+  "exclusive_set": "#nova_structures:exclusive_set/loot_table_bugs",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "head"
+  ],
+  "effects": {
+    "minecraft:prevent_equipment_drop": {},
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:jockey/spawn_bogged_horseman"
+        }
+      }
+    ]
+  }
+}

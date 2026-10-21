@@ -1,0 +1,14 @@
+
+Recommended with Entity Model Features & Entity Texture Features.
+
+Changes/Fixes:
+- fixed pillager, vindicator, evoker, witch swim animation
+- fixed spear animations for piglin, zombified piglin, zombie villager, husk
+- improved zombie spear animations
+- fixed formatting for Optifine for cow, pig, chicken, happy ghast, horses
+- re-added tweaked horse armour textures
+- tweaked pre-1.21.5 cow and mooshroom models to be more faithful to that version
+- changed sheep mouth texture position to avoid incompatibility
+- tweaked zombie villager arm anims to match zombie
+- fixed shoulder parrots
+- fixed happy ghast harness

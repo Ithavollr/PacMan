@@ -1,0 +1,126 @@
+{
+    "preset": "minecraft:overworld",
+    "lithostitched:migration_biome": "terralith:skylands_spring",
+    "lithostitched:biomes": [
+        {
+            "parameters": {
+                "weirdness": [
+                    -1,
+                    1
+                ],
+                "continentalness": [
+                    -1,
+                    1
+                ],
+                "erosion": [
+                    -1,
+                    1
+                ],
+                "temperature": [
+                    -1,
+                    0
+                ],
+                "humidity": [
+                    -1,
+                    0
+                ],
+                "depth": [
+                    -1,
+                    1
+                ],
+                "offset": 0
+            },
+            "biome": "terralith:skylands_winter"
+        },
+        {
+            "parameters": {
+                "weirdness": [
+                    -1,
+                    1
+                ],
+                "continentalness": [
+                    -1,
+                    1
+                ],
+                "erosion": [
+                    -1,
+                    1
+                ],
+                "temperature": [
+                    -1,
+                    0
+                ],
+                "humidity": [
+                    0,
+                    1
+                ],
+                "depth": [
+                    -1,
+                    1
+                ],
+                "offset": 0
+            },
+            "biome": "terralith:skylands_autumn"
+        },
+        {
+            "parameters": {
+                "weirdness": [
+                    -1,
+                    1
+                ],
+                "continentalness": [
+                    -1,
+                    1
+                ],
+                "erosion": [
+                    -1,
+                    1
+                ],
+                "temperature": [
+                    0,
+                    1
+                ],
+                "humidity": [
+                    -1,
+                    0
+                ],
+                "depth": [
+                    -1,
+                    1
+                ],
+                "offset": 0
+            },
+            "biome": "terralith:skylands_summer"
+        },
+        {
+            "parameters": {
+                "weirdness": [
+                    -1,
+                    1
+                ],
+                "continentalness": [
+                    -1,
+                    1
+                ],
+                "erosion": [
+                    -1,
+                    1
+                ],
+                "temperature": [
+                    0,
+                    1
+                ],
+                "humidity": [
+                    0,
+                    1
+                ],
+                "depth": [
+                    -1,
+                    1
+                ],
+                "offset": 0
+            },
+            "biome": "terralith:skylands_spring"
+        }
+    ]
+}

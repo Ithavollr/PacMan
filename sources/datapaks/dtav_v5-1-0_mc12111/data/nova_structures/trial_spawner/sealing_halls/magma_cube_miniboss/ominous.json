@@ -1,0 +1,46 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:keys/ominous_sealing_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 1,
+  "total_mobs": 1,
+  "simultaneous_mobs_added_per_player": 0.2,
+  "total_mobs_added_per_player": 0.2,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/sealing_halls/projectiles",
+  "ticks_between_spawn": 20,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "Size": 7,
+		   "attributes": [
+            {
+              "id": "max_health",
+              "base": 150
+            },
+            {
+              "id": "jump_strength",
+              "base": 0.8
+            },
+			{
+              "id": "fall_damage_multiplier",
+              "base": 0.2
+            },
+            {
+              "id": "knockback_resistance",
+              "base": 0.7
+            }
+          ],
+          "id": "minecraft:magma_cube",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

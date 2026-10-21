@@ -1,0 +1,2 @@
+summon hoglin ~ ~ ~ {CannotBeHunted:1b,PersistenceRequired:1b,Passengers:[{id:"minecraft:piglin",CannotHunt:1b,PersistenceRequired:1b,equipment:{mainhand:{id:"golden_spear",count:1}},drop_chances:{mainhand:0.085}}]}
+kill @s

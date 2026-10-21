@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:set_enchantments",
+  "enchantments": {
+    "nova_structures:jockey/spawn_chicken_jockey": 0,
+    "nova_structures:jockey/spawn_stray_horseman": 0,
+    "nova_structures:boss_behaviour": 0,
+    "nova_structures:boss_nether": 0,
+    "nova_structures:librarian_level_checker": 0,
+    "nova_structures:shulker_boss": 0,
+    "nova_structures:shulker_miniboss": 0,
+    "nova_structures:tavern_level_checker": 0,
+    "minecraft:bane_of_arthropods": 1
+  }
+}

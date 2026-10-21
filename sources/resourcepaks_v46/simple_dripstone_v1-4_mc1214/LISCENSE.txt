@@ -1,0 +1,30 @@
+This license describes the terms of the Super Simple 3D Dripstone resource pack by Coolbot.
+You agree to abide by these terms and conditions and are bound by them in all regards to this pack.
+
+Terms & Conditions
+Do NOT download this pack from any third parties or unofficial sources.
+Do NOT upload or redistribute this pack or its contents. 
+Do NOT claim any contents of this pack not contributed by and credited to you as your own. 
+You MAY make insignificant modifications to this pack, excluding to the LICENSE.md, README.md, or any identifying files or data, for personal use.
+Get PERMISSION before using the contents of this pack for third party or unrelated software.
+Get PERMISSION before redistributing or publishing modifications, additions, or remixes of this pack or its contents.
+CREDIT the creator(s) of this pack if you utilize or feature this pack or any of its contents in any online video content.
+CREDIT & NOTIFY the creator(s) of this pack if you wish to include it in a modpack or other form of collection.
+The creator(s) accept no responsibility for any loss resulting from this resource pack or its contents. 
+The creator(s) have the right to revise these terms and conditions at any time at our sole discretion.
+Additional terms or privileges may apply to you should the creator(s) notify you of any changes. 
+
+Credited creator(s) and contributors:
+Owners & rights holders: 
+coolbot100s - https://coolbot.carrd.co/
+Garden Gals - https://gardengals.carrd.co/
+
+
+
+Official distribution of this pack can be found:
+https://www.curseforge.com/minecraft/texture-packs/super-simple-3d-dripstone
+https://modrinth.com/resourcepack/3d-dripstone
+
+
+For support, questions, and requests regarding these terms you may contact the creator(s) here:
+https://coolbot.carrd.co/

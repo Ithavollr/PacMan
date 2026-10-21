@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "loot_table_bug_lol_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "#nova_structures:non_survival_enchants"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "loot_table_bug_lol_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "#nova_structures:non_survival_enchants"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_table_bug_lol_1",
+      "loot_table_bug_lol_2"
+    ]
+  ],
+  "rewards": {
+    "function": "nova_structures:tech_enchant_remove/start"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/nether_port/ominous",
+      "weight": 2
+    },
+    {
+      "data": "nova_structures:keys/nether_port_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 7,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/nether_port/projectiles_nether_port",
+  "ticks_between_spawn":  40,
+  "spawn_potentials":  [
+    {
+      "data": {
+        "entity":  {
+          "id": "minecraft:blaze",
+          "Tags": [
+            "trial_ominous"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

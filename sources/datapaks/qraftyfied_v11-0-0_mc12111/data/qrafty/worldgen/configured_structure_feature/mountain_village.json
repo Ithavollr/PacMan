@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "biomes": [
+      "minecraft:snowy_slopes"
+    ],
+    "spawn_overrides": {},
+    "config": {
+      "start_pool": "qrafty:mountain_village_start",
+      "size": 7
+    }
+  }

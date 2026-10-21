@@ -1,0 +1,44 @@
+{
+  "pack": {
+    "pack_format": 64,
+    "supported_formats": [64, 107],
+    "min_format": [ 64, 0 ],
+    "max_format": [ 107, 1 ],
+    "description": [
+      {
+        "text": "",
+        "color": "gray",
+        "extra": [
+          { "text": "For 1.21.11+", "color": "green" }, { "text": " | by ", "color": "gray" }, { "text": "JoeFly", "color": "dark_aqua"},
+          { "text": "\n⚠ Has to be loaded as a data and resource pack", "color": "gray" }
+        ],
+        "hover_event": {
+          "action": "show_text",
+          "value": [
+            { "text": "For 1.21.11+", "color": "green" }, { "text": " | by ", "color": "gray" }, { "text": "JoeFly", "color": "dark_aqua"},
+            { "text": "\n⚠ Has to be loaded as a data\nand resource pack", "color": "gray" }
+          ]
+        }
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+			  "min_format": [84, 0],
+			  "max_format": [88, 0],
+			  "directory": "assets-26-1"
+		  },
+      {
+			  "min_format": [88, 0],
+			  "max_format": [88, 0],
+			  "directory": "assets-26-2"
+		  },
+      {
+			  "min_format": [107, 1],
+			  "max_format": [107, 1],
+			  "directory": "data-26-2"
+		  }
+    ]
+  }
+}

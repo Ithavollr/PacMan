@@ -1,0 +1,13 @@
+{
+  "model": {
+  "type": "minecraft:range_dispatch",
+  "fallback": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/chorus_fruit"
+  },
+  "property": "minecraft:custom_model_data",
+  "entries": [
+      {"model": {"type": "minecraft:model", "model": "ifiht:item/golden_chorus"}, "threshold": 26600}
+    ]
+  }
+}

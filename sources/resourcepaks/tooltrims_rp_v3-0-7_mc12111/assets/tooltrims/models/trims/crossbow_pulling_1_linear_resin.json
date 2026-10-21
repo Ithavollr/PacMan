@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/crossbow_pulling_1",
+    "textures": {
+        "layer0": "minecraft:item/crossbow_pulling_1",
+        "layer1": "tooltrims:trims/items/crossbow_pulling_1_linear_resin"
+    }
+}

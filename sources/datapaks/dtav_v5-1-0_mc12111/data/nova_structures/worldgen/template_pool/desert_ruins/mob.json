@@ -1,0 +1,51 @@
+{
+	"name": "nova_structures:temple",
+	"fallback": "nova_structures:desert_ruins/mob",
+	"elements": [
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/mob/desert_ruins_mob_parched",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 20,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/mob/desert_ruins_mob_husk",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/mob/desert_ruins_mob_parched_armor_ranged",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/mob/desert_ruins_mob_husk_armor",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:desert_ruin/mob/desert_ruins_mob_creeper",
+				"projection": "rigid",
+				"processors": "nova_structures:desert_temple_degradation"
+			}
+		}
+	]
+}

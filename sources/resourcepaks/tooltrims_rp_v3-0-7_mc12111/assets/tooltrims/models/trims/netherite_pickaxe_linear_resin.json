@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/netherite_pickaxe",
+    "textures": {
+        "layer0": "minecraft:item/netherite_pickaxe",
+        "layer1": "tooltrims:trims/items/netherite_pickaxe_linear_resin"
+    }
+}

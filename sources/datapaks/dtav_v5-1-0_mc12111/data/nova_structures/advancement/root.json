@@ -1,0 +1,96 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "dnt:16x_logo"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancement.dnt.root.title",
+      "fallback": "Also use DnT as a Resource Pack!"
+    },
+    "description": {
+      "translate": "advancement.dnt.root",
+      "fallback": "Copy DnT into your Resource Pack folder for translations and custom item textures."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "dnt_discover_structure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "#nova_structures:nova_structures_all"
+          }
+        }
+      }
+    },
+    "dnt_discover_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "strings": [
+                  "dnt:chart"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dnt_discover_enchantment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "#nova_structures:all_dnt_enchants"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "dnt_discover_stored_enchantment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "#nova_structures:all_dnt_enchants"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dnt_discover_structure",
+      "dnt_discover_item",
+      "dnt_discover_enchantment",
+      "dnt_discover_stored_enchantment"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

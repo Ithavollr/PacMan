@@ -1,0 +1,69 @@
+{
+  "display": {
+    "show_toast": true,
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:ominous_trial_key",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            727
+          ]
+        },
+        "minecraft:item_name": {
+          "translate": "item.dnt.boss_sealing_key",
+          "fallback": "Boss Sealing Key"
+        }
+      },
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.dnt.nether.use_sealing_boss_key.title",
+      "fallback": "Ghastbuster!"
+    },
+    "description": {
+      "translate": "advancement.dnt.nether.use_sealing_boss_key",
+      "fallback": "Unlock the Sealing Halls' Boss Vault to prove your Ghast hunting skills"
+    }
+  },
+  "parent": "nova_structures:nether/find_sealing_halls",
+  "criteria": {
+    "use_sealing_boss_key": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "structures": "nova_structures:sealing_halls",
+                  "block": {
+                    "blocks": "minecraft:vault",
+                    "state": {
+                      "ominous": "true"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": "minecraft:ominous_trial_key",
+                  "components": {
+                    "minecraft:item_name": {
+                      "translate": "item.dnt.boss_sealing_key",
+                      "fallback": "Boss Sealing Key"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}

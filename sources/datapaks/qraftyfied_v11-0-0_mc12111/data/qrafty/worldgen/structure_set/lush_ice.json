@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:lush_ice",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 315623737,
+    "spacing": 25,
+    "separation": 15
+  }
+}

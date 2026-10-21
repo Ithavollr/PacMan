@@ -1,0 +1,929 @@
+[
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "amethyst",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:amethyst",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "copper",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "diamond",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:diamond",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "emerald",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:emerald",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "gold",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:gold",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "iron",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:iron",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "lapis",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:lapis",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "netherite",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:netherite",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "quartz",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:quartz",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "redstone",
+                        "pattern": "linear"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:redstone",
+                    "pattern": "tooltrims:linear"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "amethyst",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:amethyst",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "copper",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "diamond",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:diamond",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "emerald",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:emerald",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "gold",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:gold",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "iron",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:iron",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "lapis",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:lapis",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "netherite",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:netherite",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "quartz",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:quartz",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "redstone",
+                        "pattern": "tracks"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:redstone",
+                    "pattern": "tooltrims:tracks"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "amethyst",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:amethyst",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "copper",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "diamond",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:diamond",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "emerald",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:emerald",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "gold",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:gold",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "iron",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:iron",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "lapis",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:lapis",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "netherite",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:netherite",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "quartz",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:quartz",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "redstone",
+                        "pattern": "charge"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:redstone",
+                    "pattern": "tooltrims:charge"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "amethyst",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:amethyst",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "copper",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "diamond",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:diamond",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "emerald",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:emerald",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "gold",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:gold",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "iron",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:iron",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "lapis",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:lapis",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "netherite",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:netherite",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "quartz",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:quartz",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "filtered",
+        "item_filter": {
+            "items": "#tooltrims:trimmable_tools",
+            "predicates": {
+                "minecraft:custom_data": {
+                    "tooltrims:trim": {
+                        "material": "redstone",
+                        "pattern": "frost"
+                    }
+                }
+            }
+        },
+        "on_pass": {
+            "function": "set_components",
+            "components": {
+                "minecraft:trim": {
+                    "material": "minecraft:redstone",
+                    "pattern": "tooltrims:frost"
+                }
+            }
+        }
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "!minecraft:custom_data": {},
+            "!minecraft:custom_name": {}
+        }
+    }
+]

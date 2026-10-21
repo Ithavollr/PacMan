@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnt_librarian_snowy\"],VillagerData:{profession:\"minecraft:librarian\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nova_structures:librarians/start_snowy_trader"
+  }
+}

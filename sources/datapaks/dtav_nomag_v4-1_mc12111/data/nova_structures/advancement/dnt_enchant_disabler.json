@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "detect_dnt_enchant_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "#nova_structures:all_dnt_enchants"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "detect_dnt_enchant_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "#nova_structures:all_dnt_enchants"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "detect_dnt_enchant_item",
+      "detect_dnt_enchant_book"
+    ]
+  ],
+  "rewards": {
+    "function": "nova_structures:dnt_enchant_disabler"
+  }
+}

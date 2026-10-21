@@ -1,0 +1,1 @@
+{"name":"qrafty:resin_farm","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"element_type":"minecraft:legacy_single_pool_element","projection":"rigid","location":"qrafty:resin_farm","processors":"qrafty:resin_farm"}}]} 

@@ -1,0 +1,42 @@
+{
+  "name": "qrafty:fortress",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "qrafty:taiga_1",
+        "processors": "qrafty:taiga"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "qrafty:taiga_2",
+        "processors": "qrafty:taiga"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "qrafty:taiga_3",
+        "processors": "qrafty:taiga"
+      }
+	},
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "qrafty:taiga_4",
+        "processors": "qrafty:taiga"
+      }
+	}
+  ]
+}

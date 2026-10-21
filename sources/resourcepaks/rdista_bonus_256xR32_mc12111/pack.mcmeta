@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 88,
+    "min_format": [15, 0],
+    "max_format": [999, 0],
+    "supported_formats": [15, 999],
+    "description": "§6§lSHIVAMZTER.COM \n§7Bonus | LabPBR - 256x - R32"
+  }
+}

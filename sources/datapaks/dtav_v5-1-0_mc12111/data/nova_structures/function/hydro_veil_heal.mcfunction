@@ -1,0 +1,1 @@
+data modify entity @s active_effects append value {id:"minecraft:regeneration",amplifier:6,duration:1,show_particles:0b}

@@ -1,0 +1,14 @@
+{
+    "TODO": "Any words in this file related to the Toolsmithing Table from v2.x have to be replaced with Smithing Table",
+
+    "advancements.adventure.shiny_tools.title": "Błyszczące Narzędzia",
+    "advancements.adventure.shiny_tools.description": "Stwórz przyozdobione narzędzie w narzędziowym stole kowalskim",
+    "advancements.adventure.tools_of_all_styles.title": "Narzędzia wszystkich stylów",
+    "advancements.adventure.tools_of_all_styles.description": "Zastosuj wszystkie narzędziowe szablony kowalskie co najmniej raz",
+    
+    "template.tooltrims.applies_to": "Brońie i narzędzia",
+    "trim_pattern.tooltrims.linear": "Szablon Narzędziowy \"Liniowy\"",
+    "trim_pattern.tooltrims.tracks": "Szablon Narzędziowy \"Tracks\"",
+    "trim_pattern.tooltrims.charge": "Szablon Narzędziowy \"Charge\"",
+    "trim_pattern.tooltrims.frost":  "Szablon Narzędziowy \"Mróz\""
+}

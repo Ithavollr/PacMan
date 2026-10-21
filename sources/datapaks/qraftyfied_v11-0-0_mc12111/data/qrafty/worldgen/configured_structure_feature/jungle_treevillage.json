@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "biomes": [
+      "minecraft:jungle",
+      "minecraft:bamboo_jungle"
+    ],
+    "spawn_overrides": {},
+    "config": {
+      "start_pool": "qrafty:jungle_treevillage_start",
+      "size": 7
+    }
+  }

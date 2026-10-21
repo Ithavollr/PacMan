@@ -1,0 +1,91 @@
+{
+	"credit": "Made by Rage Spark with Blockbench",
+	"texture": "textures/entity/creeper/creeper.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 32], "sizeAdd": 0.25}
+			],
+			"submodels": [
+				{
+					"id": "flower",
+					"invertAxis": "xy",
+					"translate": [0, 12, 0],
+					"rotate": [0, 45, 0],
+					"boxes": [
+						{
+							"coordinates": [-8, -8, 0, 16, 16, 0],
+							"uvNorth": [48, 0, 64, 16]
+						},
+						{
+							"coordinates": [0, -8, -8, 0, 16, 16],
+							"uvEast": [48, 0, 64, 16]
+						}
+					]
+				},
+				{
+					"id": "top",
+					"invertAxis": "xy",
+					"translate": [0, 26.5, 0],
+					"rotate": [0, 45, 0],
+					"submodels": [
+						{
+							"id": "top1",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [0, 0, 7.5],
+							"boxes": [
+								{
+									"coordinates": [-10.34947, -17.84601, -8, 16, 0, 16],
+									"uvUp": [64, 64, 48, 48]
+								}
+							]
+						},
+						{
+							"id": "top2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [0, 0, -7.5],
+							"boxes": [
+								{
+									"coordinates": [-5.65053, -17.84601, -8, 16, 0, 16],
+									"uvUp": [64, 64, 48, 48]
+								}
+							]
+						},
+						{
+							"id": "top3",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [-7.5, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-8, -17.84601, -10.34947, 16, 0, 16],
+									"uvUp": [64, 64, 48, 48]
+								}
+							]
+						},
+						{
+							"id": "top4",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [7.5, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-8, -17.84601, -5.65053, 16, 0, 16],
+									"uvUp": [64, 64, 48, 48]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

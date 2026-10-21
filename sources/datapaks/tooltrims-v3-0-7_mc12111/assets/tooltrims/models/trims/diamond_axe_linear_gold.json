@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/diamond_axe",
+    "textures": {
+        "layer0": "minecraft:item/diamond_axe",
+        "layer1": "tooltrims:trims/items/diamond_axe_linear_gold"
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/trident_trial_monument/drowned_center",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 4,
+  "total_mobs": 7,
+  "simultaneous_mobs_added_per_player": 1,
+  "total_mobs_added_per_player": 2,
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+		"entity": {
+          "id": "minecraft:drowned",
+          "Tags": [
+            "trial_normal"
+          ],
+		  "equipment": {
+            "saddle": {
+              "components": {
+                "minecraft:enchantments": {
+                  "nova_structures:jockey/make_drowned_into_jockey": 1
+                }
+              },
+              "count": 1,
+              "id": "stick"
+            }
+          }
+        },
+		"equipment": {
+          "slot_drop_chances": 0,
+          "loot_table": "nova_structures:equipment/trident_trial_monument/jockey"
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

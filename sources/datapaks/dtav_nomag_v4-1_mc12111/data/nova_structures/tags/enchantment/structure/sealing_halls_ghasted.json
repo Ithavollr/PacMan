@@ -1,0 +1,13 @@
+{
+	"replace": true,
+	"values": [
+		"minecraft:flame",
+		"minecraft:soul_speed",
+		"minecraft:sharpness",
+		"minecraft:power",
+		"minecraft:fire_aspect",
+		"minecraft:fire_protection",
+		"minecraft:blast_protection",
+		"minecraft:punch"
+	]
+}

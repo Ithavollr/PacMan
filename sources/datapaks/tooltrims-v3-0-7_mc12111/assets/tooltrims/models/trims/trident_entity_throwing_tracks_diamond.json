@@ -1,0 +1,7 @@
+{
+    "parent": "tooltrims:item/trident_entity_throwing",
+    "textures": {
+        "layer0": "tooltrims:item/trim_bases/trident_entity",
+        "layer1": "tooltrims:trims/items/trident_entity_tracks_diamond"
+    }
+}

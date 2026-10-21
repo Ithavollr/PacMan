@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 641526198,
+    "spacing": 35,
+    "separation": 20
+  }
+}

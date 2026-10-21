@@ -1,0 +1,46 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "nova_structures:spawners/sealing_halls/ominous",
+      "weight": 7
+    },
+    {
+      "data": "nova_structures:keys/ominous_sealing_key",
+      "weight": 1
+    }
+  ],
+  "simultaneous_mobs": 3,
+  "total_mobs": 3,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs_added_per_player": 0.5,
+  "items_to_drop_when_ominous": "nova_structures:spawner_projectile/sealing_halls/projectiles",
+  "ticks_between_spawn": 4,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:ghast",
+		  "attributes": [
+            {
+              "id": "scale",
+              "base": 0.5
+            },
+            {
+              "id": "follow_range",
+              "base": 100
+            },
+			{
+              "id": "flying_speed",
+              "base": 0.1
+            }
+          ],
+          "Tags": [
+            "trial_ominous"
+          ],
+		  "DeathLootTable":"nova_structures:mob/sealing_ghast"
+        }
+      },
+      "weight": 1
+    }
+  ]
+}

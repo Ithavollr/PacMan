@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#nova_structures:shrine",
+    "nova_structures:shrine_tower",
+		"nova_structures:bunker",
+		"nova_structures:undead_crypt"
+  ]
+}

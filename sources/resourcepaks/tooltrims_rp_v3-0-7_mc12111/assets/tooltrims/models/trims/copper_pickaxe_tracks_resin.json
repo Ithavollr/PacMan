@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/copper_pickaxe",
+    "textures": {
+        "layer0": "minecraft:item/copper_pickaxe",
+        "layer1": "tooltrims:trims/items/copper_pickaxe_tracks_resin"
+    }
+}

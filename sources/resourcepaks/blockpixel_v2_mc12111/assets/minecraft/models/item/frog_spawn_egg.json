@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated_mob",
+  "textures": {
+      "layer0": "item/egg_frog"
+  }
+}

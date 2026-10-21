@@ -1,0 +1,3 @@
+summon item_display ~ ~ ~ {billboard:"fixed",Tags:["kattersstructures.raj_rod_block.display"],Passengers:[{id:"minecraft:interaction",width:0.4f,height:1.2f,Tags:["kattersstructures.raj_rod_block.interaction"],Passengers:[{id:"minecraft:item_display",item_display:"ground",Tags:["kattersstructures.raj_rod_block.item"],transformation:{left_rotation:[0f,0f,-0.4f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1f,-.1f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:air",count:1,components:{"minecraft:item_model":"minecraft:air"}}}]}],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.55f,0f],scale:[1.1f,1.1f,1.1f]},item:{id:"minecraft:lightning_rod",count:1}}
+
+kill @s

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:snow_golem_spawn_egg",
+  "base": "minecraft:iron_hoe",
+  "addition": "minecraft:redstone",
+  "result": {
+    "id": "minecraft:iron_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:frost",
+        "material": "minecraft:redstone"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311040.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

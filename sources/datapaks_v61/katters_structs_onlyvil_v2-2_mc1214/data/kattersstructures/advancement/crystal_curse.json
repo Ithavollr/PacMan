@@ -1,0 +1,38 @@
+{
+    "display": {
+    "icon": {
+      "id": "minecraft:amethyst_cluster"
+    },
+    "title": {
+      "translate": "advancement.kattersstructures.crystal_curse_title",
+      "fallback": "Crystal Gamble"
+    },
+    "description": {
+      "translate": "advancement.kattersstructures.crystal_curse_description",
+      "fallback": "Embrace the power of the crystals, accepting the risk for the reward."
+    }
+    },
+    "parent": "kattersstructures:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "#minecraft:enchantable/weapon",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "kattersstructures:crystal_curse",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

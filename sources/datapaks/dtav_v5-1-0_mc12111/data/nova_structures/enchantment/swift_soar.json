@@ -1,0 +1,88 @@
+{
+  "description": {
+    "translate": "enchantment.dnt.swift_soar",
+    "fallback": "Swift Soar"
+  },
+  "supported_items": "#minecraft:harnesses",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": {
+            "type": "minecraft:enchantment_level",
+            "amount": {
+              "type": "minecraft:lookup",
+              "values": [
+                100,
+                0,
+                0
+              ],
+              "fallback": 0
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:swift_soar_1"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": {
+            "type": "minecraft:enchantment_level",
+            "amount": {
+              "type": "minecraft:lookup",
+              "values": [
+                0,
+                100,
+                0
+              ],
+              "fallback": 0
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:swift_soar_2"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": {
+            "type": "minecraft:enchantment_level",
+            "amount": {
+              "type": "minecraft:lookup",
+              "values": [
+                0,
+                0,
+                100
+              ],
+              "fallback": 100
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:swift_soar_3"
+        }
+      }
+    ]
+  }
+}

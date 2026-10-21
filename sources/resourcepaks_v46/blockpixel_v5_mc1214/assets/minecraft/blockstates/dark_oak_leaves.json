@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/dark_oak_leaves"
+      },
+      {
+        "model": "minecraft:block/dark_oak_leaves_01"
+      },
+      {
+        "model": "minecraft:block/dark_oak_leaves_02"
+      }
+    ]
+  }
+}

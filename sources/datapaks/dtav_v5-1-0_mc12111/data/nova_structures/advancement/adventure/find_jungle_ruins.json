@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "jungle_ruins": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structures": "#nova_structures:jungle_ruins"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "advancement.dnt.adventure.find_jungle_ruins",
+            "fallback": "Discover the Jungle Ruins"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+			"count": 1,
+            "id": "minecraft:mossy_stone_bricks"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "advancement.dnt.adventure.find_jungle_ruins.title",
+            "fallback": "Lush Leavings"
+        }
+    },
+    "requirements": [
+        [
+            "jungle_ruins"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

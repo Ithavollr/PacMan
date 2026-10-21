@@ -1,0 +1,46 @@
+{
+    "pack": {
+        "id": "terralith",
+        "min_format": 94,
+        "max_format": 94,
+        "description": [
+            {
+                "text": "Terralith",
+                "color": "#1eb2bc"
+            },
+            {
+                "text": " - Overworld Evolved\nCreated by ",
+                "color": "gray"
+            },
+            {
+                "text": "Stardust Labs",
+                "color": "#683edd"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": []
+    },
+    "neoforge:overlays": {
+        "entries": [
+            {"directory": "disable.custom_structures", "formats": [1, 999], "min_format": 1, "max_format": 999, "neoforge:conditions": [{"type": "terralith:config", "key": "custom_structures", "invert": true}]},
+            {"directory": "disable.fog_tweaks", "formats": [1, 999], "min_format": 1, "max_format": 999, "neoforge:conditions": [{"type": "terralith:config", "key": "fog_tweaks", "invert": true}]},
+            {"directory": "disable.intro_message", "formats": [1, 999], "min_format": 1, "max_format": 999, "neoforge:conditions": [{"type": "terralith:config", "key": "intro_message", "invert": true}]},
+            {"directory": "disable.skylands", "formats": [1, 999], "min_format": 1, "max_format": 999, "neoforge:conditions": [{"type": "terralith:config", "key": "skylands", "invert": true}]},
+            {"directory": "disable.terrain_slabs", "formats": [1, 999], "min_format": 1, "max_format": 999, "neoforge:conditions": [{"type": "terralith:config", "key": "terrain_slabs", "invert": true}]},
+            {"directory": "enable.recipe_changes", "formats": [1, 999], "min_format": 1, "max_format": 999, "neoforge:conditions": [{"type": "terralith:config", "key": "recipe_changes"}]},
+            {"directory": "enable.vanilla_stone_gen", "formats": [1, 999], "min_format": 1, "max_format": 999, "neoforge:conditions": [{"type": "terralith:config", "key": "vanilla_stone_gen"}]}
+        ]
+    },
+    "fabric:overlays": {
+        "entries": [
+            {"directory": "disable.custom_structures", "condition": {"condition": "terralith:config", "key": "custom_structures", "invert": true}},
+            {"directory": "disable.fog_tweaks", "condition": {"condition": "terralith:config", "key": "fog_tweaks", "invert": true}},
+            {"directory": "disable.intro_message", "condition": {"condition": "terralith:config", "key": "intro_message", "invert": true}},
+            {"directory": "disable.skylands", "condition": {"condition": "terralith:config", "key": "skylands", "invert": true}},
+            {"directory": "disable.terrain_slabs", "condition": {"condition": "terralith:config", "key": "terrain_slabs", "invert": true}},
+            {"directory": "enable.recipe_changes", "condition": {"condition": "terralith:config", "key": "recipe_changes"}},
+            {"directory": "enable.vanilla_stone_gen", "condition": {"condition": "terralith:config", "key": "vanilla_stone_gen"}}
+        ]
+    }
+}

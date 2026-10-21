@@ -1,0 +1,2 @@
+execute unless score $assets_detector tooltrims.variable matches -1 run return run scoreboard players set $assets_detector tooltrims.variable -1
+execute if score $assets_detector tooltrims.variable matches -1 run scoreboard players reset $assets_detector tooltrims.variable

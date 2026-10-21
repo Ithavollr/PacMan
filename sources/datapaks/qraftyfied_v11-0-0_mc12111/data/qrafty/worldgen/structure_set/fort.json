@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:fort",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 824627437,
+    "spacing": 30,
+    "separation": 19
+  }
+}

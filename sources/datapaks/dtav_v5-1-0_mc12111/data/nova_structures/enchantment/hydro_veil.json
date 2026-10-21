@@ -1,0 +1,382 @@
+{
+  "description": {
+    "translate": "enchantment.dnt.hydro_veil",
+    "fallback": "Hydro Veil"
+  },
+  "supported_items": "#minecraft:harnesses",
+  "weight": 1,
+  "max_level": 4,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 15
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 15
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": {
+                    "type": "minecraft:enchantment_level",
+                    "amount": {
+                      "type": "minecraft:lookup",
+                      "values": [
+                        100,
+                        0,
+                        0,
+                        0
+                      ],
+                      "fallback": 0
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "periodic_tick": 80
+                  }
+                },
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "location": {
+                            "dimension": "minecraft:the_nether"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "location": {
+                            "position": {
+                              "y": {
+                                "min": 187,
+                                "max": 196
+                              }
+                            },
+                            "dimension": "minecraft:overworld"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:weather_check",
+                      "raining": false,
+                      "thundering": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:hydro_veil_heal"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": {
+                    "type": "minecraft:enchantment_level",
+                    "amount": {
+                      "type": "minecraft:lookup",
+                      "values": [
+                        0,
+                        100,
+                        0,
+                        0
+                      ],
+                      "fallback": 0
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "periodic_tick": 60
+                  }
+                },
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "location": {
+                            "dimension": "minecraft:the_nether"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "location": {
+                            "position": {
+                              "y": {
+                                "min": 187,
+                                "max": 196
+                              }
+                            },
+                            "dimension": "minecraft:overworld"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:weather_check",
+                      "raining": false,
+                      "thundering": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:hydro_veil_heal"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": {
+                    "type": "minecraft:enchantment_level",
+                    "amount": {
+                      "type": "minecraft:lookup",
+                      "values": [
+                        0,
+                        0,
+                        100,
+                        0
+                      ],
+                      "fallback": 0
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "periodic_tick": 40
+                  }
+                },
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "location": {
+                            "dimension": "minecraft:the_nether"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "location": {
+                            "position": {
+                              "y": {
+                                "min": 187,
+                                "max": 196
+                              }
+                            },
+                            "dimension": "minecraft:overworld"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:weather_check",
+                      "raining": false,
+                      "thundering": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:hydro_veil_heal"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": {
+                    "type": "minecraft:enchantment_level",
+                    "amount": {
+                      "type": "minecraft:lookup",
+                      "values": [
+                        0,
+                        0,
+                        0,
+                        100
+                      ],
+                      "fallback": 100
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "periodic_tick": 20
+                  }
+                },
+                {
+                  "condition": "minecraft:all_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "location": {
+                            "dimension": "minecraft:the_nether"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                          "location": {
+                            "position": {
+                              "y": {
+                                "min": 187,
+                                "max": 196
+                              }
+                            },
+                            "dimension": "minecraft:overworld"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "condition": "minecraft:weather_check",
+                      "raining": false,
+                      "thundering": false
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "nova_structures:hydro_veil_heal"
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:burning_time",
+        "id": "nova_structures:hydro_veil.no_burn",
+        "amount": -1,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:explosion_knockback_resistance",
+        "id": "nova_structures:hydro_veil.no_blowback",
+        "amount": 1,
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:damage_protection": [
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "nova_structures:fire_and_explosions",
+                "expected": true
+              },
+              {
+                "id": "minecraft:bypasses_invulnerability",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 5,
+            "per_level_above_first": 5
+          }
+        }
+      }
+    ]
+  }
+}

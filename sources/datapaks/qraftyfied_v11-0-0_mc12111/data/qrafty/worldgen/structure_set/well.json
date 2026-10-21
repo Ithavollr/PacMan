@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:well",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 74151627,
+    "spacing": 35,
+    "separation": 20
+  }
+}

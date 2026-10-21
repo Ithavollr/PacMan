@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{VillagerData:{level:2}}",
+        "equipment": {
+          "saddle": {
+            "components": {
+              "minecraft:enchantments": {
+                "nova_structures:tavern_level_checker": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

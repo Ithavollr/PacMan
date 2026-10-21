@@ -1,0 +1,71 @@
+{
+	"type": "minecraft:multi_action",
+	"title": {
+		"translate": "dialog.kattersstructures.books.title",
+		"fallback": "Welcome to the Give Books menu"
+	},
+	"inputs": [],
+	"actions": [
+		{
+			"label": {
+				"translate": "dialog.kattersstructures.books.label_1",
+				"fallback": "Nox Research"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:nox_research"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.books.label_2",
+				"fallback": "Pillager Ledgers"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:pillager_ledgers"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.books.label_3",
+				"fallback": "Theron"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:theron"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.books.label_4",
+				"fallback": "Verdant Tome"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:verdant_tome"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.books.label_5",
+				"fallback": "Villager Tales"
+			},
+			"action": {
+				"type": "show_dialog",
+				"dialog": "kattersstructures:villager_tales"
+
+			}
+		},{
+			"label": {
+				"translate": "dialog.kattersstructures.books.label_6",
+				"fallback": "Emerald Tablet"
+			},
+			"action": {
+				"type": "minecraft:run_command",
+				"command": "function kattersstructures:give_items/books/emerald_tablet"
+
+			}
+		}
+	]
+}

@@ -1,0 +1,2 @@
+summon zombie_nautilus ~ ~ ~ {PersistenceRequired:1b,Passengers:[{id:"minecraft:drowned",PersistenceRequired:1b,equipment:{mainhand:{id:"copper_spear",count:1}},drop_chances:{mainhand:0.085}}]}
+kill @s

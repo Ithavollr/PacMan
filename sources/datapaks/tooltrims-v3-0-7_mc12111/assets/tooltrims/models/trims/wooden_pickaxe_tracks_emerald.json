@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/wooden_pickaxe",
+    "textures": {
+        "layer0": "minecraft:item/wooden_pickaxe",
+        "layer1": "tooltrims:trims/items/wooden_pickaxe_tracks_emerald"
+    }
+}

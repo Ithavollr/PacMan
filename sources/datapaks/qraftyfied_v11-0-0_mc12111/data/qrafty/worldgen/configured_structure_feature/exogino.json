@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "biomes": [
+      "minecraft:end_highlands"
+    ],
+    "spawn_overrides": {},
+    "config": {
+      "start_pool": "qrafty:exogino_start",
+      "size": 7
+    }
+  }

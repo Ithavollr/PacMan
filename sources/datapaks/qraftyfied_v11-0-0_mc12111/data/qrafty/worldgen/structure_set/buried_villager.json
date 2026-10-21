@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:buried_villager",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 475256537,
+    "spacing": 20,
+    "separation": 7
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "qrafty:fortress",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "qrafty:mangrove_watchtower",
+        "processors": "qrafty:mangrove_watchtower"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "qrafty:mangrove_watchtower_2",
+        "processors": "qrafty:mangrove_watchtower"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/wooden_spear",
+    "textures": {
+        "layer0": "minecraft:item/wooden_spear",
+        "layer1": "tooltrims:trims/items/wooden_spear_charge_iron"
+    }
+}

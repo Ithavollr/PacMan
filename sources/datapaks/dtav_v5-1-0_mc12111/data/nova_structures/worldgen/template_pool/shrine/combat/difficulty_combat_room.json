@@ -1,0 +1,402 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "nova_structures:shrine/combat/difficulty_combat_room_fallback",
+	"elements": [
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_cross_a",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_cross_b",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_cross_c",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_cross_d",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_cross_e",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_cross_f",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_t_cross_a",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_t_cross_b",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size1_t_cross_c",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_cross_a",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_cross_b",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_cross_c",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_cross_d",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_cross_e",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_cross_f",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_t_cross_a",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_t_cross_b",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size2_t_cross_c",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_cross_a",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_cross_b",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_cross_c",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_cross_d",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_cross_e",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_cross_f",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_t_cross_a",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_t_cross_b",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_t_cross_c",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size3_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_cross_a",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_cross_b",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_cross_c",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_cross_d",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_cross_e",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_cross_f",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_curve",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_t_cross_a",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_t_cross_b",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_t_cross_c",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "nova_structures:shrine/shrine_combat/combat_shrine/rooms/shrine_combat_room_size4_straight",
+				"projection": "rigid",
+				"processors": "nova_structures:shrine_combat_processor"
+			}
+		}
+	]
+}

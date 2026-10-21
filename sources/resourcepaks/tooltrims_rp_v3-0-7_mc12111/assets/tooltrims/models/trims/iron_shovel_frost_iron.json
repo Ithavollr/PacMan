@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/iron_shovel",
+    "textures": {
+        "layer0": "minecraft:item/iron_shovel",
+        "layer1": "tooltrims:trims/items/iron_shovel_frost_iron"
+    }
+}

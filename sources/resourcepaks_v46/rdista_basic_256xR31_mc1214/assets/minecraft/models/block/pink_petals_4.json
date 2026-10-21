@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/flowerbed_4",
+	"textures": {
+		"flowerbed": "block/pink_petals_2",
+		"stem": "block/pink_petals_stem"
+	}
+}

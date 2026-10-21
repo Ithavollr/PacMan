@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:snow_golem_spawn_egg",
+  "base": "minecraft:wooden_hoe",
+  "addition": "minecraft:resin_brick",
+  "result": {
+    "id": "minecraft:wooden_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:frost",
+        "material": "minecraft:resin"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311044.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

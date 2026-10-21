@@ -1,0 +1,24 @@
+{
+  "name": "aquatic_shulker:shulker_cluster_sandy",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "aquatic_shulker:cluster_3_sandy",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "aquatic_shulker:cluster_4_sandy",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

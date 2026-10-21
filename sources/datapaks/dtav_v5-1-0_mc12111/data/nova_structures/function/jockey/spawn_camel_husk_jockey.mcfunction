@@ -1,0 +1,2 @@
+summon camel_husk ~ ~ ~ {PersistenceRequired:1b,Passengers:[{id:"minecraft:husk",PersistenceRequired:1b,equipment:{mainhand:{id:"iron_spear",count:1}},drop_chances:{mainhand:0.085}},{id:"minecraft:parched",PersistenceRequired:1b,equipment:{mainhand:{id:"bow",count:1}},drop_chances:{mainhand:0.085}}]}
+kill @s

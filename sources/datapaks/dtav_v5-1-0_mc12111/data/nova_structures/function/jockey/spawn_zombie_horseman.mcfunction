@@ -1,0 +1,2 @@
+summon zombie_horse ~ ~ ~ {PersistenceRequired:1b,equipment:{body:{id:"iron_horse_armor",count:1}},drop_chances:{body:0.085},Passengers:[{id:"minecraft:zombie",PersistenceRequired:1b,equipment:{mainhand:{id:"iron_spear",count:1},head:{id:"iron_helmet",count:1}},drop_chances:{mainhand:0.085,head:0.085}}]}
+kill @s

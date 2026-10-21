@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "advancement.dnt.loot_bug_enchant.title",
+      "fallback": "How Did That Get There?"
+    },
+    "description": {
+      "translate": "advancement.dnt.loot_bug_enchant",
+      "fallback": "You've grabbed an enchantment that's used solely for functions. These are not meant for the player, so they turn into Bane of Arthropods inside your inventory!"
+    },
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "nova_structures:root",
+  "criteria": {
+    "bug_in_the_loot_enchant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "#nova_structures:non_survival_enchants"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "bug_in_the_loot_stored_enchant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "#nova_structures:non_survival_enchants"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bug_in_the_loot_enchant",
+      "bug_in_the_loot_stored_enchant"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}

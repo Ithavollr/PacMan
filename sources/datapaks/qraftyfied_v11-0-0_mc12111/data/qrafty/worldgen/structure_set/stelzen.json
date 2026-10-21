@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "qrafty:stelzen",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 615727537,
+    "spacing": 32,
+    "separation": 18
+  }
+}

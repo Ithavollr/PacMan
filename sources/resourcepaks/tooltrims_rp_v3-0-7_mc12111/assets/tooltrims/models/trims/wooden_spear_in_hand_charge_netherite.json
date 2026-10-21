@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/wooden_spear_in_hand",
+    "textures": {
+        "layer0": "minecraft:item/wooden_spear_in_hand",
+        "layer1": "tooltrims:trims/items/wooden_spear_in_hand_charge_netherite"
+    }
+}

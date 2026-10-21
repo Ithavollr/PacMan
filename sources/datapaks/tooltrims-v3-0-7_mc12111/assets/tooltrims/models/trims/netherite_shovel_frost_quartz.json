@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/netherite_shovel",
+    "textures": {
+        "layer0": "minecraft:item/netherite_shovel",
+        "layer1": "tooltrims:trims/items/netherite_shovel_frost_quartz"
+    }
+}

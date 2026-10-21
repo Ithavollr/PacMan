@@ -1,0 +1,14 @@
+{
+	"name": "nova_structures:bunker_enterance",
+	"fallback": "nova_structures:shrine/combat/difficulty_combat_room_base",
+	"elements": [
+		{
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "nova_structures:combat_shrine_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+	]
+}

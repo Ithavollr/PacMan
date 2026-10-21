@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:desert_ruins/jockey",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:jockeys/camel_husk_jockey",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "nova_structures:desert_ruins/jockey"
+}

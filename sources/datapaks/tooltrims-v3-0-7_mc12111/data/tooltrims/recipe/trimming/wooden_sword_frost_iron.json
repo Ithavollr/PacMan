@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:snow_golem_spawn_egg",
+  "base": "minecraft:wooden_sword",
+  "addition": "minecraft:iron_ingot",
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:trim": {
+        "pattern": "tooltrims:frost",
+        "material": "minecraft:iron"
+      },
+      "minecraft:custom_model_data": {
+        "floats": [ 311036.0 ]
+      },
+      "minecraft:custom_data": {
+        "tooltrims:item": "fresh_trim"
+      }
+    }
+  },
+  "show_notification": false
+}

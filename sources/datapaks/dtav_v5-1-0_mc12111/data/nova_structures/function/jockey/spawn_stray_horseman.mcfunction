@@ -1,0 +1,2 @@
+summon skeleton_horse ~ ~ ~ {PersistenceRequired:1b,Tame:1b,Passengers:[{id:"minecraft:stray",PersistenceRequired:1b,equipment:{head:{id:"minecraft:iron_helmet",count:1,components:{"minecraft:enchantments":{"minecraft:protection":3}}},mainhand:{id:"minecraft:bow",count:1,components:{"minecraft:enchantments":{"minecraft:power":2}}}}}]}
+kill @s

@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "hanging=false": [
+      {
+        "model": "block/soul_lantern0"
+      },
+      {
+        "model": "block/soul_lantern1"
+      },
+      {
+        "model": "block/soul_lantern2"
+      }
+    ],
+    "hanging=true": [
+      {
+        "model": "block/soul_lantern_hanging0"
+      },
+      {
+        "model": "block/soul_lantern_hanging1"
+      },
+      {
+        "model": "block/soul_lantern_hanging2"
+      }
+    ]
+  }
+}

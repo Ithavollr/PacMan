@@ -1,0 +1,40 @@
+{
+  "function": "minecraft:sequence",
+  "functions": [
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:spawn_reinforcements",
+          "id": "dnt:chart_random_value",
+          "amount": {
+            "type": "minecraft:uniform",
+            "min": 0,
+            "max": 1
+          },
+          "operation": "add_value",
+          "slot": "body"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": {
+        "dnt_chart_bundle": true
+      }
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:max_stack_size": 64,
+        "!minecraft:equippable": {}
+      }
+    },
+    {
+      "function": "minecraft:toggle_tooltips",
+      "toggles": {
+        "minecraft:attribute_modifiers": false
+      }
+    }
+  ]
+}

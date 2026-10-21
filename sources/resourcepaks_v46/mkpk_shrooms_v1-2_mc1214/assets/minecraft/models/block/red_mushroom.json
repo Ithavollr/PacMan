@@ -1,0 +1,37 @@
+{
+	"credit": "mikapika!",
+	"textures": {
+		"0": "block/red_mushroom",
+		"particle": "item/red_mushroom"
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [7, 0, 7],
+			"to": [9, 4, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [12, 6, 14, 10], "texture": "#0"},
+				"east": {"uv": [14, 6, 16, 10], "texture": "#0"},
+				"south": {"uv": [14, 10, 16, 14], "texture": "#0"},
+				"west": {"uv": [12, 10, 14, 14], "texture": "#0"},
+				"up": {"uv": [16, 16, 14, 14], "texture": "#0"},
+				"down": {"uv": [14, 14, 12, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [5, 4, 5],
+			"to": [11, 8, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 4, 7]},
+			"faces": {
+				"north": {"uv": [6, 0, 12, 4], "texture": "#0"},
+				"east": {"uv": [6, 8, 12, 12], "texture": "#0"},
+				"south": {"uv": [6, 4, 12, 8], "texture": "#0"},
+				"west": {"uv": [0, 12, 6, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 6], "texture": "#0"},
+				"down": {"uv": [0, 6, 6, 12], "texture": "#0"}
+			}
+		}
+	]
+}

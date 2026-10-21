@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/wooden_shovel",
+    "textures": {
+        "layer0": "minecraft:item/wooden_shovel",
+        "layer1": "tooltrims:trims/items/wooden_shovel_linear_quartz"
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"name": "nova_structures:piglin_camp/jockey",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "nova_structures:jockeys/hoglin_jockey",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "nova_structures:piglin_camp/jockey"
+}

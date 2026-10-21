@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/golden_hoe",
+    "textures": {
+        "layer0": "minecraft:item/golden_hoe",
+        "layer1": "tooltrims:trims/items/golden_hoe_frost_quartz"
+    }
+}
