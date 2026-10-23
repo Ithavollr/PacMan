@@ -15,7 +15,7 @@ mkdir -p assets_v75/assets
 ## Version overlays inside a pack (e.g. 21-11/, overlay_53/) are just more layers, in pack.mcmeta order
 # https://modrinth.com/resourcepack/blockpixel
 # BlockPixel MUST be first, bc of the rm -rf statements!!
-rsync -avh ./sources/resourcepaks/blockpixel_v2_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/blockpixel_v2_mc12111/assets/ ./assets_v75/assets/
 rm -rf ./assets_v75/assets/minecraft/blockstates
 rm -rf ./assets_v75/assets/minecraft/items
 rm -rf ./assets_v75/assets/minecraft/models
@@ -33,7 +33,7 @@ rm -rf ./assets_v75/assets/minecraft/textures/trims
 rm -rf ./assets_v75/assets/minecraft/textures/gui/sprites/hud
 # https://www.shivamzter.com/java/roundista ; Roundista is for blocks only (sources/resourcepaks/what_is_block.json)
 # Bonus MUST follow Basic: it overrides Basic's dirt/grass/sand/stone blockstates
-rsync -avh ./sources/resourcepaks/rdista_basic_256xR32_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/rdista_basic_256xR32_mc12111/assets/ ./assets_v75/assets/
 # Roundista only for blocks in what_is_block.json; everything else falls back to vanilla (or a later pack)
 T=./assets_v75/assets/minecraft/textures/block
 rm -f $T/*_sapling* $T/*_stage[0-9]* $T/*candle* $T/*rail* $T/*tulip* $T/*dripleaf* $T/*torch* $T/*amethyst_bud* $T/amethyst_cluster* $T/pointed_dripstone_* $T/*vines* $T/vine.* $T/vine_[ns].*
@@ -45,49 +45,50 @@ rm -f $T/chain* $T/iron_bars* $T/end_rod* $T/ladder* $T/lever* $T/cobweb* $T/flo
 rm -f ./assets_v75/assets/minecraft/models/block/*candle* ./assets_v75/assets/minecraft/models/block/*rail* ./assets_v75/assets/minecraft/models/block/ladder* ./assets_v75/assets/minecraft/models/block/end_rod* ./assets_v75/assets/minecraft/models/block/flowering_azalea.json ./assets_v75/assets/minecraft/models/block/potted_*
 # https://modrinth.com/resourcepack/3d-plants
 # Verv goes on top of Roundista Basic so its plants win the 27 files they share
-rsync -avh --exclude='optifine' ./sources/resourcepaks/verv_plants_v1-0-7_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc --exclude='optifine' ./sources/resourcepaks/verv_plants_v1-0-7_mc12111/assets/ ./assets_v75/assets/
 rm -rf ./assets_v75/assets/minecraft/textures/item
 rm -rf ./assets_v75/assets/minecraft/textures/block/*leaves_top.png
 rm -rf ./assets_v75/assets/minecraft/textures/block/*leaves_bottom.png
 rm -rf ./assets_v75/assets/minecraft/models/block/*_leaves.json
-rsync -avh --exclude='textures/gui' ./sources/resourcepaks/rdista_bonus_256xR32_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc --exclude='textures/gui' ./sources/resourcepaks/rdista_bonus_256xR32_mc12111/assets/ ./assets_v75/assets/
 rm -rf ./assets_v75/assets/minecraft/textures/particle
 rm -rf ./assets_v75/assets/minecraft/textures/entity/boat
 rm -rf ./assets_v75/assets/minecraft/textures/entity/chest_boat
 rm -rf ./assets_v75/assets/minecraft/optifine/font
 # https://modrinth.com/mod/continuity
 # Overwrite glass for roundista with connected continuity
-rsync -avh ./sources/resourcepaks/continuity_v3-0-1b1_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/continuity_v3-0-1b1_mc12111/assets/ ./assets_v75/assets/
 rm -rf ./assets_v75/assets/continuity/optifine/ctm/default/bookshelf
 rm -rf ./assets_v75/assets/continuity/optifine/ctm/default/sandstone
 rm -rf ./assets_v75/assets/continuity/optifine/ctm/programmer_art/bookshelf
 rm -rf ./assets_v75/assets/continuity/optifine/ctm/programmer_art/sandstone
-rsync -avh ./sources/resourcepaks/cglass_pane_culling_fix_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/cglass_pane_culling_fix_mc12111/assets/ ./assets_v75/assets/
 ### 3D Packs +=============================##
 # https://modrinth.com/resourcepack/3d-crops
-rsync -avh ./sources/resourcepaks/3d_crops_v3_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/3d_crops_v3_mc12111/assets/ ./assets_v75/assets/
 # https://vanillatweaks.net/picker/resource-packs/ ; overlay_53 is the only overlay in range for format 75
-rsync -avh ./sources/resourcepaks/vanilla_r250126_mc1-21-x/assets/ ./assets_v75/assets/
-rsync -avh ./sources/resourcepaks/vanilla_r250126_mc1-21-x/overlay_53/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/vanilla_r250126_mc1-21-x/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/vanilla_r250126_mc1-21-x/overlay_53/assets/ ./assets_v75/assets/
 # https://modrinth.com/resourcepack/mikapika-s-3d-mushrooms
-rsync -avh --exclude='minecraft/textures/block/dirt.png' --exclude='minecraft/models/block/flower_pot.json' --exclude='minecraft/textures/item' --exclude='minecraft/models/item' ./sources/resourcepaks/mkpk_shrooms_v1-2-1_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc --exclude='minecraft/textures/block/dirt.png' --exclude='minecraft/models/block/flower_pot.json' --exclude='minecraft/textures/item' --exclude='minecraft/models/item' ./sources/resourcepaks/mkpk_shrooms_v1-2-1_mc12111/assets/ ./assets_v75/assets/
 rm -f ./assets_v75/assets/minecraft/textures/block/flower_pot.png
 # https://modrinth.com/resourcepack/fresh-animations ; version overlays applied in pack.mcmeta order
-rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/assets/ ./assets_v75/assets/
-rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/20-3/assets/ ./assets_v75/assets/
-rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-2/assets/ ./assets_v75/assets/
-rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-5/assets/ ./assets_v75/assets/
-rsync -avh --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-11/assets/ ./assets_v75/assets/
+# FA entity textures ship only as merged copies in custom_overlay: on any FA or MC bump, refresh references/DefaultPack from the client jar, rerun fa_vanilla_merge.py, then bump version= in gradle.properties so CI releases and :Deploy picks it up
+rsync -avhc --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/20-3/assets/ ./assets_v75/assets/
+rsync -avhc --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-2/assets/ ./assets_v75/assets/
+rsync -avhc --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-5/assets/ ./assets_v75/assets/
+rsync -avhc --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/21-11/assets/ ./assets_v75/assets/
 rm -f ./assets_v75/assets/minecraft/optifine/cem/giant.jem ./assets_v75/assets/minecraft/optifine/cem/giant_animations.jpm
 # FA's mooshroom models expect a 64x64 texture; vanilla's is 64x32, so keep the vanilla model
 rm -f ./assets_v75/assets/minecraft/optifine/cem/mooshroom*
 ##====+ FRESH ANIMS ADDONS!! +====##
 # https://modrinth.com/resourcepack/fresh-animations-emissive
-rsync -avh ./sources/resourcepaks/fa_emissive_v1-6-0_mc12111/assets/ ./assets_v75/assets/
-rsync -avh ./sources/resourcepaks/fa_emissive_v1-6-0_mc12111/21-6/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/fa_emissive_v1-6-0_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/fa_emissive_v1-6-0_mc12111/21-6/assets/ ./assets_v75/assets/
 
 ### always keep custom changes last..
-rsync -avh ./sources/resourcepaks/custom_overlay_mc12111/assets/ ./assets_v75/assets/
+rsync -avhc ./sources/resourcepaks/custom_overlay_mc12111/assets/ ./assets_v75/assets/
 
 cp rpack.mcmeta assets_v75/pack.mcmeta
 cp pack.png assets_v75/pack.png
