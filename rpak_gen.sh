@@ -72,6 +72,8 @@ rsync -avhc ./sources/resourcepaks/vanilla_r250126_mc1-21-x/overlay_53/assets/ .
 # https://modrinth.com/resourcepack/mikapika-s-3d-mushrooms
 rsync -avhc --exclude='minecraft/textures/block/dirt.png' --exclude='minecraft/models/block/flower_pot.json' --exclude='minecraft/textures/item' --exclude='minecraft/models/item' ./sources/resourcepaks/mkpk_shrooms_v1-2-1_mc12111/assets/ ./assets_v75/assets/
 rm -f ./assets_v75/assets/minecraft/textures/block/flower_pot.png
+# narrow exception: mkpk block models reference these two item textures; vanilla item models use block/*_mushroom, so icons are unchanged
+mkdir -p ./assets_v75/assets/minecraft/textures/item && cp ./sources/resourcepaks/mkpk_shrooms_v1-2-1_mc12111/assets/minecraft/textures/item/{brown,red}_mushroom.png ./assets_v75/assets/minecraft/textures/item/
 # https://modrinth.com/resourcepack/fresh-animations ; version overlays applied in pack.mcmeta order
 # FA entity textures ship only as merged copies in custom_overlay: on any FA or MC bump, refresh references/DefaultPack from the client jar, rerun fa_vanilla_merge.py, then bump version= in gradle.properties so CI releases and :Deploy picks it up
 rsync -avhc --exclude='minecraft/textures/entity' ./sources/resourcepaks/freshanims_v1-10-4_mc12111/assets/ ./assets_v75/assets/
